@@ -1,0 +1,102 @@
+﻿namespace = th_gift
+
+th_gift.1 = {
+	type = country_event
+	placement = root
+	title = th_gift.1.t
+	desc = th_gift.1.d
+	flavor = th_gift.1.f
+
+	duration = 1
+
+	event_image = {
+		video = "europenorthamerica_springtime_of_nations"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	trigger = {
+		is_player = yes
+		not = { has_variable = var_received_gift }
+	}
+
+	immediate = {
+		set_variable = {
+			name = var_received_gift
+			years = 3
+		}
+	}
+
+	option = {
+		name = th_gift.1.a
+		default_option = yes
+		random_list = {
+			1 = {
+				custom_tooltip = {
+					text = event_th_gift_text_light
+					random_list = {
+						1 = { trigger_event = th_gift.110 }
+					}
+				}
+			}
+			1 = {
+				custom_tooltip = {
+					text = event_th_gift_text_heavy
+					random_list = {
+						1 = { trigger_event = th_gift.101 }
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = th_gift.1.b
+		custom_tooltip = {
+			text = event_th_gift_text_throw
+		}
+		add_modifier = {
+			name = modifier_gift_alert
+			years = 1
+		}
+	}
+}
+
+th_gift.110 = {
+	type = country_event
+	placement = root
+	title = th_gift.110.t
+	desc = th_gift.110.d
+	flavor = th_gift.110.f
+
+	duration = 1
+
+	option = {
+		name = th_gift.110.a
+		default_option = yes
+		add_modifier = {
+			name = modifier_gift_stardust
+			years = 1
+		}
+	}
+}
+
+th_gift.101 = {
+	type = country_event
+	placement = root
+	title = th_gift.101.t
+	desc = th_gift.101.d
+	flavor = th_gift.101.f
+
+	duration = 1
+
+	option = {
+		name = th_gift.101.a
+		default_option = yes
+		add_modifier = {
+			name = 1848_institution_speed
+			years = 1
+		}
+	}
+}

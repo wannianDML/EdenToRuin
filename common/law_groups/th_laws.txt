@@ -1,0 +1,27 @@
+﻿lawgroup_civilian_armed_forces = {
+	law_group_category = power_structure
+
+	progressive_movement_chance = 1
+	regressive_movement_chance = 0.25
+}
+
+lawgroup_governance_guidelines = {
+	law_group_category = human_rights
+	
+	progressive_movement_chance = 1
+	regressive_movement_chance = 0.25
+}
+
+lawgroup_dolls_rights = {
+	law_group_category = human_rights
+	
+	progressive_movement_chance = 1
+	regressive_movement_chance = 0.25
+}
+
+lawgroup_legal_working_hours = {
+	law_group_category = human_rights
+
+	progressive_movement_chance = 1
+	regressive_movement_chance = 0.25
+}

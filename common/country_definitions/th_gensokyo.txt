@@ -1,0 +1,290 @@
+﻿##STATE_GENSOKYO
+dai_keqkai = {
+	color = { 255  255  255 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	# capital = state_dai_keqkai
+}
+
+hakurei_keqkai = {
+	color = { 255  63  63 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	# capital = state_hakurei_keqkai
+}
+
+hakurei_shrine = {
+	color = { 255  0  0 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { gensokyo_human }
+	religion = gensokyo_shinto
+	capital = STATE_GENSOKYO
+}
+
+moriya_shrine = {
+	color = { 0  255  0 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { gensokyo_human gensokyo_youkai }
+	religion = gensokyo_shinto
+	capital = STATE_GENSOKYO
+}
+
+tengu_village = {
+	color = { 169 169 169 }
+	
+	country_type = unrecognized
+
+	tier = state
+	
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+}
+
+kappa_settlement = {
+	color = { 154 255 154 }
+	
+	country_type = unrecognized
+
+	tier = state
+	
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+}
+
+sangetsusei = {
+	color = { 60  85  107 }
+	
+	country_type = unrecognized
+
+	tier = state
+	
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+}
+
+human_village_new = {
+	color = { 60  23  45 }
+	
+	country_type = unrecognized
+
+	tier = kindom
+	
+	cultures = { gensokyo_human }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+}
+
+yakumo = {
+	color = { 160 32 240 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+}
+
+phantom_meadow = {
+	color = { 255 165 0 }
+
+	country_type = unrecognized
+
+	tier = state
+	
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+}
+
+human_village_old = {
+	color = { 23  45  60 }
+	
+	country_type = unrecognized
+
+	tier = kindom
+	
+	cultures = { gensokyo_human }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+}
+
+garden_of_the_sun = {
+	color = { 238 238 0 }
+
+	country_type = unrecognized
+
+	tier = state
+	
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+
+}
+
+koumakan = {
+	color = { 220 20 60 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { gensokyo_youkai }
+	religion = lucifer
+	capital = STATE_GENSOKYO
+}
+
+eientei = {
+	color = { 0 250 154 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+}
+
+mayoi_chikurin = {
+	color = { 0 100 0 }
+	
+	country_type = unrecognized
+
+	tier = state
+	
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+}
+gensokyo_freezone = { 
+	color = { 255 255 255 }
+	country_type = unrecognized
+
+	cultures = { gensokyo_youkai gensokyo_human }
+	religion = folk_belief
+	capital = STATE_GENSOKYO
+}
+
+##STATE_GENSOKYO_FORMER_HELL
+former_hell = {
+	color = { 178 34 34 }
+	
+	country_type = unrecognized
+
+	tier = state
+	
+	cultures = { gensokyo_hell_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO_FORMER_HELL
+}
+
+kyuuto = {
+	color = { 255 0 255 }
+	
+	country_type = unrecognized
+
+	tier = state
+	
+	cultures = { gensokyo_hell_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO_FORMER_HELL
+}
+
+##STATE_GENSOKYO_HELL
+jigoku = {
+	color = { 139 0 0 }
+
+	country_type = unrecognized
+
+	tier = state
+
+	cultures = { gensokyo_hell_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO_HELL
+}
+
+##STATE_GENSOKYO_MEIKAI
+meikai = {
+	color = { 255 204 255 }
+
+	country_type = unrecognized
+
+	tier = state
+
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO_MEIKAI
+}
+
+hakugyokurou = {
+	color = { 255 153 255 }
+
+	country_type = unrecognized
+
+	tier = state
+
+	cultures = { gensokyo_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO_MEIKAI
+}
+
+##STATE_GENSOKYO_BHAVAAGRA
+bhavaagra = {
+	color = { 255 153 255 }
+
+	country_type = unrecognized
+
+	tier = state
+
+	cultures = { gensokyo_heaven_human }
+	religion = folk_belief
+	capital = STATE_GENSOKYO_BHAVAAGRA
+}
+
+##STATE_GENSOKYO_MOON
+lunar_capital = {
+	color = { 255 255 204 }
+
+	country_type = unrecognized
+
+	tier = kindom
+
+	cultures = { gensokyo_moon_human }
+	religion = folk_belief
+	capital = STATE_GENSOKYO_MOON
+}
+
+lunar_youkai_coalition = {
+	color = { 204 204 255 }
+
+	country_type = unrecognized
+
+	tier = state
+
+	cultures = { gensokyo_moon_youkai }
+	religion = folk_belief
+	capital = STATE_GENSOKYO_MOON
+}

@@ -1,0 +1,19 @@
+﻿effect_starting_technology_spiritual_existence = {
+	add_technology_researched = tech_other_interesting
+	add_technology_researched = tech_spiritual_existence
+}
+
+effect_starting_technology_magic_existence = {
+	add_technology_researched = tech_other_interesting
+	add_technology_researched = tech_magic_existence
+}
+
+effect_starting_technology_youkai_existence = {
+	add_technology_researched = tech_other_interesting
+	add_technology_researched = tech_youkai_existence
+}
+
+effect_starting_technology_x_existence = {
+	add_technology_researched = tech_other_interesting
+	add_technology_researched = tech_x_existence
+}

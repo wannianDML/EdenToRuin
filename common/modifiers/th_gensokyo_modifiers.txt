@@ -1,0 +1,43 @@
+﻿modifier_dai_keqkai_strong = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_dai_keqkai_strong.dds
+	state_colony_growth_creation_mult = -1
+	state_colony_growth_speed_mult = -1
+	state_birth_rate_mult = 0.05
+	state_mortality_mult = -0.05
+}
+
+modifier_hakurei_keqkai_strong = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_hakurei_keqkai_strong.dds
+	country_trade_route_exports_add = -10
+	country_trade_route_imports_add = -10
+	country_trade_route_competitiveness_mult = -0.5
+	country_prestige_mult = -1.1
+}
+
+modifier_gensokyo_sage = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gensokyo_sage.dds
+	country_prestige_add = 50
+	country_prestige_mult = 0.3
+	country_influence_add = 200
+	country_influence_mult = 0.1
+	country_law_enactment_success_add = 0.05
+	country_law_enactment_time_mult = -0.05
+}
+
+modifier_gensokyo_anarchic = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gensokyo_anarchic.dds
+	building_subsistence_output_add = -2
+	state_migration_pull_mult = -0.9
+	state_construction_mult = -0.95 
+	state_birth_rate_mult = 0.06
+	state_mortality_mult = 0.03
+	state_working_adult_ratio_add = 0.2
+}
+
+modifier_gensokyo_provisional_constitution = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gensokyo_provisional_constitution.dds
+	interest_group_approval_add = 5
+	state_assimilation_mult = -5
+	state_education_access_wealth_add = 0.005
+	state_expected_sol_from_literacy = 1.5
+}

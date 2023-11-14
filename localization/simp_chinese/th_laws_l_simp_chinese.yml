@@ -1,0 +1,73 @@
+﻿l_simp_chinese:
+ lawgroup_governance_guidelines:0 "治理方针"
+ lawgroup_governance_guidelines_desc:0 "要怎样对待我们的人民。"
+ law_guidelines_tolerant:0 "宽容"
+ law_guidelines_tolerant_desc:0 "爱干啥干啥，别故意搞事就行。"
+ law_guidelines_exhort:0 "规劝"
+ law_guidelines_exhort_desc:0 "听话的给萝卜吃。"
+ law_guidelines_discrimination:0 "歧视"
+ law_guidelines_discrimination_desc:0 "异族人上我们这要饭来了？"
+ law_guidelines_cruel:0 "残酷"
+ law_guidelines_cruel_desc:0 "包括你，也包括我。"
+ 
+ lawgroup_civilian_armed_forces:0 "民间武装"
+ lawgroup_civilian_armed_forces_desc:0 "关于那些不受我们控制的枪杆子。"
+ law_civilian_armed_forces_illegal:0 "非法"
+ law_civilian_armed_forces_illegal_desc:0 "你们要造反？"
+ law_civilian_armed_forces_security_service:0 "保安公司"
+ law_civilian_armed_forces_security_service_desc:0 "安保服务，但是有偿，还得交税。"
+ law_civilian_armed_forces_PMC:0 "PMC"
+ law_civilian_armed_forces_PMC_desc:0 "来点专业的军事援助？"
+ 
+ lawgroup_dolls_rights:0 "人形权利"
+ lawgroup_dolls_rights_desc: "如何看待这些有着近似我们智慧的造物。"
+ law_dolls_rights_goods:0 "商品"
+ law_dolls_rights_goods_desc:0 "为什么要同情一些工业制品。"
+ law_dolls_rights_friends:0 "“朋友”"
+ law_dolls_rights_friends_desc:0 "狗……不是，DOLLS是我们的好朋友。"
+ law_dolls_rights_peoples:0 "人民"
+ law_dolls_rights_peoples_desc:0 "至少在法律层面上大家都一样。"
+ law_dolls_rights_wifes:0 "老婆"
+ law_dolls_rights_wifes_desc:0 "绝非一句简单的“嗨，老婆”，而是强制所有人的配偶只能是DOLLS（包括DOLLS），并且约等于不限量。"
+ law_dolls_rights_gods:0 "神明"
+ law_dolls_rights_gods_desc:0 "美丽、智慧与强大，简直完美……"
+ 
+ lawgroup_legal_working_hours:0 "法定工作时间"
+ lawgroup_legal_working_hours_desc:0 "打工人能打多久。"
+ law_legal_working_hours_all_year_round:0 "全年无休"
+ law_legal_working_hours_all_year_round_desc:0 "这是人能干的？"
+ law_legal_working_hours_eight_hour_sleeping:0 "八小时休息制"
+ law_legal_working_hours_eight_hour_sleeping_desc:0 "不是每天，是每周。"
+ law_legal_working_hours_sixteen_hour_working:0 "十六小时工作制"
+ law_legal_working_hours_sixteen_hour_working_desc:0 "还能睡几个小时。"
+ law_legal_working_hours_twelve_hour_working:0 "十二小时工作制"
+ law_legal_working_hours_twelve_hour_working_desc:0 "至少还留有四小时。"
+ law_legal_working_hours_eight_hour_working:0 "八小时工作制"
+ law_legal_working_hours_eight_hour_working_desc:0 "八小时劳动，八小时休息，剩下八小时留给我们自己。"
+ law_legal_working_hours_four_hour_working:0 "四小时工作制"
+ law_legal_working_hours_four_hour_working_desc:0 "这样一天就能上六班人，六倍的工作岗位。"
+ 
+ #同化政策
+ #占领区政策
+ #公共卫生
+ 
+ #性交易
+ #非法
+ #组织妇女违法
+ #买春者违法
+ #轻微处罚
+ #允许边缘性交易
+ #合法
+ 
+ #博彩服务
+ #非法
+ #彩票
+ #运动型博彩
+ #合法
+ 
+ #成瘾品
+ #全面禁止
+ #仅允许行为成瘾 #比如烟酒、游戏等
+ #成瘾药物仅限医用
+ #禁止销售
+ #无限制

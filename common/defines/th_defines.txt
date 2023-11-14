@@ -1,0 +1,40 @@
+﻿NGame = {
+	START_DATE = "144.1.1"	#游戏开始日期
+	END_DATE = "365.1.1"	#游戏结束日期
+}
+
+NEconomy = {
+	MAX_WEEKLY_CONSTRUCTION_PROGRESS = 150	#单个项目最大建造力
+	MAX_WEEKLY_CONSTRUCTION_ALLOCATION = 100 #分配给单个项目的最大建造力
+	
+	ECONOMY_OF_SCALE_START_LEVEL = 1		#建筑开始获得规模效应的数量（>=1） 注：原版为2，即11级建筑获得10%吞吐加成。
+	
+	PRICE_RANGE = 0.999	#价格波动范围
+	
+	BUY_SELL_DIFF_AT_MAX_FACTOR = 4	#达到价格边界的买/卖比例
+
+	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.25 #短缺开始影响吞吐的比例，应为(1/BUY_SELL_DIFF_AT_MAX_FACTOR)
+
+	HIRING_RATE = 0.5 #建筑招聘
+}
+
+NDiplomacy = {
+	BASE_YEARLY_INFAMY_DECAY_RATE = 3.0	#每年基础恶名衰减量
+	
+	DEFAULT_TRUCE_MONTHS = 12	#停战协议月数
+}
+
+NWar = {
+	DEVASTATION_INCREASE_RATE = 0.02	#每天占领增加的荒废度
+	DEVASTATION_DECAY_RATE = -0.015 		#和平时期每天修复的荒废度
+	DEVASTATION_FROM_BATTLES = 2		#每场战斗增加的荒废度
+}
+
+NPops = {
+	LOYALTIES_GAIN_GRACE_PERIOD = "150.1.1"
+	
+	MIGRATION_MIN_POP_AMOUNT = 200								# 每周可以迁移不少于此数量的pop（如果发生任何迁移）
+	MIGRATION_MAX_POP_AMOUNT = 10000							# 每周迁移的pop数量不超过这个数量
+	MIGRATION_MAX_PER_STATE_BASE = 1000						# 一周内从一个STATE转移到另一个STATE的人数不超过这个数量（基本）
+	MIGRATION_MAX_PER_STATE_INFRASTRUCTURE = 10					# 一周内从一个STATE或到一个STATE的流动人数不超过这个数量（根据基础设施的规模而定）
+}

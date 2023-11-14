@@ -1,0 +1,7 @@
+﻿pmg_pharmaceutical_production_processing = {
+	texture = "gfx/interface/icons/generic_icons/pmg_pharmaceutical_production_methods.dds"
+	production_methods = {
+		pm_pharmaceutical_component_separation
+		pm_pharmaceutical_chemical_synthesis
+	}
+}

@@ -1,0 +1,20 @@
+building_special_chireiden = {
+	building_group = bg_monuments
+	texture = "gfx/interface/icons/building_icons/building_special_chireiden.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	locator = "building_special_chireiden_locator"
+	
+	production_method_groups = {
+		pmg_special_chireiden_courtyard
+		pmg_special_chireiden_pets
+		pmg_special_chireiden_study
+	}
+	
+	required_construction = construction_cost_monument
+	
+	possible = {
+		always = no
+	}
+}

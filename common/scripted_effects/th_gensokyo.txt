@@ -1,0 +1,44 @@
+﻿effect_gensokyo_common_country = {
+	add_modifier = {
+		name = modifier_dai_keqkai_strong
+	}
+	add_modifier = {
+		name = modifier_hakurei_keqkai_strong
+	}
+	add_modifier = {
+		name = modifier_gensokyo_provisional_constitution
+	}
+	
+	activate_law = law_type:law_freedom_of_conscience
+	activate_law = law_type:law_free_trade
+	activate_law = law_type:law_slavery_banned
+	activate_law = law_type:law_homesteading
+	activate_law = law_type:law_womens_suffrage
+
+	add_journal_entry = { type = je_gensokyo_deadline }
+	
+	effect_starting_technology_magic_existence = yes
+	effect_starting_technology_spiritual_existence = yes
+	effect_starting_technology_youkai_existence = yes
+	effect_default_country = yes
+
+}
+
+effect_gensokyo_anarchic_country = {
+	add_modifier = {
+		name = modifier_gensokyo_anarchic
+	}
+
+	activate_law = law_type:law_chiefdom
+	activate_law = law_type:law_anarchy
+	activate_law = law_type:law_protected_speech
+	activate_law = law_type:law_multicultural
+
+	effect_gensokyo_common_country = yes
+}
+
+effect_gensokyo_sage = {
+	add_modifier = {
+		name = modifier_gensokyo_sage
+	}
+}

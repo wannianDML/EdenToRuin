@@ -1,0 +1,131 @@
+﻿pm_merchant_guilds = {
+	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
+
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_maintenance_add = 5
+
+			building_output_wastes_add = 0.25
+		}
+		level_scaled = {
+			building_employment_shopkeepers_add = 50
+		}
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+	}
+}
+
+pm_privately_owned = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_maintenance_add = 5
+
+			building_output_wastes_add = 0.25
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 10
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+	}
+}
+
+pm_publicly_traded = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_maintenance_add = 5
+
+			building_output_wastes_add = 0.25
+		}
+		level_scaled = {
+			building_employment_capitalists_add = 15
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+	}
+}
+
+pm_government_run = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	
+	unlocking_laws = {
+		law_command_economy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_maintenance_add = 5
+
+			building_output_wastes_add = 0.25
+		}
+		level_scaled = {
+			building_employment_bureaucrats_add = 150
+		}
+		unscaled = {
+			building_government_shares_add = 1
+		}
+	}
+}
+
+pm_government_run_g = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_maintenance_add = 5
+
+			building_output_wastes_add = 0.25
+		}
+		level_scaled = {
+			building_employment_bureaucrats_add = 150
+		}
+		unscaled = {
+			building_government_shares_add = 1
+		}
+	}
+}
+
+pm_worker_cooperative = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_laws = {
+		law_cooperative_ownership
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_maintenance_add = 5
+
+			building_output_wastes_add = 0.25
+		}
+		unscaled = {
+			building_workforce_shares_add = 1
+		}
+	}
+}

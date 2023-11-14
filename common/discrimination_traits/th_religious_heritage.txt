@@ -1,0 +1,19 @@
+﻿atheism_heritage = {
+	heritage = yes
+}
+
+shinto_heritage = {
+	heritage = yes
+}
+
+buddhist_heritage = {
+	heritage = yes
+}
+
+taoism_heritage = {
+	heritage = yes
+}
+
+lucifer_heritage = {
+	heritage = yes
+}

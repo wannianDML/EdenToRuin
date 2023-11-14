@@ -1,0 +1,137 @@
+﻿decisions_debug_menu_open = {
+	is_shown = {
+		not = { has_variable = is_debug_decisions_menu_open }
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		set_variable = {
+			name = is_debug_decisions_menu_open
+		}
+	}
+}
+
+decisions_debug_menu_close = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		remove_variable = is_debug_decisions_menu_open
+	}
+}
+
+decisions_debug_technology_add = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		not = { has_modifier = modifier_debug_decisions_technology } 
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		add_modifier = {
+			name = modifier_debug_decisions_technology
+		}
+	}
+}
+
+decisions_debug_technology_remove = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		has_modifier = modifier_debug_decisions_technology
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		remove_modifier = modifier_debug_decisions_technology
+	}
+}
+
+decisions_debug_law_change_add = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		not = { has_modifier = modifier_debug_decisions_law_change }
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		add_modifier = {
+			name = modifier_debug_decisions_law_change
+		}
+	}
+}
+
+decisions_debug_law_change_remove = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		has_modifier = modifier_debug_decisions_law_change
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		remove_modifier = modifier_debug_decisions_law_change
+	}
+}
+
+decisions_debug_pop_expansion_add = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		not = { has_modifier = modifier_debug_decisions_pop_expansion }
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		add_modifier = {
+			name = modifier_debug_decisions_pop_expansion
+		}
+	}
+}
+
+decisions_debug_pop_expansion_remove = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		has_modifier = modifier_debug_decisions_pop_expansion
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		remove_modifier = modifier_debug_decisions_pop_expansion
+	}
+}
+
+decisions_debug_pop_contraction_add = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		not = { has_modifier = modifier_debug_decisions_pop_contraction }
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		add_modifier = {
+			name = modifier_debug_decisions_pop_contraction
+		}
+	}
+}
+
+decisions_debug_pop_contraction_remove = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		has_modifier = modifier_debug_decisions_pop_contraction
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		remove_modifier = modifier_debug_decisions_pop_contraction
+	}
+}

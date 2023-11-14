@@ -1,0 +1,22 @@
+﻿building_plant_factory = {
+	building_group = bg_agriculture_factory
+	texture = "gfx/interface/icons/building_icons/building_plant_factory.dds"
+	city_type = farm
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		tech_soilless_culture
+	}
+	
+	ignore_stateregion_max_level = yes 
+
+	production_method_groups = {
+		pmg_plant_cultivation_processing
+		pmg_plant_factory_slot_a
+		pmg_plant_factory_slot_b
+		pmg_plant_factory_slot_c
+		pmg_factory_ownership
+	}
+
+	required_construction = construction_cost_very_high
+}

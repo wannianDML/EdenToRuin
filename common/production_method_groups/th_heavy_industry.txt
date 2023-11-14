@@ -1,0 +1,62 @@
+﻿pmg_wood_processing = {
+	texture = "gfx/interface/icons/generic_icons/pmg_wood_processing.dds"
+	production_methods = {
+		pm_wood_processing_handwork
+		pm_wood_processing_tools
+		pm_wood_processing_machine
+	}
+}
+
+pmg_recycle_processing_slot_a= {
+	texture = "gfx/interface/icons/generic_icons/pmg_recycle_processing_slot.dds"
+	production_methods = {
+		pm_recycle_none_a
+		pm_recycle_oil_a
+		pm_recycle_biological_material_a
+		pm_recycle_chemical_material_a
+		pm_recycle_metallic_material_a
+		pm_recycle_oil_improve_a
+		pm_recycle_biological_material_improve_a
+		pm_recycle_chemical_material_improve_a
+		pm_recycle_metallic_material_improve_a
+	}
+}
+
+pmg_recycle_processing_slot_b = {
+	texture = "gfx/interface/icons/generic_icons/pmg_recycle_processing_slot.dds"
+	production_methods = {
+		pm_recycle_none_b
+		pm_recycle_oil_b
+		pm_recycle_biological_material_b
+		pm_recycle_chemical_material_b
+		pm_recycle_metallic_material_b
+		pm_recycle_oil_improve_b
+		pm_recycle_biological_material_improve_b
+		pm_recycle_chemical_material_improve_b
+		pm_recycle_metallic_material_improve_b
+	}
+}
+
+pmg_recycle_processing_slot_c = {
+	texture = "gfx/interface/icons/generic_icons/pmg_recycle_processing_slot.dds"
+	production_methods = {
+		pm_recycle_none_c
+		pm_recycle_oil_c
+		pm_recycle_biological_material_c
+		pm_recycle_chemical_material_c
+		pm_recycle_metallic_material_c
+		pm_recycle_oil_improve_c
+		pm_recycle_biological_material_improve_c
+		pm_recycle_chemical_material_improve_c
+		pm_recycle_metallic_material_improve_c
+	}
+}
+
+pmg_recycle_protection = {
+	texture = "gfx/interface/icons/generic_icons/pmg_recycle_protection.dds"
+	production_methods = {
+		pm_recycle_unprotected
+		pm_recycle_basic_protected
+		pm_recycle_fully_protected
+	}
+}

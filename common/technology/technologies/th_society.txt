@@ -1,0 +1,437 @@
+﻿#era_1
+tech_other_interesting = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_other_interesting.dds"
+	category = society
+
+	modifier = {
+		state_birth_rate_mult = 0.01
+		state_mortality_mult = 0.01
+	}
+}
+
+tech_youkai_existence = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_youkai_existence.dds"
+	category = society
+	can_research = no
+
+	modifier = {
+		state_birth_rate_mult = 0.03
+		state_mortality_mult = 0.03
+	}
+
+	unlocking_technologies = {
+		tech_other_interesting
+	}
+}
+
+tech_magic_existence = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_magic_existence.dds"
+	category = society
+	can_research = no
+
+	modifier = {
+		state_birth_rate_mult = 0.02
+		state_mortality_mult = 0.01
+		unit_army_defense_add = 1
+		unit_army_offense_add = 1
+		building_throughput_mult = 0.01
+		country_authority_mult = 0.02
+		country_bureaucracy_mult = 0.02
+		country_influence_mult = 0.02
+		state_infrastructure_from_population_add = 0.2
+		state_infrastructure_from_population_max_add = 10
+		state_working_adult_ratio_add = 0.01
+	}
+
+	unlocking_technologies = {
+		tech_other_interesting
+	}
+}
+
+tech_spiritual_existence = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_spiritual_existence.dds"
+	category = society
+	can_research = no
+
+	modifier = {
+		state_birth_rate_mult = 0.02
+		state_mortality_mult = 0.01
+		unit_army_defense_add = 1
+		unit_army_offense_add = 1
+		building_throughput_mult = 0.01
+		country_authority_mult = 0.02
+		country_bureaucracy_mult = 0.02
+		country_influence_mult = 0.02
+		state_infrastructure_from_population_add = 0.2
+		state_infrastructure_from_population_max_add = 10
+		state_working_adult_ratio_add = 0.01
+	}
+
+	unlocking_technologies = {
+		tech_other_interesting
+	}
+}
+
+tech_x_existence = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_x_existence.dds"
+	category = society
+	can_research = no
+
+	modifier = {
+		state_expected_sol_from_literacy = 0.1
+	}
+
+	unlocking_technologies = {
+		tech_other_interesting
+	}
+}
+
+tech_traditional_breeding = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_traditional_breeding.dds"
+	category = society
+
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.15
+		building_output_biological_material_mult = 0.05
+	}
+}
+
+#era_2
+tech_difference_engine = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/tech_difference_engine.dds"
+	category = society
+
+	unlocking_technologies = {
+		academia
+	}
+}
+
+tech_x = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/tech_x.dds"
+	category = society
+	
+	modifier = {
+		state_birth_rate_mult = 0.04
+		state_mortality_mult = 0.02
+		unit_army_defense_add = 2
+		unit_army_offense_add = 2
+		building_throughput_mult = 0.02
+		country_authority_mult = 0.06
+		country_bureaucracy_mult = 0.06
+		country_influence_mult = 0.06
+		country_tech_spread_mult = 0.02
+		country_weekly_innovation_max_add = 100
+		state_infrastructure_from_population_add = 0.6
+		state_infrastructure_from_population_max_add = 30
+		state_working_adult_ratio_add = 0.02
+	}
+	
+	unlocking_technologies = {
+		tech_research_institute
+		tech_theoretical_science
+		tech_x_existence
+	}
+}
+
+tech_research_institute = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/tech_research_institute.dds"
+	category = society
+
+	modifier = {
+		state_building_research_institute_max_level_add = 5
+	}
+
+	unlocking_technologies = {
+		academia
+	}
+}
+
+tech_theoretical_science = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/tech_theoretical_science.dds"
+	category = society
+	
+	modifier = {
+		country_weekly_innovation_max_add = 250
+		country_tech_spread_mult = 0.1
+	}
+	
+	unlocking_technologies = {
+		academia
+		dialectics 
+	}
+}
+
+tech_spiritual_theory = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/tech_spiritual_theory.dds"
+	category = society
+	
+	modifier = {
+		state_birth_rate_mult = 0.04
+		state_mortality_mult = 0.02
+		unit_army_defense_add = 2
+		unit_army_offense_add = 2
+		building_throughput_mult = 0.02
+		country_authority_mult = 0.06
+		country_bureaucracy_mult = 0.06
+		country_influence_mult = 0.06
+		country_tech_spread_mult = 0.02
+		country_weekly_innovation_max_add = 100
+		state_infrastructure_from_population_add = 0.6
+		state_infrastructure_from_population_max_add = 30
+		state_working_adult_ratio_add = 0.02
+	}
+	
+	unlocking_technologies = {
+		tech_research_institute
+		tech_theoretical_science
+		tech_spiritual_existence
+	}
+}
+
+tech_magic_theory = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/tech_magic_theory.dds"
+	category = society
+	
+	modifier = {
+		state_birth_rate_mult = 0.04
+		state_mortality_mult = 0.02
+		unit_army_defense_add = 2
+		unit_army_offense_add = 2
+		building_throughput_mult = 0.02
+		country_authority_mult = 0.06
+		country_bureaucracy_mult = 0.06
+		country_influence_mult = 0.06
+		country_tech_spread_mult = 0.02
+		country_weekly_innovation_max_add = 100
+		state_infrastructure_from_population_add = 0.6
+		state_infrastructure_from_population_max_add = 30
+		state_working_adult_ratio_add = 0.02
+	}
+	
+	unlocking_technologies = {
+		tech_research_institute
+		tech_theoretical_science
+		tech_magic_existence
+	}
+}
+
+#era_3
+tech_abstract_energy_theory = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/tech_abstract_energy_theory.dds"
+	category = society
+	
+	modifier = {
+		building_output_special_material_mult = 0.05
+		building_input_mult = -0.01
+	}
+
+	unlocking_technologies = {
+		tech_x
+	}
+}
+
+tech_math_energy_theory = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/tech_math_energy_theory.dds"
+	category = society
+
+	modifier = {
+		country_tech_spread_mult = 0.04
+		country_weekly_innovation_max_add = 200
+	}
+
+	unlocking_technologies = {
+		tech_abstract_energy_theory
+	}
+}
+
+tech_waste_recyclin = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/tech_waste_recyclin.dds"
+	category = society
+	
+	modifier = {
+		building_output_wastes_mult = 0.05
+	}
+
+	unlocking_technologies = {
+		modern_sewerage
+	}
+}
+
+tech_refuse_classification = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/tech_refuse_classification.dds"
+	category = society
+	
+	modifier = {
+		building_output_wastes_mult = 0.05
+	}
+
+	unlocking_technologies = {
+		modern_sewerage
+	}
+}
+#era_4
+tech_analytical_engine = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/tech_analytical_engine.dds"
+	category = society
+
+	unlocking_technologies = {
+		tech_difference_engine
+	}
+}
+
+tech_monuments_building = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/tech_monuments_building.dds"
+	category = society
+	
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
+}
+
+#era_5
+tech_vertical_industry = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/tech_vertical_industry.dds"
+	category = society
+	
+	unlocking_technologies = {
+		steel_frame_buildings
+		elevator
+	}
+}
+
+#era_6
+tech_cybernetics = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/tech_cybernetics.dds"
+	category = society
+
+	modifier = {
+		building_economy_of_scale_level_cap_add = 15
+		building_throughput_mult = 0.05
+		country_authority_mult = 0.1
+		country_bureaucracy_mult = 0.1
+		country_influence_mult = 0.1
+		country_weekly_innovation_max_add = 500
+		state_infrastructure_from_population_add = 0.5
+		state_infrastructure_from_population_max_add = 40
+		state_working_adult_ratio_add = 0.01
+		building_group_bg_no_military_buildings_employee_mult = -0.015
+		building_group_bg_service_employee_mult = -0.01
+	}
+
+	unlocking_technologies = {
+		tech_theoretical_science
+	}
+}
+
+tech_genetically_modified_breeding = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/tech_genetically_modified_breeding.dds"
+	category = society
+
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.65
+		building_output_biological_material_mult = 0.1
+	}
+
+	unlocking_technologies = {
+		tech_traditional_breeding
+	}
+}
+
+tech_advanced_monuments_building = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/tech_advanced_monuments_building.dds"
+	category = society
+	
+	unlocking_technologies = {
+		tech_monuments_building
+	}
+}
+
+#era_7
+tech_artificial_intelligence = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/tech_artificial_intelligence.dds"
+	category = society
+
+	modifier = {
+		building_throughput_mult = 0.05
+		building_group_bg_service_throughput_mult = 0.05
+		country_weekly_innovation_max_add = 500
+		building_group_bg_no_military_buildings_employee_mult = -0.015
+		building_group_bg_service_employee_mult = -0.01
+	}
+
+	unlocking_technologies = {
+		tech_cybernetics
+	}
+}
+
+tech_heavenly_eye = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/tech_heavenly_eye.dds"
+	category = society
+	
+	unlocking_technologies = {
+		tech_artificial_intelligence
+		mass_surveillance
+	}
+}
+
+tech_intelligent_design_breeding = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/tech_intelligent_design_breeding.dds"
+	category = society
+
+	modifier = {
+		building_group_bg_agriculture_throughput_mult = 0.9
+		building_output_biological_material_mult = 0.15
+	}
+
+	unlocking_technologies = {
+		tech_artificial_intelligence
+		tech_genetically_modified_breeding
+	}
+}
+
+#era_9
+tech_project_babel = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/tech_project_babel.dds"
+	category = society
+	
+	unlocking_technologies = {
+		tech_research_institute 
+	}
+}
+
+#era_10
+tech_singularity = {
+	era = era_10
+	texture = "gfx/interface/icons/invention_icons/tech_singularity.dds"
+	category = society
+	
+	unlocking_technologies = {
+		tech_research_institute 
+	}
+}

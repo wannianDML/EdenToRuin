@@ -1,0 +1,217 @@
+﻿POPS = {
+	s:STATE_GENSOKYO= {
+		region_state:human_village_new = {
+			create_pop = {
+				culture = gensokyo_human
+				size = 1320
+			}
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 15
+			}
+			create_pop = {
+				culture = gensokyo_youkai_half
+				size = 42
+			}
+		}
+		region_state:yakumo = {
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 88
+			}
+		}
+		region_state:human_village_old = {
+			create_pop = {
+				culture = gensokyo_human
+				size = 1660
+			}
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 24
+			}
+			create_pop = {
+				culture = gensokyo_youkai_half
+				size = 58
+			}
+		}
+		region_state:garden_of_the_sun = {
+			create_pop = {
+				culture = gensokyo_human
+				size = 32
+			}
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 980
+			}
+			create_pop = {
+				culture = gensokyo_youkai_half
+				size = 138
+			}
+		}
+		region_state:koumakan = {
+			create_pop = {
+				culture = gensokyo_human
+				religion = lucifer
+				size = 20
+			}
+			create_pop = {
+				culture = gensokyo_youkai
+				religion = lucifer
+				size = 480
+			}
+			create_pop = {
+				culture = gensokyo_youkai_half
+				religion = lucifer
+				size = 56
+			}
+		}
+		region_state:hakurei_shrine = {
+			create_pop = {
+				culture = gensokyo_human
+				religion = gensokyo_shinto
+				size = 120
+			}
+			create_pop = {
+				culture = gensokyo_youkai
+				religion = gensokyo_shinto
+				size = 10
+			}
+			create_pop = {
+				culture = gensokyo_youkai_half
+				religion = gensokyo_shinto
+				size = 5
+			}
+		}
+		region_state:sangetsusei = {
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 30
+			}
+		}
+		region_state:moriya_shrine = {
+			create_pop = {
+				culture = gensokyo_human
+				religion = gensokyo_shinto
+				size = 128
+			}
+			create_pop = {
+				culture = gensokyo_youkai
+				religion = gensokyo_shinto
+				size = 94
+			}
+			create_pop = {
+				culture = gensokyo_youkai_half
+				religion = gensokyo_shinto
+				size = 43
+			}
+		}
+		region_state:kappa_settlement = {
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 808
+			}
+		}
+		region_state:tengu_village = {
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 1141
+			}
+		}
+		region_state:eientei = {
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 323
+			}
+		}
+		region_state:mayoi_chikurin = {
+			create_pop = {
+				culture = gensokyo_human
+				size = 185
+			}
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 1425
+			}
+		}
+		region_state:gensokyo_freezone = {
+			create_pop = {
+				culture = gensokyo_human
+				size = 2500
+			}
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 7500
+			}
+		}
+	}
+	s:STATE_GENSOKYO_FORMER_HELL = {
+		region_state:former_hell = {
+			create_pop = {
+				culture = gensokyo_hell_youkai
+				size = 4500
+			}
+		}
+		region_state:kyuuto = {
+			create_pop = {
+				culture = gensokyo_hell_youkai
+				size = 2100
+			}
+		}
+	}
+
+	s:STATE_GENSOKYO_HELL = {
+		region_state:jigoku = {
+			create_pop = {
+				culture = gensokyo_hell_youkai
+				size = 42800
+			}
+		}
+	}
+
+	s:STATE_GENSOKYO_BHAVAAGRA = {
+		region_state:bhavaagra = {
+			create_pop = {
+				culture = gensokyo_heaven_human
+				size = 1800
+			}
+		}
+	}
+
+	s:STATE_GENSOKYO_MEIKAI = {
+		region_state:meikai = {
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 9800
+			}	
+		}
+		region_state:hakugyokurou = {
+			create_pop = {
+				culture = gensokyo_youkai
+				size = 200
+			}
+		}
+	}
+
+	s:STATE_GENSOKYO_MOON = {
+		region_state:lunar_capital = {
+			create_pop = {
+				culture = gensokyo_moon_human
+				size = 4500
+			}
+			create_pop = {
+				culture = gensokyo_moon_youkai
+				size = 18000
+			}
+		}
+		region_state:lunar_youkai_coalition = {
+			create_pop = {
+				culture = gensokyo_moon_human
+				size = 60
+			}
+			create_pop = {
+				culture = gensokyo_moon_youkai
+				size = 3600
+			}
+		}
+	}
+}

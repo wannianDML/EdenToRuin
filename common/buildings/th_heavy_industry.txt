@@ -1,0 +1,38 @@
+﻿building_wood_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_wood_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_wood_processing
+		pmg_common_ownership
+	}
+
+	required_construction = construction_cost_high	
+}
+
+building_recycle_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_recycle_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		tech_waste_recyclin
+	}
+
+	production_method_groups = {
+		pmg_recycle_processing_slot_a
+		pmg_recycle_processing_slot_b
+		pmg_recycle_processing_slot_c
+		pmg_recycle_protection
+		pmg_common_ownership
+	}
+
+	required_construction = construction_cost_high	
+}

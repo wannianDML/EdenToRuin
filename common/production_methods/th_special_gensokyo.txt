@@ -1,0 +1,206 @@
+﻿pm_special_chireiden_courtyard_rosaceae = {
+	texture = "gfx/interface/icons/pm_special_chireiden_courtyard_rosaceae.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_fertilizer_add = 1
+			building_input_tools_add = 1
+			
+			building_output_flowers_add = 2
+			building_output_wastes_add = 0.2
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 30
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 1.5
+		}
+	}
+}
+	
+pm_special_chireiden_courtyard_papaveraceae = {
+	texture = "gfx/interface/icons/pm_special_chireiden_courtyard_papaveraceae.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_fertilizer_add = 1
+			building_input_tools_add = 1
+			
+			building_output_flowers_add = 2
+			building_output_wastes_add = 0.2
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 30
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 1.5
+		}
+	}
+}
+
+pm_special_chireiden_courtyard_theaceae = {
+	texture = "gfx/interface/icons/pm_special_chireiden_courtyard_theaceae.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_fertilizer_add = 1
+			building_input_tools_add = 1
+			
+			building_output_flowers_add = 2
+			building_output_wastes_add = 0.2
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 30
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 1.5
+		}
+	}
+}
+
+pm_special_chireiden_courtyard_iridaceae = {
+	texture = "gfx/interface/icons/pm_special_chireiden_courtyard_iridaceae.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_fertilizer_add = 1
+			building_input_tools_add = 1
+			
+			building_output_flowers_add = 2
+			building_output_wastes_add = 0.2
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 30
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 1.5
+		}
+	}
+}
+
+pm_special_chireiden_study_philosophy = {
+	texture = "gfx/interface/icons/pm_special_chireiden_study_philosophy.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_paper_add = 1
+			building_input_tools_add = 1
+			
+			building_output_wastes_add = 0.1
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 20
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 2.5
+		}
+	}
+}
+pm_special_chireiden_study_humanities_socialsciences = {
+	texture = "gfx/interface/icons/pm_special_chireiden_study_philosophy.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_paper_add = 1
+			building_input_tools_add = 1
+			
+			building_output_wastes_add = 0.1
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 20
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 2.5
+		}
+	}
+}
+pm_special_chireiden_study_literature_art = {
+	texture = "gfx/interface/icons/pm_special_chireiden_study_literature_art.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_paper_add = 1
+			building_input_tools_add = 1
+			
+			building_output_wastes_add = 0.1
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 20
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 2.5
+		}
+	}
+}
+pm_special_chireiden_study_historical_geography = {
+	texture = "gfx/interface/icons/pm_special_chireiden_study_historical_geography.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_paper_add = 1
+			building_input_tools_add = 1
+			
+			building_output_wastes_add = 0.1
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 20
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 2.5
+		}
+	}
+}
+pm_special_chireiden_study_natural_applied_science = {
+	texture = "gfx/interface/icons/pm_special_chireiden_study_natural_applied_science.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_paper_add = 1
+			building_input_tools_add = 1
+			
+			building_output_wastes_add = 0.1
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 20
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 2.5
+		}
+	}
+}

@@ -1,0 +1,47 @@
+﻿l_simp_chinese:
+ #heavy_industry
+ building_wood_factory:0 "制木厂"
+ building_wood_factory_lens_option:0 "扩建$building_wood_factory$"
+ building_recycle_factory:0 "回收厂"
+ building_recycle_factory_lens_option:0 "扩建$building_recycle_factory$"
+ 
+ #agriculture
+ building_plant_factory:0 "植物工厂"
+ building_plant_factory_lens_option:0 "扩建$building_plant_factory$"
+ #林厂
+ 
+ #light_industry
+ building_pharmaceutical_factory:0 "制药厂"
+ building_pharmaceutical_factory_lens_option:0 "扩建$building_pharmaceutical_factory$"
+ 
+ #private_infrastructure
+ building_private_construction_company:0 "私人建筑公司"
+ building_private_construction_company_lens_option:0 "扩建$building_private_construction_company$"
+ building_private_military_company:0 "私人军事承包商"
+ building_private_military_company_lens_option:0 "扩建$building_private_military_company$"
+ 
+ #science_education
+ bg_science_education:0 "科教业"
+ 
+ building_research_institute:0 "研究院"
+ building_research_institute_lens_option:0 "扩建$building_research_institute$"
+ 
+ #special
+ #gensokyo
+ building_special_hiedatei:0 "稗田邸" #
+ building_special_hiedatei_lens_option:0 "扩建$building_special_hiedatei$" #
+ building_special_terakoya:0 "寺子屋" #
+ building_special_terakoya_lens_option:0 "扩建$building_special_terakoya$" #
+ building_special_suzunaan:0 "铃奈庵" #
+ building_special_suzunaan_lens_option:0 "扩建$building_special_suzunaan$" #
+ building_special_geidontei:0 "鲵吞亭" #
+ building_special_geidontei_lens_option:0 "扩建$building_special_geidontei$" #
+ building_special_myouren_temple:0 "命莲寺" #
+ building_special_myouren_temple_lens_option:0 "扩建$building_special_myouren_temple$" #
+ building_special_hakurei_shrine:0 "博丽神社" #
+ building_special_hakurei_shrine_lens_option:0 "扩建$building_special_hakurei_shrine$" #
+ building_special_moriya_shrine:0 "守矢神社" #
+ building_special_moriya_shrine_lens_option:0 "扩建$building_special_moriya_shrine$" #
+ building_special_chireiden:0 "地灵殿"
+ building_special_chireiden_lens_option:0 "扩建$building_special_chireiden$"
+ 

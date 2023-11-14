@@ -1,0 +1,18 @@
+﻿pmg_research_funds = {
+	texture = "gfx/interface/icons/generic_icons/pmg_research_funds.dds"
+	production_methods = {
+		pm_research_funds_base
+		pm_research_funds_low
+		pm_research_funds_middle
+		pm_research_funds_high
+	}
+}
+
+pmg_research_institute_computing_equipment = {
+	texture = "gfx/interface/icons/generic_icons/pmg_research_institute_computing_equipment.dds"
+	production_methods = {
+		pmg_research_institute_computing_equipment_abacus
+ 		pmg_research_institute_computing_equipment_difference_engine
+ 		pmg_research_institute_computing_equipment_analytical_engine
+	}
+}

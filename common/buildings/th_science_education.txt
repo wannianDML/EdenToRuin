@@ -1,0 +1,22 @@
+﻿building_research_institute = {
+	building_group = bg_science_education
+	city_type = city
+
+	levels_per_mesh = 5
+
+	has_max_level = yes
+
+	unlocking_technologies = {
+		tech_research_institute
+	}
+
+	production_method_groups = {
+		pmg_research_funds
+		pmg_research_institute_computing_equipment
+		pmg_government_run
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_research_institute.dds"
+
+	required_construction = construction_cost_medium
+}

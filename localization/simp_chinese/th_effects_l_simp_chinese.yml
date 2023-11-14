@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+ event_th_debug_text_description:0 "这是custom_description"
+ event_th_debug_text_label:0 "这是custom_label"
+ event_th_debug_text_tooltip:0 "这是custom_tooltip"
+ 
+ event_th_gift_text_empty:0 "空的！"
+ event_th_gift_text_light:0 "打开的一瞬间变得轻飘飘。"
+ event_th_gift_text_heavy:0 "打开的一瞬间变得沉甸甸。"
+ event_th_gift_text_throw:0 "里面有炸弹也说不定。"

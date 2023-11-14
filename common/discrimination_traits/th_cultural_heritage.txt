@@ -1,0 +1,15 @@
+﻿human_heritage = {
+	heritage = yes
+}
+
+youkai_heritage = {
+	heritage = yes
+}
+
+gensokyo_moon_heritage = {
+	heritage = yes
+}
+
+hell_heritage = {
+	heritage = yes
+}

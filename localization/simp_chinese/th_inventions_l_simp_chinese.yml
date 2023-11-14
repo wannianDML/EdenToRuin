@@ -1,0 +1,123 @@
+﻿l_simp_chinese:
+ #production
+ ##era_4
+ tech_soilless_culture:0 "无土栽培"
+ tech_soilless_culture_desc:0 "您的农田可以从爱尔兰绵延到契丹了。"
+    
+    
+    
+ #society
+ ##era_1
+ tech_other_interesting:0 "非常识之物"
+ tech_other_interesting_desc:0 "一定有我们不知道的东西存在。"
+ tech_youkai_existence:0 "妖怪存在"
+ tech_youkai_existence_desc:0 "泛指一切非人且具有知性的生物。"
+ tech_magic_existence:0 "魔法存在" 
+ tech_magic_existence_desc:0 "相信的心就是你的魔法。" 
+ tech_spiritual_existence:0 "灵力存在" 
+ tech_spiritual_existence_desc:0 "算是最广泛的一种能量。" 
+ tech_x_existence:0 "虚镜" 
+ tech_x_existence_desc:0 "当你看向哈林的镜子时，你会怎么选择呢。" 
+ tech_traditional_breeding:0 "传统育种"
+ tech_traditional_breeding_desc:0 "把好用的留下，不好用的扔了。"
+ #tech_metal_casting_process:0 "金属铸造工艺"
+ #tech_metal_casting_process_desc:0 "工程学不存在了。"
+ #tech_organic_extraction_process:0 "有机提炼工艺"
+ #tech_organic_extraction_process_desc:0 "生物学也不存在了"
+ #tech_chemical_synthesis_process:0 "化学合成工艺"
+ #tech_chemical_synthesis_process_desc:0 "物理学也……哦，物理学还在，化学没了。"
+ #tech_machine_work:0 "机加工"
+ #tech_machine_work_desc:0 "让原料更有用。"
+ ##era_2
+ #tech_:0 "建筑构件"
+ tech_research_institute:0 "研究院"
+ tech_research_institute_desc:0 "集中我们最聪明的大脑们。"
+ tech_theoretical_science:0 "理论科学"
+ tech_theoretical_science_desc:0 "论题、论据、论证。"
+ #tech_:0 "质能守恒"
+ #tech_:0 "等价代换"
+ tech_difference_engine:0 "差分机" 
+ tech_difference_engine_desc:0 "具有一定大数据计算能力的超大号算盘。" 
+ tech_spiritual_theory:0 "灵能理论" 
+ tech_spiritual_theory_desc:0 "《灵力：从入门到精通》"
+ #tech_:0 "三色炼金" 
+ #tech_:0 "七曜炼丹" 
+ tech_magic_theory:0 "魔能理论"
+ tech_magic_theory_desc:0 "于是魔法的使用不再局限于“心”。"
+ tech_x:0 "虚能" 
+ tech_x_desc:0 "万物的起始与终焉。" 
+ ##era_3 1862-1886
+ tech_abstract_energy_theory:0 "抽象能量理论" 
+ tech_abstract_energy_theory_desc:0 "我们可以随意设计它们的特性，就像捏橡皮泥。" 
+ tech_math_energy_theory:0 "数能理论" 
+ tech_math_energy_theory_desc:0 "算力现在已经被具显为某种能量，我们称之为“数能”。" 
+ #tech_unified_energy_model:0 "统一能量模型"
+ #tech_unified_energy_model_desc:0 "统一能量模型"
+ #tech_thermal_energy_theory:0 "热能理论"
+ #tech_thermal_energy_theory_desc:0 "研究的时候烧糊了不少菜，倒没有什么浪费，研究员们都勉强吃完了。"
+ #tech_electromagnetism:0 "电磁学" # 1865
+ #tech_electromagnetism_desc:0 "好多方程，好多变量。" # 1865
+ #tech_electric_energy_theory:0 "电能理论"
+ #tech_electric_energy_theory_desc:0 "请电能修炼者们不要再偷电了！自己放个风筝引雷去！"
+ #tech_power_plant:0 "发电植物"
+ #tech_power_plant_desc:0 "有传闻说人类也会发电？"
+ #tech_magnetic_energy_theory:0 "磁能理论"
+ #tech_magnetic_energy_theory_desc:0 "磁场不会孤单，磁能修炼者可能会。"
+ tech_waste_recyclin:0 "废物利用"
+ tech_waste_recyclin_desc:0 "为什么制木场的垃圾可以回收出石油来？"
+ tech_refuse_classification:0 "垃圾分类"
+ tech_refuse_classification_desc:0 "就算是垃圾，也有地方去。"
+ ##era_4 1887-1911
+ #tech_:0 "虚相位"
+ tech_analytical_engine:0 "分析机"
+ tech_analytical_engine_desc:0 "不同于前辈，它可以做更广泛的运算。"
+ tech_monuments_building:0 "奇观仿制"
+ tech_monuments_building_desc:0 "不知从哪里捡来的一堆设计图。"
+ #tech_electron_theory:0 "电子论" # 1895
+ #tech_electron_theory_desc:0 "一切物质分子都含有电子。" # 1895
+ #tech_special_relativity:0 "狭义相对论" # 1905
+ #tech_special_relativity_desc:0 "光的速度不变……" # 1905
+ #tech_mass_energy_equivalence:0 "质能方程" # 1905
+ #tech_mass_energy_equivalence_desc:0 "质量和能量有了确定的当量关系。" # 1905
+ #tech_light_quantum_theory:0 "光量子说"
+ #tech_light_quantum_theory_:0 "光是一种粒子：光量子。"
+ #tech_light_energy_theory:0 "光能理论"
+ #tech_light_energy_theory_desc:0 "跳过了转换成热能，获取光能更高效了。"
+ ##era_5 1911-1936
+ #tech_general_relativity:0 "广义相对论" # 1916
+ #tech_general_relativity_desc:0 "……但是有质量，要遵循万有引力。" # 1916
+ tech_vertical_industry:0 "垂直工业"
+ tech_vertical_industry_desc:0 "物理意义上的垂直。"
+ ##era_6 1936-1991
+ #tech_turing_machine_and_completeness_and_incompleteness:0 "图灵机与完备与不" #1936
+ #tech_turing_machine_and_completeness_and_incompleteness_desc:0 "《论可计算数及其在判定性问题上的应用》" #
+ #tech_first_generation_electronic_computer:0 "第一代电子计算机" #1946
+ tech_cybernetics:0 "控制论" # 1948
+ tech_cybernetics_desc:0 "在变化中寻求平衡。"
+ #tech_numerically_controlled_machine:0 "数控机床" # 1952
+ #tech_3D_print:0 "3D打印" #1983
+ tech_genetically_modified_breeding:0 "转基因育种"
+ tech_genetically_modified_breeding_desc:0 "甚至跨越了物种间的生殖隔离。"
+ tech_advanced_monuments_building:0 "高等奇观仿制"
+ tech_advanced_monuments_building_desc:0 "收集控或许会狂喜。"
+ #tech_three_dimensional_transportation:0 "立体交通"
+ #tech_three_dimensional_transportation_desc:0 "进一步提升土地利用率，寸土寸金。"
+ ##era_7 1991-现代
+ #tech_4D_print:0 "4D打印" # 2013
+ #tech_4D_print_desc:0 "“打印过程并不是新鲜的东西，但关键是打印出来后发生的变化。”" # 2013
+ tech_artificial_intelligence:0 "人工智能"
+ tech_artificial_intelligence_desc:0 "这东西有自我吗？"
+ tech_heavenly_eye:0 "天眼"
+ tech_heavenly_eye_desc:0 "第三只眼？我们现在可是有无数只眼睛。"
+ tech_intelligent_design_breeding:0 "智能设计育种"
+ tech_intelligent_design_breeding_desc:0 "我们现在可以设计出自然界不存在的基因了。"
+ ##era_8
+ ##era_9
+ #tech_three_dimensional_transportation:0"立体城市"
+ #tech_three_dimensional_transportation_desc:0"城市化的极点。"
+ tech_project_babel:0 "巴别塔计划"
+ tech_project_babel_desc:0 "通向天堂之路。"
+ 
+ ##era_10
+ tech_singularity:0 "奇点" 
+ tech_singularity_desc:0 "最多只能点到二十九级。（这个科技的作用就是给你闲着无聊的科研部门点着玩。）" 

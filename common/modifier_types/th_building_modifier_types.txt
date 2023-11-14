@@ -1,0 +1,325 @@
+﻿state_building_research_institute_max_level_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+building_input_wastes_add = {
+	good = yes
+	percent = no
+}
+
+building_output_wastes_add = {
+	good = yes
+	percent = no
+}
+
+building_input_wastes_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_wastes_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_flowers_add = {
+	good = yes
+	percent = no
+}
+
+building_output_flowers_add = {
+	good = yes
+	percent = no
+}
+
+building_input_flowers_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_flowers_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_maintenance_add = {
+	good = yes
+	percent = no
+}
+
+building_output_maintenance_add = {
+	good = yes
+	percent = no
+}
+
+building_input_maintenance_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_maintenance_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_security_add = {
+	good = yes
+	percent = no
+}
+
+building_output_security_add = {
+	good = yes
+	percent = no
+}
+
+building_input_security_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_security_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_dolls_add = {
+	good = yes
+	percent = no
+}
+
+building_output_dolls_add = {
+	good = yes
+	percent = no
+}
+
+building_input_dolls_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_dolls_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_medicine_add = {
+	good = yes
+	percent = no
+}
+
+building_output_medicine_add = {
+	good = yes
+	percent = no
+}
+
+building_input_medicine_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_medicine_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_biological_material_add = {
+	good = yes
+	percent = no
+}
+
+building_output_biological_material_add = {
+	good = yes
+	percent = no
+}
+
+building_input_biological_material_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_biological_material_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_chemical_material_add = {
+	good = yes
+	percent = no
+}
+
+building_output_chemical_material_add = {
+	good = yes
+	percent = no
+}
+
+building_input_chemical_material_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_chemical_material_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_metallic_material_add = {
+	good = yes
+	percent = no
+}
+
+building_output_metallic_material_add = {
+	good = yes
+	percent = no
+}
+
+building_input_metallic_material_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_metallic_material_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_special_material_add = {
+	good = yes
+	percent = no
+}
+
+building_output_special_material_add = {
+	good = yes
+	percent = no
+}
+
+building_input_special_material_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_special_material_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_standard_machinery_add = {
+	good = yes
+	percent = no
+}
+
+building_output_standard_machinery_add = {
+	good = yes
+	percent = no
+}
+
+building_input_standard_machinery_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_standard_machinery_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_precision_machinery_add = {
+	good = yes
+	percent = no
+}
+
+building_output_precision_machinery_add = {
+	good = yes
+	percent = no
+}
+
+building_input_precision_machinery_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_precision_machinery_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_consumer_machinery_add = {
+	good = yes
+	percent = no
+}
+
+building_output_consumer_machinery_add = {
+	good = yes
+	percent = no
+}
+
+building_input_consumer_machinery_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_consumer_machinery_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_standard_parts_add = {
+	good = yes
+	percent = no
+}
+
+building_output_standard_parts_add = {
+	good = yes
+	percent = no
+}
+
+building_input_standard_parts_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_standard_parts_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_precision_parts_add = {
+	good = yes
+	percent = no
+}
+
+building_output_precision_parts_add = {
+	good = yes
+	percent = no
+}
+
+building_input_precision_parts_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_precision_parts_mult = {
+	good = yes
+	percent = yes
+}
+
+building_input_electronic_component_add = {
+	good = yes
+	percent = no
+}
+
+building_output_electronic_component_add = {
+	good = yes
+	percent = no
+}
+
+building_input_electronic_component_mult = {
+	good = yes
+	percent = yes
+}
+
+building_output_electronic_component_mult = {
+	good = yes
+	percent = yes
+}

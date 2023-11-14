@@ -1,0 +1,26 @@
+﻿l_simp_chinese:
+ #staple
+ medicine: "药品"  # 25
+ flowers: "花卉"  # 18
+ maintenance: "维护"  # 10
+ biological_material: "生物原料"  # 100
+ chemical_material: "化工原料"  # 100
+ metallic_material: "金属原料"  # 100
+ special_material: "非常识原料"  # 100
+ 
+ #industrial
+ wastes: "废弃物"  # 10
+ #solar_debris:0 "太阳碎片"
+ dolls: "人形"  # 1000
+ standard_machinery:0 "标准机械"  # 80
+ precision_machinery:0 "精密机械" # 200
+ consumer_machinery:0 "消费类机械" # 50
+ standard_parts:0 "标准零件" # 12
+ precision_parts:0 "精密零件" # 36
+ electronic_component:0 "电子元件" # 12
+ 
+ #luxury
+ security: "安保"  # 300
+  
+ popneed_security: "安保服务"
+ popneed_medical: "医疗服务"

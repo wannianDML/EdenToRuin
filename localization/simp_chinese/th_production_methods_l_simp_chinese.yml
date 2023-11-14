@@ -1,0 +1,177 @@
+﻿l_simp_chinese:
+ #heavy_industry
+ ##wood_factory
+ pmg_wood_processing:0 "加工方式" 
+ 
+ pm_wood_processing_handwork:0 "手工作坊"
+ pm_wood_processing_tools:0 "改良工具"
+ pm_wood_processing_machine:0 "机器加工"
+ 
+ ##recycle_factory
+ pmg_recycle_processing_slot_a:0 "回收方式"
+ 
+ pm_recycle_none_a:0 "空置"
+ pm_recycle_oil_a:0 "油料回收"
+ pm_recycle_biological_material_a:0 "生物原料回收"
+ pm_recycle_chemical_material_a:0 "化工原料回收"
+ pm_recycle_metallic_material_a:0 "金属原料回收"
+ pm_recycle_oil_improve_a:0 "改良油料回收"
+ pm_recycle_biological_material_improve_a:0 "改良生物原料回收"
+ pm_recycle_chemical_material_improve_a:0 "改良化工原料回收"
+ pm_recycle_metallic_material_improve_a:0 "改良金属原料回收" 
+ 
+ pmg_recycle_processing_slot_b:0 "回收方式"
+ 
+ pm_recycle_none_b:0 "空置"
+ pm_recycle_oil_b:0 "油料回收"
+ pm_recycle_biological_material_b:0 "生物原料回收"
+ pm_recycle_chemical_material_b:0 "化工原料回收"
+ pm_recycle_metallic_material_b:0 "金属原料回收"
+ pm_recycle_oil_improve_b:0 "改良油料回收"
+ pm_recycle_biological_material_improve_b:0 "改良生物原料回收"
+ pm_recycle_chemical_material_improve_b:0 "改良化工原料回收"
+ pm_recycle_metallic_material_improve_b:0 "改良金属原料回收"
+ 
+ pmg_recycle_processing_slot_c:0 "回收方式"
+ 
+ pm_recycle_none_c:0 "空置"
+ pm_recycle_oil_c:0 "油料回收"
+ pm_recycle_biological_material_c:0 "生物原料回收"
+ pm_recycle_chemical_material_c:0 "化工原料回收"
+ pm_recycle_metallic_material_c:0 "金属原料回收"
+ pm_recycle_oil_improve_c:0 "改良油料回收"
+ pm_recycle_biological_material_improve_c:0 "改良生物原料回收"
+ pm_recycle_chemical_material_improve_c:0 "改良化工原料回收"
+ pm_recycle_metallic_material_improve_c:0 "改良金属原料回收"
+ 
+ pmg_recycle_protection:0 "防护用具"
+ 
+ pm_recycle_unprotected:0 "无防护"
+ pm_recycle_basic_protected:0 "基本防护"
+ pm_recycle_fully_protected:0 "全方位防护"
+ 
+ 
+ 
+ 
+ #agriculture
+ ##plant_factory
+ pmg_plant_cultivation_processing:0 "栽培方式"
+ 
+ pm_plant_substrate_culture:0 "基质栽培"
+ pm_plant_culture_without_substrate:0 "无基质栽培"
+ 
+ pmg_plant_factory_slot_a:0 "生产槽位"
+ 
+ pm_plant_none_a:0 "空置"
+ pm_plant_grain_a:0 "谷物种植"
+ pm_plant_fruit_a:0 "水果种植"
+ pm_plant_flower_a:0 "花卉种植"
+ pm_plant_grain_improve_a:0 "改良谷物种植"
+ pm_plant_fruit_improve_a:0 "改良水果种植"
+ pm_plant_flower_improve_a:0 "改良花卉种植"
+ 
+ pmg_plant_factory_slot_b:0 "生产槽位"
+ 
+ pm_plant_none_b:0 "空置"
+ pm_plant_grain_b:0 "谷物种植"
+ pm_plant_fruit_b:0 "水果种植"
+ pm_plant_flower_b:0 "花卉种植"
+ pm_plant_grain_improve_b:0 "改良谷物种植"
+ pm_plant_fruit_improve_b:0 "改良水果种植"
+ pm_plant_flower_improve_b:0 "改良花卉种植"
+ 
+ pmg_plant_factory_slot_c:0 "生产槽位"
+ 
+ pm_plant_none_c:0 "空置"
+ pm_plant_grain_c:0 "谷物种植"
+ pm_plant_fruit_c:0 "水果种植"
+ pm_plant_flower_c:0 "花卉种植"
+ pm_plant_grain_improve_c:0 "改良谷物种植"
+ pm_plant_fruit_improve_c:0 "改良水果种植"
+ pm_plant_flower_improve_c:0 "改良花卉种植"
+ 
+ #light_industry
+ ##pharmaceutical_factory
+ pmg_pharmaceutical_production_processing:0 "生产方式"
+ 
+ pm_pharmaceutical_component_separation:0 "成分分离"
+ pm_pharmaceutical_chemical_synthesis:0 "化学合成"
+ 
+ #private_infrastructure
+ ##private_construction_company
+ pmg_building_structure:0 "建筑结构"
+ 
+ pm_structure_wood:0 "木制建筑"
+ pm_structure_iron:0 "铁框架结构建筑"
+ pm_structure_steel:0 "钢框架结构建筑"
+ pm_structure_electric_welding:0 "电焊建筑"
+ 
+ ##private_military_company
+ pmg_mc_training_level:0 "训练度"
+ 
+ pm_mc_training_level_b_base:0 "混混"
+ pm_mc_training_level_b_low:0 "打手"
+ pm_mc_training_level_b_middle:0 "杀手"
+ pm_mc_training_level_base:0 "乌合之众"
+ pm_mc_training_level_low:0 "训练初成"
+ pm_mc_training_level_middle:0 "训练有素"
+ pm_mc_training_level_high:0 "经验丰富"
+ pm_mc_training_level_crack:0 "久经沙场"
+ 
+ pmg_mc_business_scope:0 "业务范围"
+ 
+ pm_mc_banned:0 "非法经营"
+ pm_mc_security_company:0 "保安公司"
+ pm_mc_military_support:0 "军事援助公司"
+
+#science_education
+##research_institute
+ pmg_research_funds:0 "科研经费"
+
+ pm_research_funds_base:0 "基本"
+ pm_research_funds_low:0 "低"
+ pm_research_funds_middle:0 "中"
+ pm_research_funds_high:0 "高"
+ 
+ pmg_research_institute_computing_equipment:0 "计算工具"
+ 
+ pmg_research_institute_computing_equipment_abacus:0 "算盘"
+ pmg_research_institute_computing_equipment_difference_engine:0 "差分机"
+ pmg_research_institute_computing_equipment_analytical_engine:0 "分析机"
+
+#ownership
+ pmg_common_ownership:0 "所有权"
+
+ pm_merchant_guilds:0 "商人行会"
+ pm_privately_owned:0 "私人所有"
+ pm_publicly_traded:0 "公开交易"
+ pm_government_run:0 "政府运营"
+ pm_worker_cooperative:0 "劳动合作社"
+
+ pmg_private_ownership:0 "所有权"
+ 
+ pm_privately_owned_p:0 "私人所有"
+ pm_publicly_traded_p:0 "公开交易"
+ 
+ pmg_government_run:0 "所有权"
+ 
+ pm_government_run_g:0 "政府运营"
+ 
+ #special_gensokyo
+ ##special_chireiden
+ pmg_special_chireiden_courtyard:0 "觉的庭院" #
+ 
+ pm_special_chireiden_courtyard_rosaceae:0 "蔷薇科" #
+ pm_special_chireiden_courtyard_papaveraceae:0 "罂粟科" #
+ pm_special_chireiden_courtyard_theaceae:0 "山茶科" #
+ pm_special_chireiden_courtyard_iridaceae:0 "鸢尾科" #
+ 
+ pmg_special_chireiden_pets:0 "觉的宠物们" #
+ 
+ pmg_special_chireiden_study:0 "觉的书房" #
+ 
+ pm_special_chireiden_study_philosophy:0 "哲学" #
+ pm_special_chireiden_study_humanities_socialsciences:0 "人文社科" #
+ pm_special_chireiden_study_literature_art:0 "文学艺术" #
+ pm_special_chireiden_study_historical_geography:0 "历史地理" #
+ pm_special_chireiden_study_natural_applied_science:0 "自然应用科学" #

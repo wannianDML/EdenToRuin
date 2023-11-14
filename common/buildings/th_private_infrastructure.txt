@@ -1,0 +1,32 @@
+﻿building_private_construction_company = {
+	building_group = bg_private_buildings	
+	texture = "gfx/interface/icons/building_icons/building_private_construction_company.dds"
+	
+	unlocking_technologies = {
+		urbanization
+	}
+
+	production_method_groups = {
+		pmg_building_structure
+		pmg_common_ownership
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_private_military_company = {
+	building_group = bg_private_buildings	
+	texture = "gfx/interface/icons/building_icons/building_private_construction_company.dds"
+	
+	unlocking_technologies = {
+		urbanization
+	}
+
+	production_method_groups = {
+		pmg_mc_training_level
+		pmg_mc_business_scope
+		pmg_private_ownership
+	}
+
+	required_construction = construction_cost_high 
+}

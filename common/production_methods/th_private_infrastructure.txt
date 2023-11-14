@@ -1,0 +1,519 @@
+﻿pm_structure_wood = {
+	texture = "gfx/interface/icons/production_method_icons/pm_structure_wood.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.005
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 0.5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_fabric_add = 5
+			building_input_wood_add = 25
+			
+			building_output_wastes_add = 6
+			building_output_maintenance_add = 90
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 500
+			building_employment_laborers_add = 2000
+		}
+	}
+	
+
+}
+
+pm_structure_iron = {
+	texture = "gfx/interface/icons/production_method_icons/pm_structure_iron.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.001
+		}
+
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1.25
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_fabric_add = 5
+			building_input_wood_add = 15
+			building_input_iron_add = 10
+			building_input_tools_add = 5
+			
+			building_output_wastes_add = 8.5
+			building_output_maintenance_add = 135
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 500
+			building_employment_machinists_add = 250
+			building_employment_laborers_add = 1750
+		}
+	}
+}
+
+pm_structure_steel = {
+	texture = "gfx/interface/icons/production_method_icons/pm_structure_steel.dds"
+
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.02
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 2.5
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_steel_add = 25
+			building_input_glass_add = 5 
+			building_input_tools_add = 5 
+			
+			building_output_wastes_add = 12.25
+			building_output_maintenance_add = 210
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 500
+			building_employment_machinists_add = 750
+			building_employment_laborers_add = 1250
+		}
+	}
+}
+
+pm_structure_electric_welding = {
+	texture = "gfx/interface/icons/production_method_icons/pm_structure_electric_welding.dds"
+
+	unlocking_technologies = {
+		arc_welding
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.04
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_steel_add = 30
+			building_input_glass_add = 5 
+			building_input_tools_add = 5 
+			building_input_electricity_add = 20
+			
+			building_output_wastes_add = 18.25
+			building_output_maintenance_add = 305
+		} 
+
+		level_scaled = {
+			building_employment_clerks_add = 500
+			building_employment_engineers_add = 250
+			building_employment_machinists_add = 750
+			building_employment_laborers_add = 1000
+		}
+	}
+}
+
+pm_mc_training_level_b_base = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+	
+	unlocking_production_methods = {
+		pm_mc_banned
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_mortality_mult = 0.001
+			state_working_adult_ratio_add = -0.001
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_security_add = 0.5
+			building_output_wastes_add = 0.025
+		} 
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+		}
+	}
+}
+
+pm_mc_training_level_b_low = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+
+	unlocking_technologies = {
+		mandatory_service
+	}
+	
+	unlocking_production_methods = {
+		pm_mc_banned
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_mortality_mult = 0.002
+			state_working_adult_ratio_add = -0.002
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 1
+	
+			building_output_security_add = 1
+			building_output_wastes_add = 0.1
+		} 
+
+		level_scaled = {
+			building_employment_laborers_add = 800
+			building_employment_soldiers_add = 200
+		}
+	}
+}
+
+pm_mc_training_level_b_middle = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+
+	unlocking_technologies = {
+		rifling
+	}
+	
+	unlocking_production_methods = {
+		pm_mc_banned
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_mortality_mult = 0.004
+			state_working_adult_ratio_add = -0.004
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 1
+			building_input_small_arms_add = 1
+
+			building_output_security_add = 2
+			building_output_wastes_add = 0.2
+		} 
+
+		level_scaled = {
+			building_employment_laborers_add = 600
+			building_employment_soldiers_add = 400
+			building_employment_officers_add = 10
+		}
+	}
+}
+
+pm_mc_training_level_base = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+
+	unlocking_technologies = {
+		standing_army
+	}
+	
+	unlocking_production_methods = {
+		pm_mc_security_company
+		pm_mc_military_support
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_working_adult_ratio_add = -0.001
+			state_turmoil_effects_mult = -0.002
+			state_conscription_rate_mult = 0.002
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 1
+			building_input_small_arms_add = 1
+
+			building_output_security_add = 1
+			building_output_wastes_add = 0.15
+		} 
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_soldiers_add = 100
+			building_employment_officers_add = 5
+		}
+	}
+}
+pm_mc_training_level_low = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+
+	unlocking_technologies = {
+		military_drill
+	}
+	
+	unlocking_production_methods = {
+		pm_mc_security_company
+		pm_mc_military_support
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_working_adult_ratio_add = -0.002
+			state_turmoil_effects_mult = -0.004
+			state_conscription_rate_mult = 0.004
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 1
+			building_input_small_arms_add = 1
+			building_input_ammunition_add = 1
+
+			building_output_security_add = 2
+			building_output_wastes_add = 0.25
+		} 
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_soldiers_add = 500
+			building_employment_officers_add = 20
+		}
+	}
+}
+pm_mc_training_level_middle = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+
+	unlocking_technologies = {
+		general_staff
+	}
+	
+	unlocking_production_methods = {
+		pm_mc_security_company
+		pm_mc_military_support
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_working_adult_ratio_add = -0.004
+			state_turmoil_effects_mult = -0.008
+			state_conscription_rate_mult = 0.008
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 1
+			building_input_medicine_add = 1
+			building_input_small_arms_add = 2
+			building_input_ammunition_add = 3
+
+			building_output_security_add = 4
+			building_output_wastes_add = 0.5
+		} 
+
+		level_scaled = {
+			building_employment_laborers_add = 400
+			building_employment_machinists_add = 100
+			building_employment_soldiers_add = 450
+			building_employment_officers_add = 50
+		}
+	}
+}
+pm_mc_training_level_high = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+
+	unlocking_technologies = {
+		military_statistics
+	}
+	
+	unlocking_production_methods = {
+		pm_mc_military_support
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_working_adult_ratio_add = -0.008
+			state_turmoil_effects_mult = -0.016
+			state_conscription_rate_mult = 0.016
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 2
+			building_input_medicine_add = 2
+			building_input_small_arms_add = 2
+			building_input_ammunition_add = 4
+			building_input_radios_add = 1
+
+			building_output_security_add = 8
+			building_output_wastes_add = 0.95
+		} 
+
+		level_scaled = {
+			building_employment_laborers_add = 300
+			building_employment_academics_add = 50
+			building_employment_engineers_add = 50
+			building_employment_machinists_add = 100
+			building_employment_soldiers_add = 400
+			building_employment_officers_add = 100
+		}
+	}
+}
+
+pm_mc_training_level_crack = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+
+	unlocking_technologies = {
+		nco_training
+	}
+	
+	unlocking_production_methods = {
+		pm_mc_military_support
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_working_adult_ratio_add = -0.016
+			state_turmoil_effects_mult = -0.032
+			state_conscription_rate_mult = 0.032
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 3
+			building_input_medicine_add = 3
+			building_input_small_arms_add = 2
+			building_input_ammunition_add = 5
+			building_input_radios_add = 3
+			building_input_automobiles_add = 2
+
+			building_output_security_add = 16
+			building_output_wastes_add = 1.7
+		} 
+
+		level_scaled = {
+			building_employment_academics_add = 100
+			building_employment_engineers_add = 100
+			building_employment_machinists_add = 300
+			building_employment_soldiers_add = 300
+			building_employment_officers_add = 150
+		}
+	}
+}
+
+pm_mc_banned = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_banned.dds"
+
+	unlocking_laws = {
+		law_civilian_armed_forces_illegal
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_turmoil_effects_mult = 0.004
+			building_throughput_mult = -0.002
+			state_bureaucracy_population_base_cost_factor_mult = 0.004
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_wastes_add = 0.1
+		} 
+		
+		level_scaled = {
+			building_employment_clerks_add = 30
+			building_employment_laborers_add = 65
+			building_employment_shopkeepers_add = 5
+		}
+	}
+}
+pm_mc_security_company = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_banned.dds"
+
+	unlocking_laws = {
+		law_civilian_armed_forces_security_service
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_turmoil_effects_mult = 0.002
+			building_throughput_mult = -0.003
+			state_bureaucracy_population_base_cost_factor_mult = 0.002
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_wastes_add = 0.1
+		} 
+
+		level_scaled = {
+			building_employment_clerks_add = 50
+			building_employment_laborers_add = 40
+			building_employment_shopkeepers_add = 10
+		}
+	}
+}
+pm_mc_military_support = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_banned.dds"
+
+	unlocking_laws = {
+		law_civilian_armed_forces_pmc
+	}
+		
+	state_modifiers = {
+		workforce_scaled = {
+			state_turmoil_effects_mult = 0.001
+			building_throughput_mult = -0.005
+			state_bureaucracy_population_base_cost_factor_mult = 0.001
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_wastes_add = 0.1
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 40
+			building_employment_soldiers_add = 50
+			building_employment_officers_add = 10
+		}
+	}
+}

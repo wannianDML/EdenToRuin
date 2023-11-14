@@ -1,0 +1,9 @@
+﻿modifier_gift_stardust = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gift_stardust.dds
+	country_tech_spread_mult = 0.2
+}
+
+modifier_gift_alert = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gift_alert.dds
+	state_turmoil_effects_mult = -0.15
+}

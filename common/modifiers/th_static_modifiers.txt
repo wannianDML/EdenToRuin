@@ -1,0 +1,69 @@
+﻿base_values = {
+	country_weekly_innovation_add = 100
+	country_weekly_innovation_max_add = 200	#每周创新点上限
+	country_tech_spread_add = 0				#每周科技传播
+
+	country_loan_interest_rate_add = 0.2
+
+	country_legitimacy_govt_size_add = 1
+
+	country_bureaucracy_add = 100
+	country_authority_add = 200
+	country_influence_add = 100
+
+	country_revolution_secession_speed_add = 0.1
+
+	state_education_access_wealth_add = 0.02
+
+	country_minting_add = 250
+
+	state_tax_capacity_add = 100
+	state_infrastructure_add = 3
+
+	state_poor_expected_sol = 5				#劳工阶层最低生活期望
+	state_middle_expected_sol = 10			#中产阶层最低生活期望
+	state_rich_expected_sol = 15			#富裕阶层最低生活期望
+	state_expected_sol_from_literacy = 5	#来自识字率的最低生活期望
+
+	state_farmers_investment_pool_contribution_add = 0.05
+	state_shopkeepers_investment_pool_contribution_add = 0.05
+	state_aristocrats_investment_pool_contribution_add = 0.10
+	state_capitalists_investment_pool_contribution_add = 0.20	
+
+	state_unincorporated_starting_wages_mult = -0.15 # To balance for unincorporated states not paying taxes
+
+	country_construction_add = 10 #建造力
+
+	building_mobilization_cost_mult = 0.6
+
+	building_economy_of_scale_level_cap_add = 20
+}
+
+state_region_devastation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	state_infrastructure_mult = -1.2
+	state_mortality_mult = 1.5
+	state_birth_rate_mult = -1.5
+	state_migration_pull_mult = -1.2
+	state_conscription_rate_mult = -1.2
+	building_throughput_mult = -1.2
+	building_training_rate_mult = -1.2
+	state_construction_mult = -1.2
+}
+
+country_literacy_rate = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_weekly_innovation_add = 100
+	country_weekly_innovation_max_add = 300	 # 来自识字率的每周创新点及上限
+	country_tech_spread_add = 300				#来自识字率的每周科技传播
+	building_throughput_mult = 0.25
+	building_input_mult = -0.05
+	state_birth_rate_mult = -0.25
+}
+
+excess_innovation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_tech_spread_add = 0.1	#来自创新力的科技传播比例
+}
+
+

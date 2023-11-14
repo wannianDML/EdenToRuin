@@ -1,0 +1,5 @@
+je_gensokyo_deadline = {
+	icon = "gfx/interface/icons/event_icons/je_gensokyo_deadline.dds"
+
+	weight = 10000
+}

@@ -1,0 +1,36 @@
+﻿l_simp_chinese:
+ ## other
+ modifier_building_output_biological_material_mult:"建筑@biological_material!$biological_material$产出"
+ modifier_building_output_biological_material_mult_desc:"对建筑产出的@biological_material!$biological_material$数量的增益或惩罚"
+ modifier_building_output_wastes_mult:"建筑@wastes!$wastes$产出"
+ modifier_building_output_wastes_mult_desc:"对建筑产出的@wastes!$wastes$数量的增益或惩罚"
+ modifier_building_output_special_material_mult:"建筑@special_material!$special_material$产出"
+ modifier_building_output_special_material_mult_desc:"对建筑产出的@special_material!$special_material$数量的增益或惩罚"
+ 
+ modifier_building_group_bg_subsistence_mortality_mult: "自给农场就业者死亡率"
+ modifier_building_group_bg_subsistence_mortality_mult_desc: "对自给农场就业者死亡率的增益或惩罚"
+ 
+ modifier_state_building_research_institute_max_level_add: "$building_research_institute$最大等级"
+ modifier_state_building_research_institute_max_level_add_desc: "对$building_research_institute$建筑最大等级的增益或惩罚。"
+ 
+ modifier_building_group_bg_no_military_buildings_employee_mult: "非军事就业者"
+ modifier_building_group_bg_no_military_buildings_employee_mult_desc: "对非军事建筑就业者数量的增益或惩罚"
+ modifier_building_group_bg_all_buildings_employee_mult: "全行业就业者"
+ modifier_building_group_bg_all_buildings_employee_mult_desc: "对全行业建筑就业者数量的增益或惩罚"
+ 
+ ##gensokyo
+ modifier_dai_keqkai_strong:0 "幻与实的境界：坚固"
+ modifier_hakurei_keqkai_strong:0 "博丽大结界：坚固"
+ 
+ modifier_gensokyo_sage:0 "幻想乡的贤者"
+ modifier_gensokyo_anarchic:0 "乡式无政府主义"
+ modifier_gensokyo_provisional_constitution:0 "幻想乡临时约法"
+ 
+ ##debug_decisions
+ modifier_debug_decisions_technology:0 "debug：科技进步"
+ modifier_debug_decisions_law_change:0 "debug: 法律改革"
+ modifier_debug_decisions_pop_expansion:0 "debug：人口膨胀"
+ modifier_debug_decisions_pop_contraction:0 "debug：人口紧缩"
+ 
+ modifier_gift_stardust:0 "星星碎片"
+ modifier_gift_alert:0 "谨慎"

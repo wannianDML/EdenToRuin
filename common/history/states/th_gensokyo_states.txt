@@ -1,0 +1,129 @@
+﻿STATES = {
+	s:STATE_GENSOKYO = {
+		create_state = {
+			country = c:human_village_new
+			owned_provinces = {"xb8d2d7"}
+		}
+		create_state = {
+			country = c:yakumo
+			owned_provinces = {"x362bce" "x60af01"}
+		}
+		
+		create_state = {
+			country = c:human_village_old
+			owned_provinces = {"xa2e3e6"}
+		}
+		
+		create_state = {
+			country = c:garden_of_the_sun
+			owned_provinces = { "x4f9842" }
+		}
+		
+		create_state = {
+			country = c:koumakan
+			owned_provinces = {"xe998dc"}
+		}
+		
+		create_state = {
+			country = c:hakurei_shrine
+			owned_provinces = { x4c065d }
+		}
+		
+		create_state = {
+			country = c:sangetsusei
+			owned_provinces = { xb4c754 }
+		}
+		
+		create_state = {
+			country = c:moriya_shrine
+			owned_provinces = { xd90797 }
+		}
+		
+		create_state = {
+			country = c:kappa_settlement
+			owned_provinces = { x783f07 }
+		}
+		
+		create_state = {
+			country = c:tengu_village
+			owned_provinces = { xa790b0 }
+		}
+		
+		create_state = {
+			country = c:eientei
+			owned_provinces = { x1bbd1e }
+		}
+		
+		create_state = {
+			country = c:mayoi_chikurin
+			owned_provinces = { x5ed255 }
+		}
+
+		create_state = {
+			country = c:gensokyo_freezone
+			owned_provinces = { x9d4d37 x4942ae x94BF9E xB4107B x53591C xC46715 xA34948 xEC8C89 }
+		}
+
+		add_homeland = gensokyo_human
+		add_homeland = gensokyo_youkai
+	}
+	
+	s:STATE_GENSOKYO_FORMER_HELL = {
+		create_state = {
+			country = c:former_hell
+			owned_provinces = { "x531728" }
+		}
+		create_state = {
+			country = c:kyuuto
+			owned_provinces = { "xF3F226" }
+		}
+
+		add_homeland = gensokyo_hell_youkai
+	}
+
+	s:STATE_GENSOKYO_HELL = {
+		create_state = {
+			country = c:jigoku
+			owned_provinces = { "x95fe26" }
+		}
+
+		add_homeland = gensokyo_hell_youkai
+	}
+
+	s:STATE_GENSOKYO_BHAVAAGRA = {
+		create_state = {
+			country = c:bhavaagra
+			owned_provinces = { "xcabd34" }
+		}
+
+		add_homeland = gensokyo_heaven_human
+	}
+
+	s:STATE_GENSOKYO_MEIKAI = {
+		create_state = {
+			country = c:meikai
+			owned_provinces = { "xf93c01" }
+		}
+
+		create_state = {
+			country = c:hakugyokurou
+			owned_provinces = { "xf3d063" }
+		}
+
+		add_homeland = gensokyo_youkai
+	}
+
+	s:STATE_GENSOKYO_MOON = {
+		create_state = {
+			country = c:lunar_capital
+			owned_provinces = { "xfa9679" "x2f1bf5" }
+		}
+		create_state = {
+			country = c:lunar_youkai_coalition
+			owned_provinces = { "xae07ce" }
+		}
+
+		add_homeland = gensokyo_moon_human
+		add_homeland = gensokyo_moon_youkai
+	}
+}

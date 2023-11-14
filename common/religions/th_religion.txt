@@ -1,0 +1,43 @@
+﻿gensokyo_shinto = {
+	texture = "gfx/interface/icons/religion_icons/gensokyo_shinto.dds"
+	traits = {
+		shinto_heritage
+	}
+	color = { 0.8 0.6 0.4 }
+}
+
+gensokyo_buddhist = {
+	texture = "gfx/interface/icons/religion_icons/gensokyo_buddhist.dds"
+	traits = {
+		buddhist_heritage
+	}
+	color = { 0.8 0.6 0.4 }
+}
+
+gensokyo_taoism = {
+	texture = "gfx/interface/icons/religion_icons/gensokyo_taoism.dds"
+	traits = {
+		taoism_heritage
+	}
+	color = { 0.8 0.6 0.4 }
+}
+
+folk_belief = {
+	texture = "gfx/interface/icons/religion_icons/folk_belief.dds"
+	traits = {
+		atheism_heritage
+		shinto_heritage
+		buddhist_heritage
+		taoism_heritage
+		lucifer_heritage
+	}
+	color = { 0.8 0.6 0.4 }
+}
+
+lucifer = {
+	texture = "gfx/interface/icons/religion_icons/lucifer.dds"
+	traits = {
+		lucifer_heritage
+	}
+	color = { 0.8 0.6 0.4 }
+}

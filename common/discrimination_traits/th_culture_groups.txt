@@ -1,0 +1,8 @@
+﻿group_gensokyo = {
+}
+
+group_moon = {
+}
+
+group_heaven = {
+}

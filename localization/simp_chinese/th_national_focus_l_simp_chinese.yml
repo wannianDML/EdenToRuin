@@ -1,0 +1,24 @@
+﻿l_simp_chinese:
+ decree_cheat:0 "#N 作弊法令#!"
+ decree_cheat_desc:0 "紫老……婆救我！（已整合cheat decrees。都是自家mod。）"
+ 
+ decree_untaxed_state:0 "免税地区"
+ decree_untaxed_state_desc:0 "赶快买点东西救救市场。"
+ 
+ decree_encourage_fertility_tolerant:0 "鼓励生育（宽容）"
+ decree_encourage_fertility_tolerant_desc:0 "多生一点，我来帮你养。"
+ decree_encourage_fertility_exhort:0 "鼓励生育（规劝）"
+ decree_encourage_fertility_exhort_desc:0 "多子多福懂吗。"
+ decree_encourage_fertility_discrimination:0 "鼓励生育（歧视）"
+ decree_encourage_fertility_discrimination_desc:0 "向所有人随便找个理由收一笔钱，然后再用在每一个本族的新生儿上。"
+ decree_encourage_fertility_cruel:0 "鼓励生育（残酷）"
+ decree_encourage_fertility_cruel_desc:0 "这期间的动荡会逼死很多人，但我们收到的增长数据却很是漂亮。"
+ 
+ decree_family_planning_tolerant:0 "计划生育（宽容）"
+ decree_family_planning_tolerant_desc:0 "少干活，钱照发，多去陪陪孩子。"
+ decree_family_planning_exhort:0 "计划生育（规劝）"
+ decree_family_planning_exhort_desc:0 "少生优生，着重于培养孩子的文化与素质，提高全社会的生活质量。"
+ decree_family_planning_discrimination:0 "计划生育（歧视）"
+ decree_family_planning_discrimination_desc:0 "虽然我从未离开过家乡，但是，举目无亲。"
+ decree_family_planning_cruel:0 "计划生育（残酷）"
+ decree_family_planning_cruel_desc:0 "他们或许不能理解，僧多粥少，但为了实现全体的富裕，以血以泪。至于那些趁机牟利的人#N ……会清算的。#!"

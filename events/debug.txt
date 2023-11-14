@@ -1,0 +1,44 @@
+﻿namespace = th_debug
+
+th_debug.1 = {
+	type = country_event
+	placement = root
+	title = th_debug.1.t
+	desc = th_debug.1.d
+	flavor = th_debug.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "europenorthamerica_springtime_of_nations"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	trigger = {
+		always = no
+	}
+	option = {
+		name = th_debug.a
+		default_option = yes
+		random_list = {
+			10 = {
+				custom_description = {
+					text = event_th_debug_text_description
+				}
+			}
+			10 = {
+				custom_label = {
+					text = event_th_debug_text_label
+				}
+			}
+			10 = {
+				custom_tooltip = {
+					text = event_th_debug_text_tooltip
+				}
+			}
+		}
+	}
+}

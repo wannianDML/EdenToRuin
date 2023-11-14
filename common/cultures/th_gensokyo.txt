@@ -1,0 +1,328 @@
+﻿gensokyo_human = {
+	color= rgb{ 255 165 32 }
+	religion = folk_belief
+	traits = { group_gensokyo human_heritage human }
+	male_common_first_names={
+		男性人类_甲
+		男性人类_乙
+		男性人类_丙
+		男性人类_丁
+	}
+	female_common_first_names = {
+		女性人类_甲
+		女性人类_乙
+		女性人类_丙
+		女性人类_丁
+	}
+	noble_last_names = {
+		一
+		二
+		三
+		四
+	}	
+	common_last_names={
+		一
+		二
+		三
+		四
+	}
+	male_regal_first_names = {
+		男性人类王室_甲
+		男性人类王室_乙
+		男性人类王室_丙
+		男性人类王室_丁
+	}
+	female_regal_first_names = {
+		女性人类王室_甲
+		女性人类王室_乙
+		女性人类王室_丙
+		女性人类王室_丁
+	}
+
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+gensokyo_youkai_half = {
+	color= rgb{ 255 23 56 }
+	religion = folk_belief
+	traits = { group_gensokyo human youkai}
+	male_common_first_names={
+		雄性半妖_甲
+		雄性半妖_乙
+		雄性半妖_丙
+		雄性半妖_丁
+	}
+	female_common_first_names = {
+		雌性半妖_甲
+		雌性半妖_乙
+		雌性半妖_丙
+		雌性半妖_丁
+	}
+	noble_last_names = {
+		一
+		二
+		三
+		四
+	}	
+	common_last_names={
+		一
+		二
+		三
+		四
+	}
+	male_regal_first_names = {
+		雄性半妖王室_甲
+		雄性半妖王室_乙
+		雄性半妖王室_丙
+		雄性半妖王室_丁
+	}
+	female_regal_first_names = {
+		雌性半妖王室_甲
+		雌性半妖王室_乙
+		雌性半妖王室_丙
+		雌性半妖王室_丁
+	}
+
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+gensokyo_youkai = {
+	color= rgb{ 255 23 56 }
+	religion = folk_belief
+	traits = { group_gensokyo youkai_heritage youkai }
+	male_common_first_names={
+		雄性妖怪_甲
+		雄性妖怪_乙
+		雄性妖怪_丙
+		雄性妖怪_丁
+	}
+	female_common_first_names = {
+		雌性妖怪_甲
+		雌性妖怪_乙
+		雌性妖怪_丙
+		雌性妖怪_丁
+	}
+	noble_last_names = {
+		一
+		二
+		三
+		四
+	}	
+	common_last_names={
+		一
+		二
+		三
+		四
+	}
+	male_regal_first_names = {
+		雄性妖怪王室_甲
+		雄性妖怪王室_乙
+		雄性妖怪王室_丙
+		雄性妖怪王室_丁
+	}
+	female_regal_first_names = {
+		雌性妖怪王室_甲
+		雌性妖怪王室_乙
+		雌性妖怪王室_丙
+		雌性妖怪王室_丁
+	}
+
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+gensokyo_hell_youkai = {
+	color= rgb{ 256 165 16 }
+	religion = folk_belief
+	traits = {group_gensokyo hell_heritage youkai}
+	male_common_first_names={
+		雄性妖怪_甲
+		雄性妖怪_乙
+		雄性妖怪_丙
+		雄性妖怪_丁
+	}
+	female_common_first_names = {
+		雌性妖怪_甲
+		雌性妖怪_乙
+		雌性妖怪_丙
+		雌性妖怪_丁
+	}
+	noble_last_names = {
+		一
+		二
+		三
+		四
+	}	
+	common_last_names={
+		一
+		二
+		三
+		四
+	}
+	male_regal_first_names = {
+		雄性妖怪王室_甲
+		雄性妖怪王室_乙
+		雄性妖怪王室_丙
+		雄性妖怪王室_丁
+	}
+	female_regal_first_names = {
+		雌性妖怪王室_甲
+		雌性妖怪王室_乙
+		雌性妖怪王室_丙
+		雌性妖怪王室_丁
+	}
+
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+gensokyo_moon_human = {
+	color= rgb{ 255 255 204 }
+	religion = folk_belief
+	traits = { group_moon gensokyo_moon_heritage human }
+	male_common_first_names={
+		男性月之民_甲
+		男性月之民_乙
+		男性月之民_丙
+		男性月之民_丁
+	}
+	female_common_first_names = {
+		女性月之民_甲
+		女性月之民_乙
+		女性月之民_丙
+		女性月之民_丁
+	}
+	noble_last_names = {
+		一
+		二
+		三
+		四
+	}	
+	common_last_names={
+		一
+		二
+		三
+		四
+	}
+	male_regal_first_names = {
+		男性月之民王室_甲
+		男性月之民王室_乙
+		男性月之民王室_丙
+		男性月之民王室_丁
+	}
+	female_regal_first_names = {
+		女性月之民王室_甲
+		女性月之民王室_乙
+		女性月之民王室_丙
+		女性月之民王室_丁
+	}
+
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+gensokyo_moon_youkai = {
+	color= rgb{ 204 204 255 }
+	religion = folk_belief
+	traits = {group_moon group_gensokyo youkai}
+	male_common_first_names={
+		雄性月妖_甲
+		雄性月妖_乙
+		雄性月妖_丙
+		雄性月妖_丁
+	}
+	female_common_first_names = {
+		雌性月妖_甲
+		雌性月妖_乙
+		雌性月妖_丙
+		雌性月妖_丁
+	}
+	noble_last_names = {
+		一
+		二
+		三
+		四
+	}	
+	common_last_names={
+		一
+		二
+		三
+		四
+	}
+	male_regal_first_names = {
+		雄性月妖王室_甲
+		雄性月妖王室_乙
+		雄性月妖王室_丙
+		雄性月妖王室_丁
+	}
+	female_regal_first_names = {
+		雌性月妖王室_甲
+		雌性月妖王室_乙
+		雌性月妖王室_丙
+		雌性月妖王室_丁
+	}
+
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+gensokyo_heaven_human = {
+	color= rgb{ 204 255 255 }
+	religion = folk_belief
+	traits = { group_heaven human_heritage human }
+	male_common_first_names={
+		天人_甲
+		天人_乙
+		天人_丙
+		天人_丁
+	}
+	female_common_first_names = {
+		天女_甲
+		天女_乙
+		天女_丙
+		天女_丁
+	}
+	noble_last_names = {
+		一
+		二
+		三
+		四
+	}	
+	common_last_names={
+		一
+		二
+		三
+		四
+	}
+	male_regal_first_names = {
+		天人王室_甲
+		天人王室_乙
+		天人王室_丙
+		天人王室_丁
+	}
+	female_regal_first_names = {
+		天女王室_甲
+		天女王室_乙
+		天女王室_丙
+		天女王室_丁
+	}
+
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}

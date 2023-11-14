@@ -1,0 +1,21 @@
+﻿modifier_debug_decisions_technology = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_debug_decisions_technology.dds
+	country_weekly_innovation_add = 1000
+	country_weekly_innovation_max_add = 1000
+}
+
+modifier_debug_decisions_law_change = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_debug_decisions_law_change.dds
+	country_law_enactment_success_add = 1
+	country_law_enactment_time_mult = -1
+}
+
+modifier_debug_decisions_pop_expansion = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_debug_decisions_pop_expansion.dds
+	state_birth_rate_mult = 10
+}
+
+modifier_debug_decisions_pop_contraction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_debug_decisions_pop_contraction.dds
+	state_mortality_mult = 10
+}

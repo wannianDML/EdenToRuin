@@ -1,0 +1,26 @@
+﻿pmg_special_chireiden_courtyard = {
+	texture = "gfx/interface/icons/generic_icons/pmg_special_chireiden_courtyard.dds"
+	production_methods = {
+		pm_special_chireiden_courtyard_rosaceae
+		pm_special_chireiden_courtyard_papaveraceae
+		pm_special_chireiden_courtyard_theaceae
+		pm_special_chireiden_courtyard_iridaceae
+	}
+}
+
+pmg_special_chireiden_pets = {
+	texture = "gfx/interface/icons/generic_icons/pmg_special_chireiden_pets.dds"
+	production_methods = {
+	}
+}
+
+pmg_special_chireiden_study = {
+	texture = "gfx/interface/icons/generic_icons/pmg_special_chireiden_study.dds"
+	production_methods = {
+		pm_special_chireiden_study_philosophy
+		pm_special_chireiden_study_humanities_socialsciences
+		pm_special_chireiden_study_literature_art
+		pm_special_chireiden_study_historical_geography
+		pm_special_chireiden_study_natural_applied_science
+	}
+}

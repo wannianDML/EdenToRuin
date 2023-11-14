@@ -1,0 +1,32 @@
+﻿pmg_building_structure = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_structure.dds"
+	production_methods = {
+		pm_structure_wood
+		pm_structure_iron
+		pm_structure_steel
+		pm_structure_electric_welding
+	}
+}
+
+pmg_mc_training_level = {
+	texture = "gfx/interface/icons/generic_icons/pmg_mc_training_level.dds"
+	production_methods = {
+		pm_mc_training_level_b_base
+		pm_mc_training_level_b_low
+		pm_mc_training_level_b_middle
+		pm_mc_training_level_base
+		pm_mc_training_level_low
+		pm_mc_training_level_middle
+		pm_mc_training_level_high
+		pm_mc_training_level_crack
+	}
+}
+
+pmg_mc_business_scope = {
+	texture = "gfx/interface/icons/generic_icons/pmg_mc_business_scope.dds"
+	production_methods = {
+		pm_mc_banned
+		pm_mc_security_company
+		pm_mc_military_support
+	}
+}

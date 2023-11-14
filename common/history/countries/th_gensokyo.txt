@@ -1,0 +1,82 @@
+﻿COUNTRIES = {
+	c:dai_keqkai = {
+		effect_gensokyo_common_country = yes
+	}
+
+	c:hakurei_keqkai = {
+		effect_gensokyo_common_country = yes
+	}
+
+	c:hakurei_shrine = {
+		effect_gensokyo_common_country = yes
+	}
+
+	c:moriya_shrine = {
+		effect_gensokyo_common_country = yes
+	}
+	
+	c:sangetsusei = {
+		effect_gensokyo_common_country = yes
+	}
+	
+	c:human_village_new = {
+		add_technology_researched = navigation
+		add_technology_researched = urbanization
+		add_technology_researched = urban_planning
+		add_technology_researched = tech_bureaucracy
+		
+		activate_law = law_type:law_graduated_taxation
+		
+		effect_gensokyo_common_country = yes
+	}
+
+	c:human_village_old = {
+		add_technology_researched = navigation
+		add_technology_researched = urbanization
+		add_technology_researched = urban_planning
+
+		effect_gensokyo_common_country = yes
+	}
+
+	c:koumakan = {
+		effect_gensokyo_common_country = yes
+	}
+	
+	c:yakumo = {
+		effect_gensokyo_common_country = yes
+		effect_gensokyo_sage = yes
+		
+		add_technology_researched = navigation
+	}
+
+	c:eientei = {
+		effect_gensokyo_common_country = yes
+	}
+
+	c:mayoi_chikurin = {
+		effect_gensokyo_anarchic_country = yes
+	}
+	
+	c:kappa_settlement = {
+		effect_gensokyo_common_country = yes
+	}
+
+	c:tengu_village = {
+		effect_gensokyo_common_country = yes
+	}
+
+	c:phantom_meadow = {
+		effect_gensokyo_common_country = yes
+		effect_debug_country = yes
+	}
+	
+	c:garden_of_the_sun = {
+		effect_gensokyo_common_country = yes
+	}
+	c:former_hell = {
+		effect_gensokyo_anarchic_country = yes
+	}
+	c:kyuuto = {
+		effect_gensokyo_common_country = yes
+	}
+} 
