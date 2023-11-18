@@ -19,3 +19,9 @@ modifier_debug_decisions_pop_contraction = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_debug_decisions_pop_contraction.dds
 	state_mortality_mult = 10
 }
+
+modifier_debug_decisions_construction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_debug_decisions_construction.dds
+	country_max_weekly_construction_progress_add = 1000
+	country_construction_add = 1000
+}

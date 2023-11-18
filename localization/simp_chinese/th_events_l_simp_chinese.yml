@@ -1,4 +1,9 @@
 ﻿l_simp_chinese:
+ th_debug.1.t:0 "DEBUG:effect测试①"
+ th_debug.1.d:0 "custom_description、custom_label、custom_tooltip。"
+ th_debug.1.f:0 "这三者的在游戏内的表现如何？"
+ th_debug.1.a:0 "看看结果。"
+ 
  th_gift.1.t:0 "礼物?"
  th_gift.1.d:0 "你只是眨了下眼，它就已经放在面前了。"
  th_gift.1.f:0 "素色方盒系着粉色丝带，在其中一角上还扎起了一个大大的蝴蝶结，这怎么看都像是一个礼物盒。"

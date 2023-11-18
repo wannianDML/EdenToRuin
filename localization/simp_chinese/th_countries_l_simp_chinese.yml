@@ -1,65 +1,51 @@
 ﻿l_simp_chinese:
- ##gensokyo 幻想乡
- #dai_keqkai:0 "幻与实的境界" 
- #dai_keqkai_ADJ:0 "幻与实的境界"  
- #hakurei_keqkai:0 "博丽大结界" 
- #hakurei_keqkai_ADJ:0 "博丽大结界" 
- #gensokyo_freezone:0 "幻想乡自由地区"
- #gensokyo_freezone_ADJ:0 "幻想乡自由地区"
- hakurei_shrine:0 "博丽神社"
- hakurei_shrine_ADJ:0 "博丽神社"
- #hakurei_shrine_side:0 "博丽神社周边" 
- #hakurei_shrine_side_ADJ:0 "博丽神社周边" 
- moriya_shrine:0 "守矢神社"
- moriya_shrine_ADJ:0 "守矢神社"
- #moriya_shrine_side:0 "守矢神社周边" 
- #moriya_shrine_side_ADJ:0 "守矢神社周边" 
- sangetsusei:0 "三月精"
- sangetsusei_ADJ:0 "三月精"
- human_village_new:0 "新人里"
- human_village_new_ADJ:0 "新人里"
- #human_village_new_side:0 "新人里周边" 
- #human_village_new_side_ADJ:0 "新人里周边" 
- human_village_old:0 "旧人里"
- human_village_old_ADJ:0 "旧人里"
- #human_village_old_side:0 "旧人里周边" 
- #human_village_old_side_ADJ:0 "旧人里周边" 
- koumakan:0 "红魔馆"
- koumakan_ADJ:0 "红魔馆"
- #koumakan_side:0 "红魔馆周边" 
- #koumakan_side_ADJ:0 "红魔馆周边" 
- yakumo:0 "八云"
- yakumo_ADJ:0 "八云"
- eientei:0 "永远亭"
- eientei_ADJ:0 "永远亭"
- mayoi_chikurin:0 "迷途竹林"
- mayoi_chikurin_ADJ:0 "迷途竹林"
- kappa_settlement:0 "河童聚居地" 
- kappa_settlement_ADJ:0 "河童聚居地" 
- tengu_village:0 "天狗村落" 
- tengu_village_ADJ:0 "天狗村落" 
- garden_of_the_sun:0 "太阳花田" 
- garden_of_the_sun_ADJ:0 "太阳花田"
- #phantom_meadow:0 "幻草原"
- #phantom_meadow_ADJ:0 "幻草原"
- former_hell:0 "旧地狱" 
- former_hell_ADJ:0 "旧地狱" 
- kyuuto:0 "旧都" 
- kyuuto_ADJ:0 "旧都" 
- #jigoku:0 "地狱" 
- #jigoku_ADJ:0 "地狱" 
+ ##gensokyo 幻想乡 
+ gensokyo_freezone:0 "幻想乡自由地区"  # todo
+ gensokyo_freezone_ADJ:0 "幻想乡自由地区"  # todo
+ hakurei_shrine:0 "博丽神社"  # todo
+ hakurei_shrine_ADJ:0 "博丽神社"  # todo
+ moriya_shrine:0 "守矢神社"  # todo
+ moriya_shrine_ADJ:0 "守矢神社"  # todo
+ sangetsusei:0 "三月精"  # todo
+ sangetsusei_ADJ:0 "三月精"  # todo
+ human_village_new:0 "新人里"  # todo
+ human_village_new_ADJ:0 "新人里"  # todo
+ human_village_old:0 "旧人里"  # todo
+ human_village_old_ADJ:0 "旧人里"  # todo
+ koumakan:0 "红魔馆"  # todo
+ koumakan_ADJ:0 "红魔馆"  # todo
+ yakumo:0 "八云"  # todo
+ yakumo_ADJ:0 "八云"  # todo
+ eientei:0 "永远亭"  # todo
+ eientei_ADJ:0 "永远亭"  # todo
+ mayoi_chikurin:0 "迷途竹林"  # todo
+ mayoi_chikurin_ADJ:0 "迷途竹林"  # todo
+ kappa_settlement:0 "河童聚居地"   # todo
+ kappa_settlement_ADJ:0 "河童聚居地"   # todo
+ tengu_village:0 "天狗村落"  # todo
+ tengu_village_ADJ:0 "天狗村落"  # todo
+ garden_of_the_sun:0 "太阳花田"  # todo
+ garden_of_the_sun_ADJ:0 "太阳花田"  # todo
+ phantom_meadow:0 "幻草原"  # todo
+ phantom_meadow_ADJ:0 "幻草原"  # todo
+ former_hell:0 "旧地狱"  # todo
+ former_hell_ADJ:0 "旧地狱"  # todo
+ kyuuto:0 "旧都"  # todo
+ kyuuto_ADJ:0 "旧都"  # todo
+ jigoku:0 "地狱"  # todo
+ jigoku_ADJ:0 "地狱"  # todo
  #chikushyou_kai:0 "畜生界" 
  #chikushyou_kai_ADJ:0 "畜生界" 
- #meikai:0 "冥界"
- #meikai_ADJ:0 "冥界"
- #hakugyokurou:0 "白玉楼"
- #hakugyokurou_ADJ:0 "白玉楼"
- #bhavaagra:0 "有顶天"
- #bhavaagra_ADJ:0 "有顶天"
- #lunar_capital:0 "月都"
- #lunar_capital_ADJ:0 "月都"
- #lunar_youkai_coalition:0 "月面妖怪联军"
- #lunar_youkai_coalition_ADJ:0 "月面妖怪联军"
+ meikai:0 "冥界"  # todo
+ meikai_ADJ:0 "冥界"  # todo
+ hakugyokurou:0 "白玉楼"  # todo
+ hakugyokurou_ADJ:0 "白玉楼"  # todo
+ bhavaagra:0 "有顶天"  # todo
+ bhavaagra_ADJ:0 "有顶天"  # todo
+ lunar_capital:0 "月都"  # todo
+ lunar_capital_ADJ:0 "月都"  # todo
+ lunar_youkai_coalition:0 "月面妖怪联军"  # todo
+ lunar_youkai_coalition_ADJ:0 "月面妖怪联军"  # todo
  ##
  #qin_dynasty:0 "秦" 
  #qin_dynasty_ADJ:0 "秦" 

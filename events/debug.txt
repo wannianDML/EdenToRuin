@@ -21,7 +21,7 @@ th_debug.1 = {
 		always = no
 	}
 	option = {
-		name = th_debug.a
+		name = th_debug.1.a
 		default_option = yes
 		random_list = {
 			10 = {
@@ -39,6 +39,35 @@ th_debug.1 = {
 					text = event_th_debug_text_tooltip
 				}
 			}
+		}
+	}
+}
+
+th_debug.2 = {
+	type = country_event
+	placement = root
+	title = "DEBUG：翻译键测试"
+	desc = "有一天突发奇想，能不能让指向翻译键的内容直接指向字符串。"
+	flavor = "于是有了这一个debug事件，答案是YES，似乎只是指向了叫“这一串字符”名字的翻译键。"
+
+	duration = 3
+
+	event_image = {
+		video = "europenorthamerica_springtime_of_nations"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	trigger = {
+		always = no
+	}
+	option = {
+		name = "但不管怎么样，在某种程度上简化了开发工作。"
+		default_option = yes
+		custom_tooltip = {
+			text = "但是做翻译的可能要骂娘了。"
 		}
 	}
 }

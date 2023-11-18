@@ -135,3 +135,31 @@ decisions_debug_pop_contraction_remove = {
 		remove_modifier = modifier_debug_decisions_pop_contraction
 	}
 }
+
+decisions_debug_construction_add = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		not = { has_modifier = modifier_debug_decisions_construction }
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		add_modifier = {
+			name = modifier_debug_decisions_construction
+		}
+	}
+}
+
+decisions_debug_construction_remove = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		has_modifier = modifier_debug_decisions_construction
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		remove_modifier = modifier_debug_decisions_construction
+	}
+}

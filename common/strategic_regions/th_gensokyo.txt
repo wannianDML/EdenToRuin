@@ -1,6 +1,4 @@
-﻿# Strategic Regions in North America
-
-region_gensokyo = {
+﻿region_gensokyo = {
 	capital_province = x4c065d
 	map_color = { 0 1 0.75 }
 	states = { STATE_GENSOKYO STATE_GENSOKYO_MOON STATE_GENSOKYO_FORMER_HELL STATE_GENSOKYO_HELL STATE_GENSOKYO_BHAVAAGRA STATE_GENSOKYO_MEIKAI }

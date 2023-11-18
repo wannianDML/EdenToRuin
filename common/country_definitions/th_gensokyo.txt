@@ -1,28 +1,4 @@
 ﻿##STATE_GENSOKYO
-dai_keqkai = {
-	color = { 255  255  255 }
-	
-	country_type = unrecognized
-
-	tier = kingdom
-	
-	cultures = { gensokyo_youkai }
-	religion = folk_belief
-	# capital = state_dai_keqkai
-}
-
-hakurei_keqkai = {
-	color = { 255  63  63 }
-	
-	country_type = unrecognized
-
-	tier = kingdom
-	
-	cultures = { gensokyo_youkai }
-	religion = folk_belief
-	# capital = state_hakurei_keqkai
-}
-
 hakurei_shrine = {
 	color = { 255  0  0 }
 	

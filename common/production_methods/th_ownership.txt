@@ -8,9 +8,9 @@
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_maintenance_add = 5
+			goods_input_maintenance_add = 5
 
-			building_output_wastes_add = 0.25
+			goods_output_wastes_add = 0.25
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 50
@@ -31,9 +31,9 @@ pm_privately_owned = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_maintenance_add = 5
+			goods_input_maintenance_add = 5
 
-			building_output_wastes_add = 0.25
+			goods_output_wastes_add = 0.25
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 10
@@ -58,9 +58,9 @@ pm_publicly_traded = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_maintenance_add = 5
+			goods_input_maintenance_add = 5
 
-			building_output_wastes_add = 0.25
+			goods_output_wastes_add = 0.25
 		}
 		level_scaled = {
 			building_employment_capitalists_add = 15
@@ -80,9 +80,9 @@ pm_government_run = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_maintenance_add = 5
+			goods_input_maintenance_add = 5
 
-			building_output_wastes_add = 0.25
+			goods_output_wastes_add = 0.25
 		}
 		level_scaled = {
 			building_employment_bureaucrats_add = 150
@@ -98,9 +98,9 @@ pm_government_run_g = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_maintenance_add = 5
+			goods_input_maintenance_add = 5
 
-			building_output_wastes_add = 0.25
+			goods_output_wastes_add = 0.25
 		}
 		level_scaled = {
 			building_employment_bureaucrats_add = 150
@@ -120,9 +120,9 @@ pm_worker_cooperative = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_maintenance_add = 5
+			goods_input_maintenance_add = 5
 
-			building_output_wastes_add = 0.25
+			goods_output_wastes_add = 0.25
 		}
 		unscaled = {
 			building_workforce_shares_add = 1

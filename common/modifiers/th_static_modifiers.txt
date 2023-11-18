@@ -1,21 +1,21 @@
 ﻿base_values = {
-	country_weekly_innovation_add = 100
-	country_weekly_innovation_max_add = 200	#每周创新点上限
-	country_tech_spread_add = 0				#每周科技传播
+	country_weekly_innovation_add = 50
+	country_weekly_innovation_max_add = 200  #每周创新点上限
+	country_tech_spread_add = 25			 #每周科技传播
 
 	country_loan_interest_rate_add = 0.2
 
 	country_legitimacy_govt_size_add = 1
 
 	country_bureaucracy_add = 100
-	country_authority_add = 200
+	country_authority_add = 100
 	country_influence_add = 100
 
-	country_revolution_secession_speed_add = 0.1
+	country_secession_progress_add = 0.1
 
-	state_education_access_wealth_add = 0.02
+	state_education_access_wealth_add = 0.005
 
-	country_minting_add = 250
+	country_minting_add = 500
 
 	state_tax_capacity_add = 100
 	state_infrastructure_add = 3
@@ -30,25 +30,42 @@
 	state_aristocrats_investment_pool_contribution_add = 0.10
 	state_capitalists_investment_pool_contribution_add = 0.20	
 
-	state_unincorporated_starting_wages_mult = -0.15 # To balance for unincorporated states not paying taxes
+	# To balance for unincorporated states not paying taxes
+	state_unincorporated_starting_wages_mult = -0.20
+	building_unincorporated_subsistence_output_mult = -0.20
 
-	country_construction_add = 10 #建造力
+	country_construction_add = 15 #基础建造力
 
 	building_mobilization_cost_mult = 0.6
 
 	building_economy_of_scale_level_cap_add = 20
+
+	state_market_access_price_impact = 0.75
+
+	country_company_throughput_bonus_add = 0.1
+	country_company_construction_efficiency_bonus_add = 0.25
+
+	country_max_weekly_construction_progress_add = 10 #项目的每周建筑力最大投入
+
+	country_free_trade_routes_add = 5
+
+	military_formation_organization_gain_add = 0.5 # 200 days to get max organization
+
+	state_urbanization_per_level_add = 100
+
+	unit_experience_gain_add = 1.0
 }
 
 state_region_devastation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
-	state_infrastructure_mult = -1.2
-	state_mortality_mult = 1.5
-	state_birth_rate_mult = -1.5
-	state_migration_pull_mult = -1.2
+	state_infrastructure_mult = -2
+	state_mortality_mult = 0.1
+	state_birth_rate_mult = -0.1
+	state_migration_pull_mult = -2
 	state_conscription_rate_mult = -1.2
-	building_throughput_mult = -1.2
-	building_training_rate_mult = -1.2
 	state_construction_mult = -1.2
+	building_throughput_add = -0.5
+	building_training_rate_mult = -0.5
 }
 
 country_literacy_rate = {
@@ -56,8 +73,8 @@ country_literacy_rate = {
 	country_weekly_innovation_add = 100
 	country_weekly_innovation_max_add = 300	 # 来自识字率的每周创新点及上限
 	country_tech_spread_add = 300				#来自识字率的每周科技传播
-	building_throughput_mult = 0.25
-	building_input_mult = -0.05
+	building_throughput_add = 0.25
+	building_goods_input_mult = -0.05
 	state_birth_rate_mult = -0.25
 }
 

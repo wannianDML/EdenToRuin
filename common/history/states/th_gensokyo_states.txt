@@ -64,8 +64,8 @@
 			owned_provinces = { x9d4d37 x4942ae x94BF9E xB4107B x53591C xC46715 xA34948 xEC8C89 }
 		}
 
-		add_homeland = gensokyo_human
-		add_homeland = gensokyo_youkai
+		add_homeland = cu:gensokyo_human
+		add_homeland = cu:gensokyo_youkai
 	}
 	
 	s:STATE_GENSOKYO_FORMER_HELL = {
@@ -78,7 +78,7 @@
 			owned_provinces = { "xF3F226" }
 		}
 
-		add_homeland = gensokyo_hell_youkai
+		add_homeland = cu:gensokyo_hell_youkai
 	}
 
 	s:STATE_GENSOKYO_HELL = {
@@ -87,7 +87,7 @@
 			owned_provinces = { "x95fe26" }
 		}
 
-		add_homeland = gensokyo_hell_youkai
+		add_homeland = cu:gensokyo_hell_youkai
 	}
 
 	s:STATE_GENSOKYO_BHAVAAGRA = {
@@ -96,7 +96,7 @@
 			owned_provinces = { "xcabd34" }
 		}
 
-		add_homeland = gensokyo_heaven_human
+		add_homeland = cu:gensokyo_heaven_human
 	}
 
 	s:STATE_GENSOKYO_MEIKAI = {
@@ -110,7 +110,7 @@
 			owned_provinces = { "xf3d063" }
 		}
 
-		add_homeland = gensokyo_youkai
+		add_homeland = cu:gensokyo_youkai
 	}
 
 	s:STATE_GENSOKYO_MOON = {
@@ -123,7 +123,7 @@
 			owned_provinces = { "xae07ce" }
 		}
 
-		add_homeland = gensokyo_moon_human
-		add_homeland = gensokyo_moon_youkai
+		add_homeland = cu:gensokyo_moon_human
+		add_homeland = cu:gensokyo_moon_youkai
 	}
 }

@@ -37,7 +37,7 @@ tech_magic_existence = {
 		state_mortality_mult = 0.01
 		unit_army_defense_add = 1
 		unit_army_offense_add = 1
-		building_throughput_mult = 0.01
+		building_throughput_add = 0.01
 		country_authority_mult = 0.02
 		country_bureaucracy_mult = 0.02
 		country_influence_mult = 0.02
@@ -62,7 +62,7 @@ tech_spiritual_existence = {
 		state_mortality_mult = 0.01
 		unit_army_defense_add = 1
 		unit_army_offense_add = 1
-		building_throughput_mult = 0.01
+		building_throughput_add = 0.01
 		country_authority_mult = 0.02
 		country_bureaucracy_mult = 0.02
 		country_influence_mult = 0.02
@@ -97,8 +97,8 @@ tech_traditional_breeding = {
 	category = society
 
 	modifier = {
-		building_group_bg_agriculture_throughput_mult = 0.15
-		building_output_biological_material_mult = 0.05
+		building_group_bg_agriculture_throughput_add = 0.15
+		goods_output_biological_material_mult = 0.05
 	}
 }
 
@@ -123,7 +123,7 @@ tech_x = {
 		state_mortality_mult = 0.02
 		unit_army_defense_add = 2
 		unit_army_offense_add = 2
-		building_throughput_mult = 0.02
+		building_throughput_add = 0.02
 		country_authority_mult = 0.06
 		country_bureaucracy_mult = 0.06
 		country_influence_mult = 0.06
@@ -181,7 +181,7 @@ tech_spiritual_theory = {
 		state_mortality_mult = 0.02
 		unit_army_defense_add = 2
 		unit_army_offense_add = 2
-		building_throughput_mult = 0.02
+		building_throughput_add = 0.02
 		country_authority_mult = 0.06
 		country_bureaucracy_mult = 0.06
 		country_influence_mult = 0.06
@@ -209,7 +209,7 @@ tech_magic_theory = {
 		state_mortality_mult = 0.02
 		unit_army_defense_add = 2
 		unit_army_offense_add = 2
-		building_throughput_mult = 0.02
+		building_throughput_add = 0.02
 		country_authority_mult = 0.06
 		country_bureaucracy_mult = 0.06
 		country_influence_mult = 0.06
@@ -234,8 +234,8 @@ tech_abstract_energy_theory = {
 	category = society
 	
 	modifier = {
-		building_output_special_material_mult = 0.05
-		building_input_mult = -0.01
+		goods_output_special_material_mult = 0.05
+		building_goods_inpult = -0.01
 	}
 
 	unlocking_technologies = {
@@ -264,7 +264,7 @@ tech_waste_recyclin = {
 	category = society
 	
 	modifier = {
-		building_output_wastes_mult = 0.05
+		goods_output_wastes_mult = 0.05
 	}
 
 	unlocking_technologies = {
@@ -278,7 +278,7 @@ tech_refuse_classification = {
 	category = society
 	
 	modifier = {
-		building_output_wastes_mult = 0.05
+		goods_output_wastes_mult = 0.05
 	}
 
 	unlocking_technologies = {
@@ -326,7 +326,7 @@ tech_cybernetics = {
 
 	modifier = {
 		building_economy_of_scale_level_cap_add = 15
-		building_throughput_mult = 0.05
+		building_throughput_add = 0.05
 		country_authority_mult = 0.1
 		country_bureaucracy_mult = 0.1
 		country_influence_mult = 0.1
@@ -349,8 +349,8 @@ tech_genetically_modified_breeding = {
 	category = society
 
 	modifier = {
-		building_group_bg_agriculture_throughput_mult = 0.65
-		building_output_biological_material_mult = 0.1
+		building_group_bg_agriculture_throughput_add = 0.65
+		goods_output_biological_material_mult = 0.1
 	}
 
 	unlocking_technologies = {
@@ -375,8 +375,8 @@ tech_artificial_intelligence = {
 	category = society
 
 	modifier = {
-		building_throughput_mult = 0.05
-		building_group_bg_service_throughput_mult = 0.05
+		building_throughput_add = 0.05
+		building_group_bg_service_throughput_add = 0.05
 		country_weekly_innovation_max_add = 500
 		building_group_bg_no_military_buildings_employee_mult = -0.015
 		building_group_bg_service_employee_mult = -0.01
@@ -404,8 +404,8 @@ tech_intelligent_design_breeding = {
 	category = society
 
 	modifier = {
-		building_group_bg_agriculture_throughput_mult = 0.9
-		building_output_biological_material_mult = 0.15
+		building_group_bg_agriculture_throughput_add = 0.9
+		goods_output_biological_material_mult = 0.15
 	}
 
 	unlocking_technologies = {

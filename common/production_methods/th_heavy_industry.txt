@@ -3,10 +3,10 @@
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wood_add = 50
+			goods_input_wood_add = 50
 
-			building_output_hardwood_add = 30
-			building_output_wastes_add = 4
+			goods_output_hardwood_add = 30
+			goods_output_wastes_add = 4
 		}
 
 		level_scaled = {
@@ -25,11 +25,11 @@ pm_wood_processing_tools = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wood_add = 60
-			building_input_tools_add = 5
+			goods_input_wood_add = 60
+			goods_input_tools_add = 5
 
-			building_output_hardwood_add = 48
-			building_output_wastes_add = 5.65
+			goods_output_hardwood_add = 48
+			goods_output_wastes_add = 5.65
 		}
 
 		level_scaled = {
@@ -48,12 +48,12 @@ pm_wood_processing_machine = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wood_add = 70
-			building_input_tools_add = 5
-			building_input_electricity_add = 5
+			goods_input_wood_add = 70
+			goods_input_tools_add = 5
+			goods_input_electricity_add = 5
 			
-			building_output_hardwood_add = 70
-			building_output_wastes_add = 7.5
+			goods_output_hardwood_add = 70
+			goods_output_wastes_add = 7.5
 		}
 
 		level_scaled = {
@@ -72,10 +72,10 @@ pm_recycle_oil_a = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_oil.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_oil_add = 50
-			building_output_wastes_add = 6.5
+			goods_output_oil_add = 50
+			goods_output_wastes_add = 6.5
 		}
 
 		level_scaled = {
@@ -89,10 +89,10 @@ pm_recycle_biological_material_a = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_biological_material.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_biological_material_add = 15
-			building_output_wastes_add = 4.75
+			goods_output_biological_material_add = 15
+			goods_output_wastes_add = 4.75
 		}
 
 		level_scaled = {
@@ -107,10 +107,10 @@ pm_recycle_chemical_material_a = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_chemical_material.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_chemical_material_add = 15
-			building_output_wastes_add = 4.75
+			goods_output_chemical_material_add = 15
+			goods_output_wastes_add = 4.75
 		}
 
 		level_scaled = {
@@ -124,10 +124,10 @@ pm_recycle_metallic_material_a = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_metallic_material.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_metallic_material_add = 15
-			building_output_wastes_add = 4.75
+			goods_output_metallic_material_add = 15
+			goods_output_wastes_add = 4.75
 		}
 
 		level_scaled = {
@@ -144,10 +144,10 @@ pm_recycle_oil_improve_a = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_oil_add = 100
-			building_output_wastes_add = 13
+			goods_output_oil_add = 100
+			goods_output_wastes_add = 13
 		}
 
 		level_scaled = {
@@ -163,10 +163,10 @@ pm_recycle_biological_material_improve_a = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_biological_material_add = 30
-			building_output_wastes_add = 9.5
+			goods_output_biological_material_add = 30
+			goods_output_wastes_add = 9.5
 		}
 
 		level_scaled = {
@@ -184,10 +184,10 @@ pm_recycle_chemical_material_improve_a = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_chemical_material_add = 30
-			building_output_wastes_add = 9.5
+			goods_output_chemical_material_add = 30
+			goods_output_wastes_add = 9.5
 		}
 
 		level_scaled = {
@@ -204,10 +204,10 @@ pm_recycle_metallic_material_improve_a = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_metallic_material_add = 30
-			building_output_wastes_add = 9.5
+			goods_output_metallic_material_add = 30
+			goods_output_wastes_add = 9.5
 		}
 
 		level_scaled = {
@@ -225,10 +225,10 @@ pm_recycle_oil_b = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_oil.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_oil_add = 50
-			building_output_wastes_add = 6.5
+			goods_output_oil_add = 50
+			goods_output_wastes_add = 6.5
 		}
 
 		level_scaled = {
@@ -242,10 +242,10 @@ pm_recycle_biological_material_b = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_biological_material.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_biological_material_add = 15
-			building_output_wastes_add = 4.75
+			goods_output_biological_material_add = 15
+			goods_output_wastes_add = 4.75
 		}
 
 		level_scaled = {
@@ -259,10 +259,10 @@ pm_recycle_chemical_material_b = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_chemical_material.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_chemical_material_add = 15
-			building_output_wastes_add = 4.75
+			goods_output_chemical_material_add = 15
+			goods_output_wastes_add = 4.75
 		}
 
 		level_scaled = {
@@ -276,10 +276,10 @@ pm_recycle_metallic_material_b = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_metallic_material.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_metallic_material_add = 15
-			building_output_wastes_add = 4.75
+			goods_output_metallic_material_add = 15
+			goods_output_wastes_add = 4.75
 		}
 
 		level_scaled = {
@@ -296,10 +296,10 @@ pm_recycle_oil_improve_b = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_oil_add = 100
-			building_output_wastes_add = 13
+			goods_output_oil_add = 100
+			goods_output_wastes_add = 13
 		}
 
 		level_scaled = {
@@ -316,10 +316,10 @@ pm_recycle_biological_material_improve_b = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_biological_material_add = 30
-			building_output_wastes_add = 9.5
+			goods_output_biological_material_add = 30
+			goods_output_wastes_add = 9.5
 		}
 
 		level_scaled = {
@@ -336,10 +336,10 @@ pm_recycle_chemical_material_improve_b = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_chemical_material_add = 30
-			building_output_wastes_add = 9.5
+			goods_output_chemical_material_add = 30
+			goods_output_wastes_add = 9.5
 		}
 
 		level_scaled = {
@@ -356,10 +356,10 @@ pm_recycle_metallic_material_improve_b = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_metallic_material_add = 30
-			building_output_wastes_add = 9.5
+			goods_output_metallic_material_add = 30
+			goods_output_wastes_add = 9.5
 		}
 
 		level_scaled = {
@@ -377,10 +377,10 @@ pm_recycle_oil_c = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_oil.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_oil_add = 50
-			building_output_wastes_add = 6.5
+			goods_output_oil_add = 50
+			goods_output_wastes_add = 6.5
 		}
 
 		level_scaled = {
@@ -394,10 +394,10 @@ pm_recycle_biological_material_c = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_biological_material.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_biological_material_add = 15
-			building_output_wastes_add = 4.75
+			goods_output_biological_material_add = 15
+			goods_output_wastes_add = 4.75
 		}
 
 		level_scaled = {
@@ -412,10 +412,10 @@ pm_recycle_chemical_material_c = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_chemical_material.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_chemical_material_add = 15
-			building_output_wastes_add = 4.75
+			goods_output_chemical_material_add = 15
+			goods_output_wastes_add = 4.75
 		}
 
 		level_scaled = {
@@ -429,10 +429,10 @@ pm_recycle_metallic_material_c = {
 	texture = "gfx/interface/icons/production_method_icons/pm_recycle_metallic_material.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 80
+			goods_input_wastes_add = 80
 
-			building_output_metallic_material_add = 15
-			building_output_wastes_add = 4.75
+			goods_output_metallic_material_add = 15
+			goods_output_wastes_add = 4.75
 		}
 
 		level_scaled = {
@@ -449,10 +449,10 @@ pm_recycle_oil_improve_c = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_oil_add = 100
-			building_output_wastes_add = 13
+			goods_output_oil_add = 100
+			goods_output_wastes_add = 13
 		}
 
 		level_scaled = {
@@ -468,10 +468,10 @@ pm_recycle_biological_material_improve_c = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_biological_material_add = 30
-			building_output_wastes_add = 9.5
+			goods_output_biological_material_add = 30
+			goods_output_wastes_add = 9.5
 		}
 
 		level_scaled = {
@@ -489,10 +489,10 @@ pm_recycle_chemical_material_improve_c = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_chemical_material_add = 30
-			building_output_wastes_add = 9.5
+			goods_output_chemical_material_add = 30
+			goods_output_wastes_add = 9.5
 		}
 
 		level_scaled = {
@@ -509,10 +509,10 @@ pm_recycle_metallic_material_improve_c = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wastes_add = 160
+			goods_input_wastes_add = 160
 
-			building_output_metallic_material_add = 30
-			building_output_wastes_add = 9.5
+			goods_output_metallic_material_add = 30
+			goods_output_wastes_add = 9.5
 		}
 
 		level_scaled = {
@@ -547,9 +547,9 @@ pm_recycle_basic_protected = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 5
+			goods_input_tools_add = 5
 
-			building_output_wastes_add = 0.25
+			goods_output_wastes_add = 0.25
 		}
 
 		unscaled = {
@@ -564,10 +564,10 @@ pm_recycle_fully_protected = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 5
-			building_input_medicine_add = 5
+			goods_input_tools_add = 5
+			goods_input_medicine_add = 5
 
-			building_output_wastes_add = 0.5
+			goods_output_wastes_add = 0.5
 		}
 
 		level_scaled = {

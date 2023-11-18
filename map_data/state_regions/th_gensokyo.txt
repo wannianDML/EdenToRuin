@@ -1,5 +1,5 @@
 ﻿STATE_GENSOKYO = {
-    id = 1001001
+    id = 10101
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1BBD1E" "x362BCE" "x4942AE" "x4C065D" "x4F9842" "x53591C" "x5ED255" "x60AF01" "x783F07" "x94BF9E" "x9D4D37" "xA2E3E6" "xA34948" "xA790B0" "xB4107B" "xB4C754" "xB8D2D7" "xC46715" "xD90797" "xE998DC" "xEC8C89" }
     arable_land = 8
@@ -21,15 +21,15 @@
 
 
 STATE_GENSOKYO_MOON = {
-    id = 1001002
-    subsistence_building = "Building_Plant_Factory"
+    id = 10102
+    subsistence_building = "building_subsistence_farms"
     provinces = { "x2F1BF5" "xAE07CE" "xFA9679" }
     arable_land = 3
     naval_exit_id = 3059
 }
 
 STATE_GENSOKYO_FORMER_HELL = {
-    id = 1001003
+    id = 10103
     subsistence_building = "building_subsistence_farms"
     provinces = { "x531728" "xF3F226" }
     arable_land = 3
@@ -37,7 +37,7 @@ STATE_GENSOKYO_FORMER_HELL = {
 }
 
 STATE_GENSOKYO_HELL = {
-    id = 1001004
+    id = 10104
     subsistence_building = "building_subsistence_farms"
     provinces = { "x95FE26" }
     arable_land = 3
@@ -45,7 +45,7 @@ STATE_GENSOKYO_HELL = {
 }
 
 STATE_GENSOKYO_BHAVAAGRA = {
-    id = 1001005
+    id = 10105
     subsistence_building = "building_subsistence_farms"
     provinces = { "xCABD34" }
     arable_land = 3
@@ -53,7 +53,7 @@ STATE_GENSOKYO_BHAVAAGRA = {
 }
 
 STATE_GENSOKYO_MEIKAI = {
-    id = 1001006
+    id = 10106
     subsistence_building = "building_subsistence_farms"
     provinces = { "xF3D063" "xF93C01" }
     arable_land = 3

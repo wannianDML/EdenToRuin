@@ -7,31 +7,31 @@ era_2 = { #1836-1861
 }
 
 era_3 = { #1862-1886
-	technology_cost = 13500 # for progress bonuses, use an approximate third: 4500
+	technology_cost = 12500 # for progress bonuses, use an approximate third: 4500
 }
 
 era_4 = { #1887-1911
-	technology_cost = 18000 # for progress bonuses, use an approximate third: 6000
+	technology_cost = 15000 # for progress bonuses, use an approximate third: 6000
 }
 
 era_5 = { #1911-1936
-	technology_cost = 24000 # for progress bonuses, use a third: 8000 
+	technology_cost = 17500 # for progress bonuses, use a third: 8000 
 }
 
 era_6 = { #1936-1991
-	technology_cost = 32000
+	technology_cost = 25000
 }
 
 era_7 = { #1991-现代
-	technology_cost = 42000
+	technology_cost = 32500
 }
 
 era_8 = { #未来
-	technology_cost = 64000
+	technology_cost = 45000
 }
 
 era_9 = { #未来的未来
-	technology_cost = 120000
+	technology_cost = 65000
 }
 
 era_10 = { #最美好的未来

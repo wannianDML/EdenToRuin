@@ -15,11 +15,11 @@
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fabric_add = 5
-			building_input_wood_add = 25
+			goods_input_fabric_add = 5
+			goods_input_wood_add = 25
 			
-			building_output_wastes_add = 6
-			building_output_maintenance_add = 90
+			goods_output_wastes_add = 6
+			goods_output_maintenance_add = 90
 		}
 
 		level_scaled = {
@@ -53,13 +53,13 @@ pm_structure_iron = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fabric_add = 5
-			building_input_wood_add = 15
-			building_input_iron_add = 10
-			building_input_tools_add = 5
+			goods_input_fabric_add = 5
+			goods_input_wood_add = 15
+			goods_input_iron_add = 10
+			goods_input_tools_add = 5
 			
-			building_output_wastes_add = 8.5
-			building_output_maintenance_add = 135
+			goods_output_wastes_add = 8.5
+			goods_output_maintenance_add = 135
 		}
 
 		level_scaled = {
@@ -91,12 +91,12 @@ pm_structure_steel = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_steel_add = 25
-			building_input_glass_add = 5 
-			building_input_tools_add = 5 
+			goods_input_steel_add = 25
+			goods_input_glass_add = 5 
+			goods_input_tools_add = 5 
 			
-			building_output_wastes_add = 12.25
-			building_output_maintenance_add = 210
+			goods_output_wastes_add = 12.25
+			goods_output_maintenance_add = 210
 		}
 
 		level_scaled = {
@@ -128,13 +128,13 @@ pm_structure_electric_welding = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_steel_add = 30
-			building_input_glass_add = 5 
-			building_input_tools_add = 5 
-			building_input_electricity_add = 20
+			goods_input_steel_add = 30
+			goods_input_glass_add = 5 
+			goods_input_tools_add = 5 
+			goods_input_electricity_add = 20
 			
-			building_output_wastes_add = 18.25
-			building_output_maintenance_add = 305
+			goods_output_wastes_add = 18.25
+			goods_output_maintenance_add = 305
 		} 
 
 		level_scaled = {
@@ -162,8 +162,8 @@ pm_mc_training_level_b_base = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_security_add = 0.5
-			building_output_wastes_add = 0.025
+			goods_output_security_add = 0.5
+			goods_output_wastes_add = 0.025
 		} 
 
 		level_scaled = {
@@ -192,10 +192,10 @@ pm_mc_training_level_b_low = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 1
+			goods_input_tools_add = 1
 	
-			building_output_security_add = 1
-			building_output_wastes_add = 0.1
+			goods_output_security_add = 1
+			goods_output_wastes_add = 0.1
 		} 
 
 		level_scaled = {
@@ -225,11 +225,11 @@ pm_mc_training_level_b_middle = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 1
-			building_input_small_arms_add = 1
+			goods_input_tools_add = 1
+			goods_input_small_arms_add = 1
 
-			building_output_security_add = 2
-			building_output_wastes_add = 0.2
+			goods_output_security_add = 2
+			goods_output_wastes_add = 0.2
 		} 
 
 		level_scaled = {
@@ -262,11 +262,11 @@ pm_mc_training_level_base = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 1
-			building_input_small_arms_add = 1
+			goods_input_tools_add = 1
+			goods_input_small_arms_add = 1
 
-			building_output_security_add = 1
-			building_output_wastes_add = 0.15
+			goods_output_security_add = 1
+			goods_output_wastes_add = 0.15
 		} 
 
 		level_scaled = {
@@ -298,12 +298,12 @@ pm_mc_training_level_low = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 1
-			building_input_small_arms_add = 1
-			building_input_ammunition_add = 1
+			goods_input_tools_add = 1
+			goods_input_small_arms_add = 1
+			goods_input_ammunition_add = 1
 
-			building_output_security_add = 2
-			building_output_wastes_add = 0.25
+			goods_output_security_add = 2
+			goods_output_wastes_add = 0.25
 		} 
 
 		level_scaled = {
@@ -335,13 +335,13 @@ pm_mc_training_level_middle = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 1
-			building_input_medicine_add = 1
-			building_input_small_arms_add = 2
-			building_input_ammunition_add = 3
+			goods_input_tools_add = 1
+			goods_input_medicine_add = 1
+			goods_input_small_arms_add = 2
+			goods_input_ammunition_add = 3
 
-			building_output_security_add = 4
-			building_output_wastes_add = 0.5
+			goods_output_security_add = 4
+			goods_output_wastes_add = 0.5
 		} 
 
 		level_scaled = {
@@ -373,14 +373,14 @@ pm_mc_training_level_high = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 2
-			building_input_medicine_add = 2
-			building_input_small_arms_add = 2
-			building_input_ammunition_add = 4
-			building_input_radios_add = 1
+			goods_input_tools_add = 2
+			goods_input_medicine_add = 2
+			goods_input_small_arms_add = 2
+			goods_input_ammunition_add = 4
+			goods_input_radios_add = 1
 
-			building_output_security_add = 8
-			building_output_wastes_add = 0.95
+			goods_output_security_add = 8
+			goods_output_wastes_add = 0.95
 		} 
 
 		level_scaled = {
@@ -415,15 +415,15 @@ pm_mc_training_level_crack = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 3
-			building_input_medicine_add = 3
-			building_input_small_arms_add = 2
-			building_input_ammunition_add = 5
-			building_input_radios_add = 3
-			building_input_automobiles_add = 2
+			goods_input_tools_add = 3
+			goods_input_medicine_add = 3
+			goods_input_small_arms_add = 2
+			goods_input_ammunition_add = 5
+			goods_input_radios_add = 3
+			goods_input_automobiles_add = 2
 
-			building_output_security_add = 16
-			building_output_wastes_add = 1.7
+			goods_output_security_add = 16
+			goods_output_wastes_add = 1.7
 		} 
 
 		level_scaled = {
@@ -446,14 +446,14 @@ pm_mc_banned = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_turmoil_effects_mult = 0.004
-			building_throughput_mult = -0.002
+			building_throughput_add = -0.002
 			state_bureaucracy_population_base_cost_factor_mult = 0.004
 		}
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_wastes_add = 0.1
+			goods_output_wastes_add = 0.1
 		} 
 		
 		level_scaled = {
@@ -473,14 +473,14 @@ pm_mc_security_company = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_turmoil_effects_mult = 0.002
-			building_throughput_mult = -0.003
+			building_throughput_add = -0.003
 			state_bureaucracy_population_base_cost_factor_mult = 0.002
 		}
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_wastes_add = 0.1
+			goods_output_wastes_add = 0.1
 		} 
 
 		level_scaled = {
@@ -500,14 +500,14 @@ pm_mc_military_support = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_turmoil_effects_mult = 0.001
-			building_throughput_mult = -0.005
+			building_throughput_add = -0.005
 			state_bureaucracy_population_base_cost_factor_mult = 0.001
 		}
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_wastes_add = 0.1
+			goods_output_wastes_add = 0.1
 		}
 
 		level_scaled = {

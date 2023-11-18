@@ -3,12 +3,12 @@
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 40 
-			building_input_tools_add = 5 
-			building_input_electricity_add = 5
-			building_input_engines_add = 5
+			goods_input_fertilizer_add = 40 
+			goods_input_tools_add = 5 
+			goods_input_electricity_add = 5
+			goods_input_engines_add = 5
 			
-			building_output_wastes_add = 2.75
+			goods_output_wastes_add = 2.75
 		}
 
 		level_scaled = {
@@ -24,12 +24,12 @@ pm_plant_culture_without_substrate = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 35
-			building_input_tools_add = 5
-			building_input_electricity_add = 10
-			building_input_engines_add = 5
+			goods_input_fertilizer_add = 35
+			goods_input_tools_add = 5
+			goods_input_electricity_add = 10
+			goods_input_engines_add = 5
 			
-			building_output_wastes_add = 2.75
+			goods_output_wastes_add = 2.75
 		}
 
 		level_scaled = {
@@ -49,8 +49,8 @@ pm_plant_grain_a = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_grain_add = 81
-			building_output_wastes_add = 4.05
+			goods_output_grain_add = 81
+			goods_output_wastes_add = 4.05
 		}
 
 		level_scaled = {
@@ -64,9 +64,9 @@ pm_plant_fruit_a = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_fruit_add = 27
-			building_output_sugar_add = 27
-			building_output_wastes_add = 2.7
+			goods_output_fruit_add = 27
+			goods_output_sugar_add = 27
+			goods_output_wastes_add = 2.7
 		}
 
 		level_scaled = {
@@ -80,9 +80,9 @@ pm_plant_flower_a = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_dye_add = 27
-			building_output_flowers_add = 30
-			building_output_wastes_add = 2.85
+			goods_output_dye_add = 27
+			goods_output_flowers_add = 30
+			goods_output_wastes_add = 2.85
 		}
 
 		level_scaled = {
@@ -100,11 +100,11 @@ pm_plant_grain_improve_a = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 35
-			building_input_electricity_add = 5
+			goods_input_fertilizer_add = 35
+			goods_input_electricity_add = 5
 			
-			building_output_grain_add = 162
-			building_output_wastes_add = 10.1
+			goods_output_grain_add = 162
+			goods_output_wastes_add = 10.1
 		}
 
 		level_scaled = {
@@ -122,12 +122,12 @@ pm_plant_fruit_improve_a = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 35
-			building_input_electricity_add = 5
+			goods_input_fertilizer_add = 35
+			goods_input_electricity_add = 5
 		
-			building_output_fruit_add = 54
-			building_output_sugar_add = 54
-			building_output_wastes_add = 7.4
+			goods_output_fruit_add = 54
+			goods_output_sugar_add = 54
+			goods_output_wastes_add = 7.4
 		}
 
 		level_scaled = {
@@ -145,12 +145,12 @@ pm_plant_flower_improve_a = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 35
-			building_input_electricity_add = 5
+			goods_input_fertilizer_add = 35
+			goods_input_electricity_add = 5
 		
-			building_output_dye_add = 54
-			building_output_flowers_add = 60
-			building_output_wastes_add = 7.7
+			goods_output_dye_add = 54
+			goods_output_flowers_add = 60
+			goods_output_wastes_add = 7.7
 		}
 
 		level_scaled = {
@@ -168,8 +168,8 @@ pm_plant_grain_b = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_grain_add = 80
-			building_output_wastes_add = 4
+			goods_output_grain_add = 80
+			goods_output_wastes_add = 4
 		}
 
 		level_scaled = {
@@ -183,9 +183,9 @@ pm_plant_fruit_b = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_fruit_add = 27
-			building_output_sugar_add = 27
-			building_output_wastes_add = 2.7
+			goods_output_fruit_add = 27
+			goods_output_sugar_add = 27
+			goods_output_wastes_add = 2.7
 		}
 
 		level_scaled = {
@@ -199,9 +199,9 @@ pm_plant_flower_b = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_dye_add = 27
-			building_output_flowers_add = 30
-			building_output_wastes_add = 2.85
+			goods_output_dye_add = 27
+			goods_output_flowers_add = 30
+			goods_output_wastes_add = 2.85
 		}
 
 		level_scaled = {
@@ -219,11 +219,11 @@ pm_plant_grain_improve_b = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 35
-			building_input_electricity_add = 5
+			goods_input_fertilizer_add = 35
+			goods_input_electricity_add = 5
 			
-			building_output_grain_add = 162
-			building_output_wastes_add = 10.1
+			goods_output_grain_add = 162
+			goods_output_wastes_add = 10.1
 		}
 
 		level_scaled = {
@@ -241,12 +241,12 @@ pm_plant_fruit_improve_b = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 35
-			building_input_electricity_add = 5
+			goods_input_fertilizer_add = 35
+			goods_input_electricity_add = 5
 		
-			building_output_fruit_add = 54
-			building_output_sugar_add = 54
-			building_output_wastes_add = 7.4
+			goods_output_fruit_add = 54
+			goods_output_sugar_add = 54
+			goods_output_wastes_add = 7.4
 		}
 
 		level_scaled = {
@@ -264,12 +264,12 @@ pm_plant_flower_improve_b = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 35
-			building_input_electricity_add = 5
+			goods_input_fertilizer_add = 35
+			goods_input_electricity_add = 5
 		
-			building_output_dye_add = 54
-			building_output_flowers_add = 60
-			building_output_wastes_add = 7.7
+			goods_output_dye_add = 54
+			goods_output_flowers_add = 60
+			goods_output_wastes_add = 7.7
 		}
 
 		level_scaled = {
@@ -287,8 +287,8 @@ pm_plant_grain_c = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_grain_add = 80
-			building_output_wastes_add = 4
+			goods_output_grain_add = 80
+			goods_output_wastes_add = 4
 		}
 
 		level_scaled = {
@@ -302,9 +302,9 @@ pm_plant_fruit_c = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_fruit_add = 27
-			building_output_sugar_add = 27
-			building_output_wastes_add = 2.7
+			goods_output_fruit_add = 27
+			goods_output_sugar_add = 27
+			goods_output_wastes_add = 2.7
 		}
 
 		level_scaled = {
@@ -318,9 +318,9 @@ pm_plant_flower_c = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_dye_add = 27
-			building_output_flowers_add = 30
-			building_output_wastes_add = 2.85
+			goods_output_dye_add = 27
+			goods_output_flowers_add = 30
+			goods_output_wastes_add = 2.85
 		}
 
 		level_scaled = {
@@ -338,11 +338,11 @@ pm_plant_grain_improve_c = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 35
-			building_input_electricity_add = 5
+			goods_input_fertilizer_add = 35
+			goods_input_electricity_add = 5
 			
-			building_output_grain_add = 162
-			building_output_wastes_add = 10.1
+			goods_output_grain_add = 162
+			goods_output_wastes_add = 10.1
 		}
 
 		level_scaled = {
@@ -360,12 +360,12 @@ pm_plant_fruit_improve_c = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 35
-			building_input_electricity_add = 5
+			goods_input_fertilizer_add = 35
+			goods_input_electricity_add = 5
 		
-			building_output_fruit_add = 54
-			building_output_sugar_add = 54
-			building_output_wastes_add = 7.4
+			goods_output_fruit_add = 54
+			goods_output_sugar_add = 54
+			goods_output_wastes_add = 7.4
 		}
 
 		level_scaled = {
@@ -383,12 +383,12 @@ pm_plant_flower_improve_c = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_fertilizer_add = 35
-			building_input_electricity_add = 5
+			goods_input_fertilizer_add = 35
+			goods_input_electricity_add = 5
 		
-			building_output_dye_add = 54
-			building_output_flowers_add = 60
-			building_output_wastes_add = 7.7
+			goods_output_dye_add = 54
+			goods_output_flowers_add = 60
+			goods_output_wastes_add = 7.7
 		}
 
 		level_scaled = {
