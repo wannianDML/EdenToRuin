@@ -98,6 +98,7 @@ https://bbs.nyasama.com/ | （原作、二创、考证设定参考）
 -校对00_subject_types.txt = √ （删除了MOD重写的部分）
 -校对eras文件夹 = √
 -校对state_regions文件夹 = √
+-校对pop_needs文件夹 = √
 2.应用采用了新算法的th_buy_packages = √
 -关于政治力量①：等于一个pop维持生活水平花费的万分之一； （这个有考虑修改，比如在这基础上提供一个1的增值。或是0.3减值？）
 -②无任何修正的情况下，一个水平60的pop约等于216个水平10的pop；
