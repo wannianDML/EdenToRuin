@@ -117,7 +117,7 @@ pm_special_chireiden_study_philosophy = {
 	}
 }
 pm_special_chireiden_study_humanities_socialsciences = {
-	texture = "gfx/interface/icons/pm_special_chireiden_study_philosophy.dds"
+	texture = "gfx/interface/icons/pm_special_chireiden_study_humanities_socialsciences.dds"
 	
 	building_modifiers = {
 		workforce_scaled = {

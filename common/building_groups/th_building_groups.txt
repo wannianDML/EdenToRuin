@@ -10,7 +10,10 @@
 # depletable_resource = yes/no
 # can_use_slaves = yes/no				Default no, setting yes enables slavery for all contained buildings and groups
 # land_usage = urban/rural				Which type of state resource the building uses. urban = Urbanization, rural = Arable Land. Default no state resource usage.
-#										If unspecified, will return first non-default land usage type found in parent building group tree.
+#										If unspecified：2023-11-20 20:57:22
+
+发布
+, will return first non-default land usage type found in parent building group tree.
 # cash_reserves_max = number			Maximum amount of £ (per level) that buildings in this group can store into their cash reserves. If unspecified or set to 0, it will use the value from the parent group. Default 0
 # inheritable_construction =  yes/no	If yes, a construction of this building group will survive a state changing hands or a split state merging
 # stateregion_max_level = yes/no		If yes, any building types in this group with the has_max_level property will consider its level restrictions on state-region rather than state level	
@@ -29,30 +32,69 @@ bg_no_military_buildings = {
 	parent_group = bg_all_buildings
 }
 
+bg_private_buildings = {
+	parent_group = bg_infrastructure
+
+	is_government_funded = no
+	subsidized = yes
+	economy_of_scale = yes
+
+	cash_reserves_max = 25000
+	urbanization = 20
+	infrastructure_usage_per_level = 1
+}
+
+bg_public_buildings = {
+	parent_group = bg_infrastructure
+
+	is_government_funded = yes
+	subsidized = yes
+	economy_of_scale = yes
+
+	urbanization = 20
+	infrastructure_usage_per_level = 1
+}
+
 bg_science_education = {
-	parent_group = bg_government
+	parent_group = bg_public_buildings
 	
 	infrastructure_usage_per_level = 2
 }
 
-bg_private_buildings = {
-	parent_group = bg_private_infrastructure
+bg_biological_buildings = {
+	parent_group = bg_manufacturing
 
-	economy_of_scale = yes
-	
-	subsidized = no
+	infrastructure_usage_per_level = 3
+}
+
+bg_chemical_buildings = {
+	parent_group = bg_manufacturing
+
+	infrastructure_usage_per_level = 3
+}
+
+bg_metallic_buildings = {
+	parent_group = bg_manufacturing
+
+	infrastructure_usage_per_level = 3
+}
+
+bg_special_buildings = {
+	parent_group = bg_manufacturing
+
+	infrastructure_usage_per_level = 3
 }
 
 bg_agriculture_factory = {
-	parent_group = bg_agriculture
+	parent_group = bg_biological_buildings
 
-	always_possible = yes
+	land_usage = rural
 
-	urbanization = 25
-	infrastructure_usage_per_level = 6
+	urbanization = 40
+	infrastructure_usage_per_level = 9
 }
 
-bg_special = {
+bg_special_monuments = {
 	parent_group = bg_monuments
 
 	always_possible = no

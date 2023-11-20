@@ -111,10 +111,10 @@
  
  pm_mc_training_level_b_base:0 "混混"
  pm_mc_training_level_b_low:0 "打手"
- pm_mc_training_level_b_middle:0 "杀手"
+ pm_mc_training_level_b_medium:0 "杀手"
  pm_mc_training_level_base:0 "乌合之众"
  pm_mc_training_level_low:0 "训练初成"
- pm_mc_training_level_middle:0 "训练有素"
+ pm_mc_training_level_medium:0 "训练有素"
  pm_mc_training_level_high:0 "经验丰富"
  pm_mc_training_level_crack:0 "久经沙场"
  
@@ -130,7 +130,7 @@
 
  pm_research_funds_base:0 "基本"
  pm_research_funds_low:0 "低"
- pm_research_funds_middle:0 "中"
+ pm_research_funds_medium:0 "中"
  pm_research_funds_high:0 "高"
  
  pmg_research_institute_computing_equipment:0 "计算工具"

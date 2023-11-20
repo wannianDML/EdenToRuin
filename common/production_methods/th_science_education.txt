@@ -47,8 +47,8 @@ pm_research_funds_low = {
 		}		
 	}	
 }
-pm_research_funds_middle = {
-	texture = "gfx/interface/icons/production_method_icons/pm_research_funds_base.dds"
+pm_research_funds_medium = {
+	texture = "gfx/interface/icons/production_method_icons/pm_research_funds_medium.dds"
 	
 	building_modifiers = {
 		workforce_scaled = {
@@ -74,7 +74,7 @@ pm_research_funds_middle = {
 	}	
 }
 pm_research_funds_high = {
-	texture = "gfx/interface/icons/production_method_icons/pm_research_funds_base.dds"
+	texture = "gfx/interface/icons/production_method_icons/pm_research_funds_high.dds"
 	
 	building_modifiers = {
 		workforce_scaled = {

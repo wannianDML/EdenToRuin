@@ -1,8 +1,8 @@
 ﻿#era_2
 
-#era_4
+#era_5
 tech_soilless_culture = {
-	era = era_4
+	era = era_5
 	texture = "gfx/interface/icons/invention_icons/tech_soilless_culture.dds"
 	category = production
 	

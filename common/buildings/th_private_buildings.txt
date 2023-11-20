@@ -11,7 +11,7 @@
 		pmg_common_ownership
 	}
 
-	required_construction = construction_cost_high
+	required_construction = construction_cost_private_very_low
 }
 
 building_private_military_company = {
@@ -28,5 +28,5 @@ building_private_military_company = {
 		pmg_private_ownership
 	}
 
-	required_construction = construction_cost_high 
+	required_construction = construction_cost_private_very_low
 }

@@ -1,5 +1,5 @@
 building_special_chireiden = {
-	building_group = bg_monuments
+	building_group = bg_special_monuments
 	texture = "gfx/interface/icons/building_icons/building_special_chireiden.dds"
 	expandable = no
 	buildable = no

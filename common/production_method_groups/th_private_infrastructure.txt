@@ -13,10 +13,10 @@ pmg_mc_training_level = {
 	production_methods = {
 		pm_mc_training_level_b_base
 		pm_mc_training_level_b_low
-		pm_mc_training_level_b_middle
+		pm_mc_training_level_b_medium
 		pm_mc_training_level_base
 		pm_mc_training_level_low
-		pm_mc_training_level_middle
+		pm_mc_training_level_medium
 		pm_mc_training_level_high
 		pm_mc_training_level_crack
 	}

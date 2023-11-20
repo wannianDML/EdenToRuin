@@ -3,7 +3,7 @@
 	production_methods = {
 		pm_research_funds_base
 		pm_research_funds_low
-		pm_research_funds_middle
+		pm_research_funds_medium
 		pm_research_funds_high
 	}
 }

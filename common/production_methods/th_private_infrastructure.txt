@@ -173,7 +173,7 @@ pm_mc_training_level_b_base = {
 }
 
 pm_mc_training_level_b_low = {
-	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_low.dds"
 
 	unlocking_technologies = {
 		mandatory_service
@@ -205,8 +205,8 @@ pm_mc_training_level_b_low = {
 	}
 }
 
-pm_mc_training_level_b_middle = {
-	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+pm_mc_training_level_b_medium = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_medium.dds"
 
 	unlocking_technologies = {
 		rifling
@@ -241,7 +241,7 @@ pm_mc_training_level_b_middle = {
 }
 
 pm_mc_training_level_base = {
-	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_base.dds"
 
 	unlocking_technologies = {
 		standing_army
@@ -277,7 +277,7 @@ pm_mc_training_level_base = {
 	}
 }
 pm_mc_training_level_low = {
-	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_low.dds"
 
 	unlocking_technologies = {
 		military_drill
@@ -313,8 +313,8 @@ pm_mc_training_level_low = {
 		}
 	}
 }
-pm_mc_training_level_middle = {
-	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+pm_mc_training_level_medium = {
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_medium.dds"
 
 	unlocking_technologies = {
 		general_staff
@@ -353,7 +353,7 @@ pm_mc_training_level_middle = {
 	}
 }
 pm_mc_training_level_high = {
-	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_high.dds"
 
 	unlocking_technologies = {
 		military_statistics
@@ -395,7 +395,7 @@ pm_mc_training_level_high = {
 }
 
 pm_mc_training_level_crack = {
-	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_b_base.dds"
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_training_level_crack.dds"
 
 	unlocking_technologies = {
 		nco_training
@@ -464,7 +464,7 @@ pm_mc_banned = {
 	}
 }
 pm_mc_security_company = {
-	texture = "gfx/interface/icons/production_method_icons/pm_mc_banned.dds"
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_security_company.dds"
 
 	unlocking_laws = {
 		law_civilian_armed_forces_security_service
@@ -491,7 +491,7 @@ pm_mc_security_company = {
 	}
 }
 pm_mc_military_support = {
-	texture = "gfx/interface/icons/production_method_icons/pm_mc_banned.dds"
+	texture = "gfx/interface/icons/production_method_icons/pm_mc_military_support.dds"
 
 	unlocking_laws = {
 		law_civilian_armed_forces_pmc

@@ -18,5 +18,5 @@
 
 	texture = "gfx/interface/icons/building_icons/building_research_institute.dds"
 
-	required_construction = construction_cost_medium
+	required_construction = construction_cost_public_very_low
 }

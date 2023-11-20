@@ -13,5 +13,5 @@
 		pmg_factory_ownership
 	}
 
-	required_construction = construction_cost_high
+	required_construction = construction_cost_workshop_very_low
 }

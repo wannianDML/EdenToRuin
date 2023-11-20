@@ -13,7 +13,7 @@
 		pmg_common_ownership
 	}
 
-	required_construction = construction_cost_high	
+	required_construction = construction_cost_workshop_very_low
 }
 
 building_recycle_factory = {
@@ -34,5 +34,5 @@ building_recycle_factory = {
 		pmg_common_ownership
 	}
 
-	required_construction = construction_cost_high	
+	required_construction = construction_cost_workshop_very_low
 }

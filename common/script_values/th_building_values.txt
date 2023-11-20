@@ -1,0 +1,23 @@
+﻿construction_cost_private_very_low = 150
+construction_cost_private_low = 300
+construction_cost_private_medium = 600
+construction_cost_private_high = 1200
+construction_cost_private_very_high = 2400
+
+construction_cost_public_very_low = 225
+construction_cost_public_low = 450
+construction_cost_public_medium = 900
+construction_cost_public_high = 1800
+construction_cost_public_very_high = 3600
+
+construction_cost_workshop_very_low = 300 # era_4 and 之前
+construction_cost_workshop_low = 600 # era_5 and era_6
+construction_cost_workshop_medium = 1200 # era_7
+construction_cost_workshop_high = 2400 # era_8
+construction_cost_workshop_very_high = 4800 # era_9
+
+construction_cost_factory_very_low = 750 # era_4 and 之前
+construction_cost_factory_low = 1500 # era_5 and era_6
+construction_cost_factory_medium = 3000 # era_7
+construction_cost_factory_high = 6000 # era_8
+construction_cost_factory_very_high = 12000 # era_9

@@ -1,4 +1,15 @@
 ﻿#era_1
+tech_dalton_atomic_theory = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_dalton_atomic_theory.dds"
+	category = society
+
+	modifier = {
+		country_tech_spread_mult = 0.05
+		country_weekly_innovation_max_add = 100
+	}
+}
+
 tech_other_interesting = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/tech_other_interesting.dds"
@@ -109,6 +120,33 @@ tech_traditional_breeding = {
 	}
 }
 
+tech_metal_casting_process = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_metal_casting_process.dds"
+	category = society
+}
+
+tech_organic_extraction_process = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_organic_extraction_process.dds"
+	category = society
+}
+
+tech_chemical_synthesis_process = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_chemical_synthesis_process.dds"
+	category = society
+}
+
+tech_machine_work = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_machine_work.dds"
+	category = society
+
+	unlocking_technologies = {
+		tech_metal_casting_process
+	}
+}
 #era_2
 tech_difference_engine = {
 	era = era_2

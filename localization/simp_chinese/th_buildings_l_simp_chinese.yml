@@ -14,7 +14,7 @@
  building_pharmaceutical_factory:0 "制药厂"
  building_pharmaceutical_factory_lens_option:0 "扩建$building_pharmaceutical_factory$"
  
- #private_infrastructure
+ #private_buildings
  building_private_construction_company:0 "私人建筑公司"
  building_private_construction_company_lens_option:0 "扩建$building_private_construction_company$"
  building_private_military_company:0 "私人军事承包商"

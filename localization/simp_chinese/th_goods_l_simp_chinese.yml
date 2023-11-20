@@ -1,12 +1,13 @@
 ﻿l_simp_chinese:
  #staple
- medicine: "药品"  # 25
- flowers: "花卉"  # 18
- maintenance: "维护"  # 10
- biological_material: "生物原料"  # 100
- chemical_material: "化工原料"  # 100
- metallic_material: "金属原料"  # 100
- special_material: "非常识原料"  # 100
+ medicine:0 "药品"  # 25
+ flowers:0 "花卉"  # 18
+ maintenance:0 "维护"  # 10
+ biological_material:0 "生物原料"  # 100
+ chemical_material:0 "化工原料"  # 100
+ metallic_material:0 "金属原料"  # 100
+ special_material:0 "非常识原料"  # 100
+ #water_resources:0 "净水资源"
  
  #industrial
  wastes: "废弃物"  # 10
@@ -24,3 +25,4 @@
   
  popneed_security: "安保服务"
  popneed_medical: "医疗服务"
+ #popneed_water: "净水需求"
