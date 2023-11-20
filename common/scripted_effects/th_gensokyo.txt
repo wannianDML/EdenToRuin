@@ -9,6 +9,8 @@
 		name = modifier_gensokyo_provisional_constitution
 	}
 	
+	effect_default_country = yes
+
 	activate_law = law_type:law_freedom_of_conscience
 	activate_law = law_type:law_free_trade
 	activate_law = law_type:law_slavery_banned
@@ -20,8 +22,6 @@
 	effect_starting_technology_magic_existence = yes
 	effect_starting_technology_spiritual_existence = yes
 	effect_starting_technology_youkai_existence = yes
-	effect_default_country = yes
-
 }
 
 effect_gensokyo_anarchic_country = {
@@ -41,4 +41,6 @@ effect_gensokyo_sage = {
 	add_modifier = {
 		name = modifier_gensokyo_sage
 	}
+
+	effect_starting_technology_x_existence = yes
 }

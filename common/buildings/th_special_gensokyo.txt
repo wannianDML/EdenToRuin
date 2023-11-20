@@ -2,6 +2,7 @@ building_special_chireiden = {
 	building_group = bg_monuments
 	texture = "gfx/interface/icons/building_icons/building_special_chireiden.dds"
 	expandable = no
+	buildable = no
 	downsizeable = no
 	unique = yes
 	locator = "building_special_chireiden_locator"
@@ -15,6 +16,11 @@ building_special_chireiden = {
 	required_construction = construction_cost_monument
 	
 	possible = {
-		always = no
-	}
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_GENSOKYO_FORMER_HELL
+			}
+		}
+	} 
 }

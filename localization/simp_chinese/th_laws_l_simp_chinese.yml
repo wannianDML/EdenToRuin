@@ -16,8 +16,8 @@
  law_civilian_armed_forces_illegal_desc:0 "你们要造反？"
  law_civilian_armed_forces_security_service:0 "保安公司"
  law_civilian_armed_forces_security_service_desc:0 "安保服务，但是有偿，还得交税。"
- law_civilian_armed_forces_PMC:0 "PMC"
- law_civilian_armed_forces_PMC_desc:0 "来点专业的军事援助？"
+ law_civilian_armed_forces_pmc:0 "PMC"
+ law_civilian_armed_forces_pmc_desc:0 "来点专业的军事援助？"
  
  lawgroup_dolls_rights:0 "人形权利"
  lawgroup_dolls_rights_desc: "如何看待这些有着近似我们智慧的造物。"
@@ -40,8 +40,8 @@
  law_legal_working_hours_eight_hour_sleeping_desc:0 "不是每天，是每周。"
  law_legal_working_hours_sixteen_hour_working:0 "十六小时工作制"
  law_legal_working_hours_sixteen_hour_working_desc:0 "还能睡几个小时。"
- law_legal_working_hours_twelve_hour_working:0 "十二小时工作制"
- law_legal_working_hours_twelve_hour_working_desc:0 "至少还留有四小时。"
+ law_legal_working_hours_twelve_hour_working:0 "未制定/无限制"
+ law_legal_working_hours_twelve_hour_working_desc:0 "默认是十二小时，但黑心点的会到十四甚至十六。"
  law_legal_working_hours_eight_hour_working:0 "八小时工作制"
  law_legal_working_hours_eight_hour_working_desc:0 "八小时劳动，八小时休息，剩下八小时留给我们自己。"
  law_legal_working_hours_four_hour_working:0 "四小时工作制"
@@ -68,6 +68,21 @@
  #成瘾品
  #全面禁止
  #仅允许行为成瘾 #比如烟酒、游戏等
- #成瘾药物仅限医用
- #禁止销售
+ #仅限医用成瘾药物
+ #禁止公开销售
  #无限制
+
+ #修炼资格法
+ #未制定
+ #贵胄
+ #军事
+ #垄断
+ #全民
+
+ #修炼传承法
+ #未制定
+ #家族制
+ #师徒制
+ #学院制
+ #市场制
+ #公有制

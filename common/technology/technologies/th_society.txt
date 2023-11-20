@@ -3,6 +3,7 @@ tech_other_interesting = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/tech_other_interesting.dds"
 	category = society
+	can_research = no
 
 	modifier = {
 		state_birth_rate_mult = 0.01
@@ -19,6 +20,8 @@ tech_youkai_existence = {
 	modifier = {
 		state_birth_rate_mult = 0.03
 		state_mortality_mult = 0.03
+		country_soldiers_pol_str_mult = 0.01
+		country_officers_pol_str_mult = 0.01
 	}
 
 	unlocking_technologies = {
@@ -44,6 +47,8 @@ tech_magic_existence = {
 		state_infrastructure_from_population_add = 0.2
 		state_infrastructure_from_population_max_add = 10
 		state_working_adult_ratio_add = 0.01
+		country_soldiers_pol_str_mult = 0.01
+		country_officers_pol_str_mult = 0.01
 	}
 
 	unlocking_technologies = {
@@ -69,6 +74,8 @@ tech_spiritual_existence = {
 		state_infrastructure_from_population_add = 0.2
 		state_infrastructure_from_population_max_add = 10
 		state_working_adult_ratio_add = 0.01
+		country_soldiers_pol_str_mult = 0.01
+		country_officers_pol_str_mult = 0.01
 	}
 
 	unlocking_technologies = {
@@ -132,6 +139,9 @@ tech_x = {
 		state_infrastructure_from_population_add = 0.6
 		state_infrastructure_from_population_max_add = 30
 		state_working_adult_ratio_add = 0.02
+		country_bureaucrats_pol_str_mult = 0.02
+		country_academics_pol_str_mult = 0.02
+		country_engineers_pol_str_mult = 0.02
 	}
 	
 	unlocking_technologies = {
@@ -190,6 +200,8 @@ tech_spiritual_theory = {
 		state_infrastructure_from_population_add = 0.6
 		state_infrastructure_from_population_max_add = 30
 		state_working_adult_ratio_add = 0.02
+		country_soldiers_pol_str_mult = 0.02
+		country_officers_pol_str_mult = 0.02
 	}
 	
 	unlocking_technologies = {
@@ -218,6 +230,8 @@ tech_magic_theory = {
 		state_infrastructure_from_population_add = 0.6
 		state_infrastructure_from_population_max_add = 30
 		state_working_adult_ratio_add = 0.02
+		country_soldiers_pol_str_mult = 0.02
+		country_officers_pol_str_mult = 0.02
 	}
 	
 	unlocking_technologies = {
@@ -251,6 +265,9 @@ tech_math_energy_theory = {
 	modifier = {
 		country_tech_spread_mult = 0.04
 		country_weekly_innovation_max_add = 200
+		country_bureaucrats_pol_str_mult = 0.02
+		country_academics_pol_str_mult = 0.02
+		country_engineers_pol_str_mult = 0.02
 	}
 
 	unlocking_technologies = {

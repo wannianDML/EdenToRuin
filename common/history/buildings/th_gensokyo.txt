@@ -1,5 +1,5 @@
 ﻿BUILDINGS = {
-	s:STATE_KANTO = {
+	s:STATE_GENSOKYO_FORMER_HELL = {
 		region_state:kyuuto = {
 			create_building = {
 				building = "building_special_chireiden"
