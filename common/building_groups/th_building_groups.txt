@@ -38,6 +38,7 @@ bg_private_buildings = {
 	is_government_funded = no
 	subsidized = yes
 	economy_of_scale = yes
+	stateregion_max_level = no
 
 	cash_reserves_max = 25000
 	urbanization = 20

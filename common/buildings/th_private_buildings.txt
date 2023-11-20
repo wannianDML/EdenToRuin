@@ -1,7 +1,7 @@
 ﻿building_private_construction_company = {
-	building_group = bg_private_buildings	
+	building_group = bg_private_buildings
 	texture = "gfx/interface/icons/building_icons/building_private_construction_company.dds"
-	
+
 	unlocking_technologies = {
 		urbanization
 	}
@@ -15,9 +15,9 @@
 }
 
 building_private_military_company = {
-	building_group = bg_private_buildings	
+	building_group = bg_private_buildings
 	texture = "gfx/interface/icons/building_icons/building_private_construction_company.dds"
-	
+
 	unlocking_technologies = {
 		urbanization
 	}

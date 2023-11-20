@@ -163,3 +163,16 @@ decisions_debug_construction_remove = {
 		remove_modifier = modifier_debug_decisions_construction
 	}
 }
+
+decisions_debug_special_technology = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		not = { has_technology_researched = tech_other_interesting }
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		effect_debug_country_technonlogy = yes
+	}
+}

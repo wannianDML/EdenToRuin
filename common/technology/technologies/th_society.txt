@@ -60,6 +60,8 @@ tech_magic_existence = {
 		state_working_adult_ratio_add = 0.01
 		country_soldiers_pol_str_mult = 0.01
 		country_officers_pol_str_mult = 0.01
+		country_max_weekly_construction_progress_add = 5
+		country_construction_add = 0.25
 	}
 
 	unlocking_technologies = {
@@ -87,6 +89,8 @@ tech_spiritual_existence = {
 		state_working_adult_ratio_add = 0.01
 		country_soldiers_pol_str_mult = 0.01
 		country_officers_pol_str_mult = 0.01
+		country_max_weekly_construction_progress_add = 5
+		country_construction_add = 0.25
 	}
 
 	unlocking_technologies = {
@@ -180,6 +184,8 @@ tech_x = {
 		country_bureaucrats_pol_str_mult = 0.02
 		country_academics_pol_str_mult = 0.02
 		country_engineers_pol_str_mult = 0.02
+		country_max_weekly_construction_progress_add = 10
+		country_construction_add = 0.5
 	}
 	
 	unlocking_technologies = {
@@ -240,6 +246,8 @@ tech_spiritual_theory = {
 		state_working_adult_ratio_add = 0.02
 		country_soldiers_pol_str_mult = 0.02
 		country_officers_pol_str_mult = 0.02
+		country_max_weekly_construction_progress_add = 10
+		country_construction_add = 0.5
 	}
 	
 	unlocking_technologies = {
@@ -270,6 +278,8 @@ tech_magic_theory = {
 		state_working_adult_ratio_add = 0.02
 		country_soldiers_pol_str_mult = 0.02
 		country_officers_pol_str_mult = 0.02
+		country_max_weekly_construction_progress_add = 10
+		country_construction_add = 0.5
 	}
 	
 	unlocking_technologies = {
@@ -391,6 +401,8 @@ tech_cybernetics = {
 		state_working_adult_ratio_add = 0.01
 		building_group_bg_no_military_buildings_employee_mult = -0.015
 		building_group_bg_service_employee_mult = -0.01
+		country_max_weekly_construction_progress_add = 10
+		country_construction_add = 0.5
 	}
 
 	unlocking_technologies = {

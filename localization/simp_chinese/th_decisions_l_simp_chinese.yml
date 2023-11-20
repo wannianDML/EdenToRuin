@@ -23,3 +23,5 @@
  decisions_debug_construction_add_desc:0 "捡到了一批预制件。"
  decisions_debug_construction_remove:0 "停用debug：快速施工"
  decisions_debug_construction_remove_desc:0 "那些预制件用完了。"
+ decisions_debug_special_technology:0 "一本奇幻小说的设定集。"
+ decisions_debug_special_technology_desc:0 "目录上面写了诸如“虚镜”、“能量”、“神明”之类的东西，翻开看看内容还挺详细，就好像那些东西在某个地方真的存在一样。\n呵，这怎么可能。"
