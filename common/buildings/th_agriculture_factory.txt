@@ -7,8 +7,6 @@
 	unlocking_technologies = {
 		tech_soilless_culture
 	}
-	
-	ignore_stateregion_max_level = yes 
 
 	production_method_groups = {
 		pmg_plant_cultivation_processing

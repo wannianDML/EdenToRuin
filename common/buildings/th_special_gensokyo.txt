@@ -19,7 +19,7 @@ building_special_chireiden = {
 		error_check = {
 			severity = invalid
 			this = {
-				state_region = s:STATE_GENSOKYO_FORMER_HELL
+				state = s:STATE_GENSOKYO_FORMER_HELL
 			}
 		}
 	} 

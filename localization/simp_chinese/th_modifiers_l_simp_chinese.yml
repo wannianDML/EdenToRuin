@@ -20,8 +20,8 @@
  modifier_goods_output_dolls_mult_desc:"对建筑产出的@dolls!$dolls$数量的增益或惩罚"
  modifier_goods_output_standard_machinery_mult:"建筑@standard_machinery!$standard_machinery$产出"
  modifier_goods_output_standard_machinery_mult_desc:"对建筑产出的@standard_machinery!$standard_machinery$数量的增益或惩罚"
- modifier_goods_output_precision_machiner_mult:"建筑@precision_machiner!$precision_machiner$产出"
- modifier_goods_output_precision_machiner_mult_desc:"对建筑产出的@precision_machiner!$precision_machiner$数量的增益或惩罚"
+ modifier_goods_output_precision_machinery_mult:0 "建筑@precision_machinery!$precision_machinery$产出"
+ modifier_goods_output_precision_machinery_mult_desc:0 "对建筑产出的@precision_machinery!$precision_machinery$数量的增益或惩罚"
  modifier_goods_output_consumer_machinery_mult:"建筑@consumer_machinery!$consumer_machinery$产出"
  modifier_goods_output_consumer_machinery_mult_desc:"对建筑产出的@consumer_machinery!$consumer_machinery$数量的增益或惩罚"
  modifier_goods_output_standard_parts_mult:"建筑@standard_parts!$standard_parts$产出"
@@ -59,5 +59,9 @@
  modifier_debug_decisions_pop_contraction:0 "debug：人口紧缩"
  modifier_debug_decisions_construction:0 "debug：快速施工"
  
+ ##event
  modifier_gift_stardust:0 "星星碎片"
  modifier_gift_alert:0 "谨慎"
+ 
+ ##tech
+ modifier_unknown_energy_discover:0 "发现未知能量"

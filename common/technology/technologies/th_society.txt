@@ -47,10 +47,12 @@ tech_magic_existence = {
 	can_research = no
 
 	modifier = {
-		state_birth_rate_mult = 0.02
+		state_birth_rate_mult = 0.015
 		state_mortality_mult = 0.01
 		unit_army_defense_add = 1
+		unit_army_defense_mult = 0.01
 		unit_army_offense_add = 1
+		unit_army_offense_mult = 0.01
 		building_throughput_add = 0.01
 		country_authority_mult = 0.02
 		country_bureaucracy_mult = 0.02
@@ -76,10 +78,12 @@ tech_spiritual_existence = {
 	can_research = no
 
 	modifier = {
-		state_birth_rate_mult = 0.02
+		state_birth_rate_mult = 0.015
 		state_mortality_mult = 0.01
 		unit_army_defense_add = 1
+		unit_army_defense_mult = 0.01
 		unit_army_offense_add = 1
+		unit_army_offense_mult = 0.01
 		building_throughput_add = 0.01
 		country_authority_mult = 0.02
 		country_bureaucracy_mult = 0.02
@@ -297,7 +301,7 @@ tech_abstract_energy_theory = {
 	
 	modifier = {
 		goods_output_special_material_mult = 0.05
-		building_goods_inpult = -0.01
+		building_goods_input_mult = -0.01
 	}
 
 	unlocking_technologies = {
