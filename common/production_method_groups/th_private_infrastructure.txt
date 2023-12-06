@@ -8,6 +8,15 @@
 	}
 }
 
+pmg_prefabricated_component = {
+	texture = "gfx/interface/icons/generic_icons/pmg_prefabricated_component.dds"
+	production_methods = {
+		pm_prefabricated_component_none
+		pm_prefabricated_component_part
+		pm_prefabricated_component_wide
+	}
+}
+
 pmg_mc_training_level = {
 	texture = "gfx/interface/icons/generic_icons/pmg_mc_training_level.dds"
 	production_methods = {

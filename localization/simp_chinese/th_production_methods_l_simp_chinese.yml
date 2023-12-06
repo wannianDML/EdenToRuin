@@ -50,7 +50,12 @@
  pm_recycle_basic_protected:0 "基本防护"
  pm_recycle_fully_protected:0 "全方位防护"
  
+ ##prefabricated_component_factory
+ pmg_prefabricated_component_processing:0 "生产方式"
  
+ pm_prefabricated_component_wood:0 "木制构件"
+ pm_prefabricated_component_steel:0 "钢制构件"
+ pm_prefabricated_component_concrete:0 "混凝土制构件"
  
  
  #agriculture
@@ -106,6 +111,12 @@
  pm_structure_steel:0 "钢框架结构建筑"
  pm_structure_electric_welding:0 "电焊建筑"
  
+ pmg_prefabricated_component:0 "预制件"
+ 
+ pm_prefabricated_component_none:0 "没有预制件"
+ pm_prefabricated_component_part:0 "部分结构预制"
+ pm_prefabricated_component_wide:0 "广泛结构预制"
+ 
  ##private_military_company
  pmg_mc_training_level:0 "训练度"
  
@@ -140,22 +151,22 @@
  pmg_research_institute_computing_equipment_analytical_engine:0 "分析机"
 
 #ownership
- pmg_common_ownership:0 "所有权"
+ pmg_th_common_ownership:0 "所有权"
 
- pm_merchant_guilds:0 "商人行会"
- pm_privately_owned:0 "私人所有"
- pm_publicly_traded:0 "公开交易"
- pm_government_run:0 "政府运营"
- pm_worker_cooperative:0 "劳动合作社"
+ pm_th_merchant_guilds:0 "商人行会"
+ pm_th_privately_owned:0 "私人所有"
+ pm_th_publicly_traded:0 "公开交易"
+ pm_th_government_run:0 "政府运营"
+ pm_th_worker_cooperative:0 "劳动合作社"
 
- pmg_private_ownership:0 "所有权"
+ pmg_th_private_ownership:0 "所有权"
  
- pm_privately_owned_p:0 "私人所有"
- pm_publicly_traded_p:0 "公开交易"
+ pm_th_privately_owned_p:0 "私人所有"
+ pm_th_publicly_traded_p:0 "公开交易"
  
- pmg_government_run:0 "所有权"
+ pmg_th_government_run:0 "所有权"
  
- pm_government_run_g:0 "政府运营"
+ pm_th_government_run_g:0 "政府运营"
  
  #special_gensokyo
  ##special_chireiden

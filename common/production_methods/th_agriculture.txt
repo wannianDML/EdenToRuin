@@ -1,14 +1,22 @@
 ﻿pm_plant_substrate_culture = {
 	texture = "gfx/interface/icons/production_method_icons/pm_plant_substrate_culture.dds"
 	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_fertilizer_add = 40 
-			goods_input_tools_add = 5 
-			goods_input_electricity_add = 5
+			goods_input_electricity_add = 10
 			goods_input_engines_add = 5
+			goods_input_water_resources_add = 15
+			goods_input_maintenance_add = 2
 			
-			goods_output_wastes_add = 2.75
+			goods_output_wastes_water_add = 9
+			goods_output_wastes_add = 4.3
 		}
 
 		level_scaled = {
@@ -22,14 +30,22 @@
 pm_plant_culture_without_substrate = {
 	texture = "gfx/interface/icons/production_method_icons/pm_plant_culture_without_substrate.dds"
 	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 35
-			goods_input_tools_add = 5
-			goods_input_electricity_add = 10
+			goods_input_fertilizer_add = 25
+			goods_input_electricity_add = 25
 			goods_input_engines_add = 5
+			goods_input_water_resources_add = 15
+			goods_input_maintenance_add = 2
 			
-			goods_output_wastes_add = 2.75
+			goods_output_wastes_water_add = 9
+			goods_output_wastes_add = 4.3
 		}
 
 		level_scaled = {
@@ -49,8 +65,10 @@ pm_plant_grain_a = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = 81
-			goods_output_wastes_add = 4.05
+			goods_input_maintenance_add = 2
+
+			goods_output_grain_add = 81	
+			goods_output_wastes_add = 4.15
 		}
 
 		level_scaled = {
@@ -64,9 +82,11 @@ pm_plant_fruit_a = {
 	
 	building_modifiers = {
 		workforce_scaled = {
+			goods_input_maintenance_add = 2
+
 			goods_output_fruit_add = 27
 			goods_output_sugar_add = 27
-			goods_output_wastes_add = 2.7
+			goods_output_wastes_add = 2.8
 		}
 
 		level_scaled = {
@@ -80,9 +100,11 @@ pm_plant_flower_a = {
 	
 	building_modifiers = {
 		workforce_scaled = {
+			goods_input_maintenance_add = 2
+
 			goods_output_dye_add = 27
 			goods_output_flowers_add = 30
-			goods_output_wastes_add = 2.85
+			goods_output_wastes_add = 2.95
 		}
 
 		level_scaled = {
@@ -97,14 +119,23 @@ pm_plant_grain_improve_a = {
 	unlocking_technologies = {
 		tech_vertical_industry
 	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 35
-			goods_input_electricity_add = 5
+			goods_input_fertilizer_add = 25
+			goods_input_electricity_add = 25
+			goods_input_water_resources_add = 10
+			goods_input_maintenance_add = 2
 			
 			goods_output_grain_add = 162
-			goods_output_wastes_add = 10.1
+			goods_output_wastes_water_add = 6
+			goods_output_wastes_add = 11.5
 		}
 
 		level_scaled = {
@@ -119,15 +150,24 @@ pm_plant_fruit_improve_a = {
 	unlocking_technologies = {
 		tech_vertical_industry
 	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 35
-			goods_input_electricity_add = 5
+			goods_input_fertilizer_add = 25
+			goods_input_electricity_add = 25
+			goods_input_water_resources_add = 10
+			goods_input_maintenance_add = 2
 		
 			goods_output_fruit_add = 54
 			goods_output_sugar_add = 54
-			goods_output_wastes_add = 7.4
+			goods_output_wastes_water_add = 6
+			goods_output_wastes_add = 8.8
 		}
 
 		level_scaled = {
@@ -143,14 +183,23 @@ pm_plant_flower_improve_a = {
 		tech_vertical_industry
 	}
 	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 35
-			goods_input_electricity_add = 5
+			goods_input_fertilizer_add = 25
+			goods_input_electricity_add = 25
+			goods_input_water_resources_add = 10
+			goods_input_maintenance_add = 2
 		
 			goods_output_dye_add = 54
 			goods_output_flowers_add = 60
-			goods_output_wastes_add = 7.7
+			goods_output_wastes_water_add = 6
+			goods_output_wastes_add = 9.1
 		}
 
 		level_scaled = {
@@ -168,8 +217,10 @@ pm_plant_grain_b = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = 80
-			goods_output_wastes_add = 4
+			goods_input_maintenance_add = 2
+
+			goods_output_grain_add = 81	
+			goods_output_wastes_add = 4.15
 		}
 
 		level_scaled = {
@@ -183,9 +234,11 @@ pm_plant_fruit_b = {
 	
 	building_modifiers = {
 		workforce_scaled = {
+			goods_input_maintenance_add = 2
+
 			goods_output_fruit_add = 27
 			goods_output_sugar_add = 27
-			goods_output_wastes_add = 2.7
+			goods_output_wastes_add = 2.8
 		}
 
 		level_scaled = {
@@ -199,9 +252,11 @@ pm_plant_flower_b = {
 	
 	building_modifiers = {
 		workforce_scaled = {
+			goods_input_maintenance_add = 2
+
 			goods_output_dye_add = 27
 			goods_output_flowers_add = 30
-			goods_output_wastes_add = 2.85
+			goods_output_wastes_add = 2.95
 		}
 
 		level_scaled = {
@@ -216,14 +271,23 @@ pm_plant_grain_improve_b = {
 	unlocking_technologies = {
 		tech_vertical_industry
 	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 35
-			goods_input_electricity_add = 5
+			goods_input_fertilizer_add = 25
+			goods_input_electricity_add = 25
+			goods_input_water_resources_add = 10
+			goods_input_maintenance_add = 2
 			
 			goods_output_grain_add = 162
-			goods_output_wastes_add = 10.1
+			goods_output_wastes_water_add = 6
+			goods_output_wastes_add = 11.5
 		}
 
 		level_scaled = {
@@ -238,15 +302,24 @@ pm_plant_fruit_improve_b = {
 	unlocking_technologies = {
 		tech_vertical_industry
 	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 35
-			goods_input_electricity_add = 5
+			goods_input_fertilizer_add = 25
+			goods_input_electricity_add = 25
+			goods_input_water_resources_add = 10
+			goods_input_maintenance_add = 2
 		
 			goods_output_fruit_add = 54
 			goods_output_sugar_add = 54
-			goods_output_wastes_add = 7.4
+			goods_output_wastes_water_add = 6
+			goods_output_wastes_add = 8.8
 		}
 
 		level_scaled = {
@@ -262,14 +335,23 @@ pm_plant_flower_improve_b = {
 		tech_vertical_industry
 	}
 	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 35
-			goods_input_electricity_add = 5
+			goods_input_fertilizer_add = 25
+			goods_input_electricity_add = 25
+			goods_input_water_resources_add = 10
+			goods_input_maintenance_add = 2
 		
 			goods_output_dye_add = 54
 			goods_output_flowers_add = 60
-			goods_output_wastes_add = 7.7
+			goods_output_wastes_water_add = 6
+			goods_output_wastes_add = 9.1
 		}
 
 		level_scaled = {
@@ -287,8 +369,10 @@ pm_plant_grain_c = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = 80
-			goods_output_wastes_add = 4
+			goods_input_maintenance_add = 2
+
+			goods_output_grain_add = 81	
+			goods_output_wastes_add = 4.15
 		}
 
 		level_scaled = {
@@ -302,9 +386,11 @@ pm_plant_fruit_c = {
 	
 	building_modifiers = {
 		workforce_scaled = {
+			goods_input_maintenance_add = 2
+
 			goods_output_fruit_add = 27
 			goods_output_sugar_add = 27
-			goods_output_wastes_add = 2.7
+			goods_output_wastes_add = 2.8
 		}
 
 		level_scaled = {
@@ -318,9 +404,11 @@ pm_plant_flower_c = {
 	
 	building_modifiers = {
 		workforce_scaled = {
+			goods_input_maintenance_add = 2
+
 			goods_output_dye_add = 27
 			goods_output_flowers_add = 30
-			goods_output_wastes_add = 2.85
+			goods_output_wastes_add = 2.95
 		}
 
 		level_scaled = {
@@ -335,14 +423,23 @@ pm_plant_grain_improve_c = {
 	unlocking_technologies = {
 		tech_vertical_industry
 	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 35
-			goods_input_electricity_add = 5
+			goods_input_fertilizer_add = 25
+			goods_input_electricity_add = 25
+			goods_input_water_resources_add = 10
+			goods_input_maintenance_add = 2
 			
 			goods_output_grain_add = 162
-			goods_output_wastes_add = 10.1
+			goods_output_wastes_water_add = 6
+			goods_output_wastes_add = 11.5
 		}
 
 		level_scaled = {
@@ -357,15 +454,24 @@ pm_plant_fruit_improve_c = {
 	unlocking_technologies = {
 		tech_vertical_industry
 	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 35
-			goods_input_electricity_add = 5
+			goods_input_fertilizer_add = 25
+			goods_input_electricity_add = 25
+			goods_input_water_resources_add = 10
+			goods_input_maintenance_add = 2
 		
 			goods_output_fruit_add = 54
 			goods_output_sugar_add = 54
-			goods_output_wastes_add = 7.4
+			goods_output_wastes_water_add = 6
+			goods_output_wastes_add = 8.8
 		}
 
 		level_scaled = {
@@ -381,14 +487,23 @@ pm_plant_flower_improve_c = {
 		tech_vertical_industry
 	}
 	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 2.5
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 35
-			goods_input_electricity_add = 5
+			goods_input_fertilizer_add = 25
+			goods_input_electricity_add = 25
+			goods_input_water_resources_add = 10
+			goods_input_maintenance_add = 2
 		
 			goods_output_dye_add = 54
 			goods_output_flowers_add = 60
-			goods_output_wastes_add = 7.7
+			goods_output_wastes_water_add = 6
+			goods_output_wastes_add = 9.1
 		}
 
 		level_scaled = {

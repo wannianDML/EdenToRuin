@@ -5,9 +5,10 @@
 		workforce_scaled = {
 			goods_input_fertilizer_add = 1
 			goods_input_tools_add = 1
+			goods_input_maintenance_add = 2
 			
 			goods_output_flowers_add = 2
-			goods_output_wastes_add = 0.2
+			goods_output_wastes_add = 0.3
 		}
 
 		level_scaled = {
@@ -29,9 +30,10 @@ pm_special_chireiden_courtyard_papaveraceae = {
 		workforce_scaled = {
 			goods_input_fertilizer_add = 1
 			goods_input_tools_add = 1
+			goods_input_maintenance_add = 2
 			
 			goods_output_flowers_add = 2
-			goods_output_wastes_add = 0.2
+			goods_output_wastes_add = 0.3
 		}
 
 		level_scaled = {
@@ -53,9 +55,10 @@ pm_special_chireiden_courtyard_theaceae = {
 		workforce_scaled = {
 			goods_input_fertilizer_add = 1
 			goods_input_tools_add = 1
+			goods_input_maintenance_add = 2
 			
 			goods_output_flowers_add = 2
-			goods_output_wastes_add = 0.2
+			goods_output_wastes_add = 0.3
 		}
 
 		level_scaled = {
@@ -77,9 +80,10 @@ pm_special_chireiden_courtyard_iridaceae = {
 		workforce_scaled = {
 			goods_input_fertilizer_add = 1
 			goods_input_tools_add = 1
+			goods_input_maintenance_add = 2
 			
 			goods_output_flowers_add = 2
-			goods_output_wastes_add = 0.2
+			goods_output_wastes_add = 0.3
 		}
 
 		level_scaled = {
@@ -101,8 +105,9 @@ pm_special_chireiden_study_philosophy = {
 		workforce_scaled = {
 			goods_input_paper_add = 1
 			goods_input_tools_add = 1
+			goods_input_maintenance_add = 2
 			
-			goods_output_wastes_add = 0.1
+			goods_output_wastes_add = 0.2
 		}
 
 		level_scaled = {
@@ -123,8 +128,9 @@ pm_special_chireiden_study_humanities_socialsciences = {
 		workforce_scaled = {
 			goods_input_paper_add = 1
 			goods_input_tools_add = 1
+			goods_input_maintenance_add = 2
 			
-			goods_output_wastes_add = 0.1
+			goods_output_wastes_add = 0.2
 		}
 
 		level_scaled = {
@@ -145,8 +151,9 @@ pm_special_chireiden_study_literature_art = {
 		workforce_scaled = {
 			goods_input_paper_add = 1
 			goods_input_tools_add = 1
+			goods_input_maintenance_add = 2
 			
-			goods_output_wastes_add = 0.1
+			goods_output_wastes_add = 0.2
 		}
 
 		level_scaled = {
@@ -167,8 +174,9 @@ pm_special_chireiden_study_historical_geography = {
 		workforce_scaled = {
 			goods_input_paper_add = 1
 			goods_input_tools_add = 1
+			goods_input_maintenance_add = 2
 			
-			goods_output_wastes_add = 0.1
+			goods_output_wastes_add = 0.2
 		}
 
 		level_scaled = {
@@ -189,8 +197,9 @@ pm_special_chireiden_study_natural_applied_science = {
 		workforce_scaled = {
 			goods_input_paper_add = 1
 			goods_input_tools_add = 1
+			goods_input_maintenance_add = 2
 			
-			goods_output_wastes_add = 0.1
+			goods_output_wastes_add = 0.2
 		}
 
 		level_scaled = {

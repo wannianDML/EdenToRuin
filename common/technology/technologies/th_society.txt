@@ -156,6 +156,16 @@ tech_machine_work = {
 	}
 }
 #era_2
+tech_prefabricated_steel_structure = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/tech_difference_engine.dds"
+	category = society
+
+	unlocking_technologies = {
+		urban_planning
+	}
+}
+
 tech_difference_engine = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/tech_difference_engine.dds"
@@ -388,6 +398,16 @@ tech_vertical_industry = {
 }
 
 #era_6
+tech_prefabricated_concrete_structure = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/tech_prefabricated_concrete_structure.dds"
+	category = society
+
+	unlocking_technologies = {
+		tech_prefabricated_steel_structure
+	}
+}
+
 tech_cybernetics = {
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/tech_cybernetics.dds"

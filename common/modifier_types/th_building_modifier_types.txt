@@ -323,3 +323,123 @@ goods_output_electronic_component_mult = {
 	good = yes
 	percent = yes
 }
+
+goods_input_water_resources_add = {
+	good = yes
+	percent = no
+}
+
+goods_output_water_resources_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_water_resources_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_water_resources_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_input_electronic_machinery_add = {
+	good = yes
+	percent = no
+}
+
+goods_output_electronic_machinery_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_electronic_machinery_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_electronic_machinery_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_input_plastics_add = {
+	good = yes
+	percent = no
+}
+
+goods_output_plastics_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_plastics_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_plastics_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_input_prefabricated_components_add = {
+	good = yes
+	percent = no
+}
+
+goods_output_prefabricated_components_add = {
+	good = yes500
+	percent = no
+}
+
+goods_input_prefabricated_components_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_prefabricated_components_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_input_raw_material_add = {
+	good = yes
+	percent = no
+}
+
+goods_output_raw_material_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_raw_material_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_raw_material_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_input_wastes_water_add = {
+	good = yes
+	percent = no
+}
+
+goods_output_wastes_water_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_wastes_water_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_wastes_water_mult = {
+	good = yes
+	percent = yes
+}

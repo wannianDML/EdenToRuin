@@ -60,3 +60,12 @@ pmg_recycle_protection = {
 		pm_recycle_fully_protected
 	}
 }
+
+pmg_prefabricated_component_processing = {
+	texture = "gfx/interface/icons/generic_icons/pmg_prefabricated_component_processing"
+	production_methods = {
+		pm_prefabricated_component_wood
+		pm_prefabricated_component_steel
+		pm_prefabricated_component_concrete
+	}
+}

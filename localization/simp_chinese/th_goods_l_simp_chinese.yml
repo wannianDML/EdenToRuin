@@ -3,22 +3,26 @@
  medicine:0 "药品"  # 25
  flowers:0 "花卉"  # 18
  maintenance:0 "维护"  # 10
+ raw_material:0 "天然原料" # 100
  biological_material:0 "生物原料"  # 100
  chemical_material:0 "化工原料"  # 100
  metallic_material:0 "金属原料"  # 100
  special_material:0 "非常识原料"  # 100
- #water_resources:0 "净水资源"
+ water_resources:0 "净水资源" # 20
  
  #industrial
- wastes: "废弃物"  # 10
- #solar_debris:0 "太阳碎片"
+ wastes_water:0 "污染水" # 5 # 默认3/5的回收率
+ wastes: "废弃物"  # 10 # 默认1/20的回收率 # 计算时是包括“净水”与污染水
  dolls: "人形"  # 1000
- standard_machinery:0 "标准机械"  # 80
- precision_machinery:0 "精密机械" # 200
- consumer_machinery:0 "消费类机械" # 50
  standard_parts:0 "标准零件" # 12
  precision_parts:0 "精密零件" # 36
  electronic_component:0 "电子元件" # 12
+ standard_machinery:0 "标准机械"  # 80
+ precision_machinery:0 "精密机械" # 200
+ electronic_machinery:0 "电子机械" # 120
+ consumer_machinery:0 "消费类机械" # 50
+ plastics:0 "塑料" # 25
+ prefabricated_components:0 "预制构件" # 40
  
  #luxury
  security: "安保"  # 300

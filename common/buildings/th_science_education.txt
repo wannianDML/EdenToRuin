@@ -13,7 +13,7 @@
 	production_method_groups = {
 		pmg_research_funds
 		pmg_research_institute_computing_equipment
-		pmg_government_run
+		pmg_th_government_run
 	}
 
 	required_construction = construction_cost_public_very_low

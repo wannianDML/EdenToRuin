@@ -13,7 +13,7 @@
 		pmg_plant_factory_slot_a
 		pmg_plant_factory_slot_b
 		pmg_plant_factory_slot_c
-		pmg_factory_ownership
+		pmg_th_factory_ownership
 	}
 
 	required_construction = construction_cost_factory_low

@@ -1,11 +1,16 @@
 ﻿l_simp_chinese:
+ bg_all_buildings:0 "全行业"
+ bg_no_military_buildings:0 "非军事行业"
+ 
  #heavy_industry
  building_wood_factory:0 "制木厂"
  building_wood_factory_lens_option:0 "扩建$building_wood_factory$"
  building_recycle_factory:0 "回收厂"
  building_recycle_factory_lens_option:0 "扩建$building_recycle_factory$"
+ building_prefabricated_component_factory:0 "预制构件厂"
+ building_prefabricated_component_factory_lens_option:0 "扩建$building_prefabricated_component_factory$"
  
- #agriculture
+ #agriculture_factory
  building_plant_factory:0 "植物工厂"
  building_plant_factory_lens_option:0 "扩建$building_plant_factory$"
  #林厂
@@ -28,20 +33,20 @@
  
  #special
  #gensokyo
- building_special_hiedatei:0 "稗田邸" #
- building_special_hiedatei_lens_option:0 "扩建$building_special_hiedatei$" #
- building_special_terakoya:0 "寺子屋" #
- building_special_terakoya_lens_option:0 "扩建$building_special_terakoya$" #
- building_special_suzunaan:0 "铃奈庵" #
- building_special_suzunaan_lens_option:0 "扩建$building_special_suzunaan$" #
- building_special_geidontei:0 "鲵吞亭" #
- building_special_geidontei_lens_option:0 "扩建$building_special_geidontei$" #
- building_special_myouren_temple:0 "命莲寺" #
- building_special_myouren_temple_lens_option:0 "扩建$building_special_myouren_temple$" #
- building_special_hakurei_shrine:0 "博丽神社" #
- building_special_hakurei_shrine_lens_option:0 "扩建$building_special_hakurei_shrine$" #
- building_special_moriya_shrine:0 "守矢神社" #
- building_special_moriya_shrine_lens_option:0 "扩建$building_special_moriya_shrine$" #
+ #building_special_hiedatei:0 "稗田邸" #
+ #building_special_hiedatei_lens_option:0 "扩建$building_special_hiedatei$" #
+ #building_special_terakoya:0 "寺子屋" #
+ #building_special_terakoya_lens_option:0 "扩建$building_special_terakoya$" #
+ #building_special_suzunaan:0 "铃奈庵" #
+ #building_special_suzunaan_lens_option:0 "扩建$building_special_suzunaan$" #
+ #building_special_geidontei:0 "鲵吞亭" #
+ #building_special_geidontei_lens_option:0 "扩建$building_special_geidontei$" #
+ #building_special_myouren_temple:0 "命莲寺" #
+ #building_special_myouren_temple_lens_option:0 "扩建$building_special_myouren_temple$" #
+ #building_special_hakurei_shrine:0 "博丽神社" #
+ #building_special_hakurei_shrine_lens_option:0 "扩建$building_special_hakurei_shrine$" #
+ #building_special_moriya_shrine:0 "守矢神社" #
+ #building_special_moriya_shrine_lens_option:0 "扩建$building_special_moriya_shrine$" #
  building_special_chireiden:0 "地灵殿"
  building_special_chireiden_lens_option:0 "扩建$building_special_chireiden$"
  

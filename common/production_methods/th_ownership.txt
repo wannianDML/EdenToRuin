@@ -1,4 +1,4 @@
-﻿pm_merchant_guilds = {
+﻿pm_th_merchant_guilds = {
 	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
 
 	disallowing_laws = {
@@ -21,7 +21,7 @@
 	}
 }
 
-pm_privately_owned = {
+pm_th_privately_owned = {
 	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 
 	disallowing_laws = {
@@ -44,7 +44,7 @@ pm_privately_owned = {
 	}
 }
 
-pm_publicly_traded = {
+pm_th_publicly_traded = {
 	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
 
 	unlocking_technologies = {
@@ -71,7 +71,7 @@ pm_publicly_traded = {
 	}
 }
 
-pm_government_run = {
+pm_th_government_run = {
 	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
 	
 	unlocking_laws = {
@@ -93,7 +93,7 @@ pm_government_run = {
 	}
 }
 
-pm_government_run_g = {
+pm_th_government_run_g = {
 	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
 	
 	building_modifiers = {
@@ -111,7 +111,7 @@ pm_government_run_g = {
 	}
 }
 
-pm_worker_cooperative = {
+pm_th_worker_cooperative = {
 	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
 
 	unlocking_laws = {

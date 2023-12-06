@@ -1,37 +1,37 @@
-﻿pmg_common_ownership = {
-	texture = "gfx/interface/icons/generic_icons/pmg_common_ownership.dds"
+﻿pmg_th_common_ownership = {
+	texture = "gfx/interface/icons/generic_icons/pmg_th_common_ownership.dds"
 	production_methods = {
-		pm_merchant_guilds
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative
+		pm_th_merchant_guilds
+		pm_th_privately_owned
+		pm_th_publicly_traded
+		pm_th_government_run
+		pm_th_worker_cooperative
 	}
 }
 
-pmg_factory_ownership = {
-	texture = "gfx/interface/icons/generic_icons/pmg_common_ownership.dds"
+pmg_th_factory_ownership = {
+	texture = "gfx/interface/icons/generic_icons/pmg_th_common_ownership.dds"
 	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative
+		pm_th_privately_owned
+		pm_th_publicly_traded
+		pm_th_government_run
+		pm_th_worker_cooperative
 	}
 }
 
-pmg_private_ownership = {
-	texture = "gfx/interface/icons/generic_icons/pmg_private_ownership.dds"
+pmg_th_private_ownership = {
+	texture = "gfx/interface/icons/generic_icons/pmg_th_private_ownership.dds"
 	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_worker_cooperative
+		pm_th_privately_owned
+		pm_th_publicly_traded
+		pm_th_worker_cooperative
 	}
 }
 
-pmg_government_run = {
-	texture = "gfx/interface/icons/generic_icons/pmg_government_run.dds"
+pmg_th_government_run = {
+	texture = "gfx/interface/icons/generic_icons/pmg_th_government_run.dds"
 	production_methods = {
-		pm_government_run_g
-		pm_worker_cooperative
+		pm_th_government_run_g
+		pm_th_worker_cooperative
 	}
 }

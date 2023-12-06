@@ -10,7 +10,7 @@
 
 	production_method_groups = {
 		pmg_pharmaceutical_production_processing
-		pmg_factory_ownership
+		pmg_th_factory_ownership
 	}
 
 	required_construction = construction_cost_workshop_very_low

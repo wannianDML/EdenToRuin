@@ -40,6 +40,15 @@ maintenance = {
 	convoy_cost_multiplier = 1
 }
 
+raw_material = {
+	texture = "gfx/interface/icons/goods_icons/raw_material.dds"
+	cost = 100
+	category = staple
+	
+	prestige_factor = 16
+	traded_quantity = 20
+	convoy_cost_multiplier = 1
+}
 
 biological_material = {
 	texture = "gfx/interface/icons/goods_icons/biological_material.dds"
@@ -80,9 +89,29 @@ special_material = {
 	traded_quantity = 20
 	convoy_cost_multiplier = 1
 }
+
+water_resources = {
+	texture = "gfx/interface/icons/goods_icons/water_resources.dds"
+	cost = 20
+	category = staple
+	
+	prestige_factor = 2
+	traded_quantity = 40
+	convoy_cost_multiplier = 0.5
+}
 ##############
 # INDUSTRIAL #
 ##############
+
+wastes_water = {
+	texture = "gfx/interface/icons/goods_icons/wastes_water.dds"
+	cost = 5
+	category = industrial
+	
+	prestige_factor = 6
+	traded_quantity = 50
+	convoy_cost_multiplier = 1
+}
 
 wastes = {
 	texture = "gfx/interface/icons/goods_icons/wastes.dds"
@@ -124,16 +153,6 @@ precision_machiner = {
 	convoy_cost_multiplier = 2.5
 }
 
-consumer_machinery = {
-	texture = "gfx/interface/icons/goods_icons/consumer_machinery.dds"
-	cost = 50
-	category = industrial
-	
-	prestige_factor = 16
-	traded_quantity = 12
-	convoy_cost_multiplier = 1
-}
-
 standard_parts = {
 	texture = "gfx/interface/icons/goods_icons/standard_parts.dds"
 	cost = 12
@@ -162,6 +181,46 @@ electronic_component = {
 	prestige_factor = 8
 	traded_quantity = 25
 	convoy_cost_multiplier = 0.25
+}
+
+electronic_machinery = {
+	texture = "gfx/interface/icons/goods_icons/electronic_machinery.dds"
+	cost = 120
+	category = industrial
+	
+	prestige_factor = 24
+	traded_quantity = 10
+	convoy_cost_multiplier = 1
+}
+
+consumer_machinery = {
+	texture = "gfx/interface/icons/goods_icons/consumer_machinery.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 16
+	traded_quantity = 12
+	convoy_cost_multiplier = 1
+}
+
+plastics = {
+	texture = "gfx/interface/icons/goods_icons/plastics.dds"
+	cost = 25
+	category = industrial
+	
+	prestige_factor = 12
+	traded_quantity = 25
+	convoy_cost_multiplier = 0.25
+}
+
+prefabricated_components = {
+	texture = "gfx/interface/icons/goods_icons/prefabricated_components.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 16
+	traded_quantity = 20
+	convoy_cost_multiplier = 1
 }
 
 ##########
