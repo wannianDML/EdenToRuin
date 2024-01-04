@@ -1,6 +1,6 @@
 ﻿modifier_gift_stardust = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gift_stardust.dds
-	country_tech_spread_mult = 0.2
+	country_tech_spread_mult = 0.25
 }
 
 modifier_gift_alert = {

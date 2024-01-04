@@ -1,0 +1,18 @@
+﻿building_自然资源采集营地 = {
+	building_group = bg_heavy_industry_使用耕地
+	texture = "gfx/interface/icons/building_icons/building_自然资源采集营地.dds"
+	city_type = farm
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		tech_自然资源采集
+	}
+
+	production_method_groups = {
+		pmg_自然资源采集营地_自然资源采集
+		pmg_自然资源采集营地_水资源采集
+		pmg_th_common_ownership
+	}
+
+	required_construction = construction_cost_workshop_very_low
+}

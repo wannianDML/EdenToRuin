@@ -1,0 +1,13 @@
+﻿var_d10_secret = {
+	integer_range = {
+		min = 1
+		max = 10
+	}
+}
+
+var_d100_secret = {
+	integer_range = {
+		min = 1
+		max = 100
+	}
+}

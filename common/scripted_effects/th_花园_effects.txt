@@ -1,0 +1,15 @@
+﻿effect_花园_common_country = {
+	add_modifier = {
+		name = modifier_人偶之国
+	}
+
+	effect_君主制_country = yes
+
+	activate_law = law_type:law_command_economy
+	activate_law = law_type:law_appointed_bureaucrats
+	activate_law = law_type:law_collectivized_agriculture
+	activate_law = law_type:law_national_militia
+	activate_law = law_type:law_womens_suffrage
+
+	effect_starting_technology_x_existence = yes
+}

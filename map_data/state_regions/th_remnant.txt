@@ -1,0 +1,10 @@
+﻿STATE_REMNANT镜界线 = {
+    id = 10400
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 1
+    arable_resources = {}
+    capped_resources = {
+        bg_logging = 1
+    }
+}

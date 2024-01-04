@@ -74,7 +74,7 @@ pm_wood_processing_machine = {
 }
 
 pm_recycle_none_a = {
-	texture = "gfx/interface/icons/production_method_icons/pm_recycle_none.dds"
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 }
 
 pm_recycle_oil_a = {
@@ -295,7 +295,7 @@ pm_recycle_metallic_material_improve_a = {
 }
 
 pm_recycle_none_b = {
-	texture = "gfx/interface/icons/production_method_icons/pm_recycle_none.dds"
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 }
 
 pm_recycle_oil_b = {
@@ -515,7 +515,7 @@ pm_recycle_metallic_material_improve_b = {
 }
 
 pm_recycle_none_c = {
-	texture = "gfx/interface/icons/production_method_icons/pm_recycle_none.dds"
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 }
 
 pm_recycle_oil_c = {

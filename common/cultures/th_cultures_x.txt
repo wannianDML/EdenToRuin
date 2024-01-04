@@ -1,42 +1,39 @@
 ﻿x_human = {
 	color= rgb{ 255 255 255 }
-	religion = atheism
+	religion = folk_belief
 	traits = { human }
 	male_common_first_names={
-		男性人类 甲
-		男性人类 乙
-		男性人类 丙
-		男性人类 丁
+		男性人类_甲
+		男性人类_乙
+		男性人类_丙
+		男性人类_丁
 	}
 	female_common_first_names = {
-		女性人类 甲
-		女性人类 乙
-		女性人类 丙
-		女性人类 丁
+		女性人类_甲
+		女性人类_乙
+		女性人类_丙
+		女性人类_丁
 	}
 	noble_last_names = {
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}	
 	common_last_names={
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}
 	male_regal_first_names = {
-		男性人类王室 甲
-		男性人类王室 乙
-		男性人类王室 丙
-		男性人类王室 丁
+		男性人类王室_甲
+		男性人类王室_乙
+		男性人类王室_丙
+		男性人类王室_丁
 	}
 	female_regal_first_names = {
-		女性人类王室 甲
-		女性人类王室 乙
-		女性人类王室 丙
-		女性人类王室 丁
+		女性人类王室_甲
+		女性人类王室_乙
+		女性人类王室_丙
+		女性人类王室_丁
+	}
+	regal_last_names = {
+		一 二 三 四 五 六 七 八 九 十
 	}
 
 	ethnicities = {

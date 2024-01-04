@@ -22,6 +22,8 @@
  tech_x_existence_desc:0 "当你看向哈林的镜子时，你会怎么选择呢。" 
  tech_traditional_breeding:0 "传统育种"
  tech_traditional_breeding_desc:0 "把好用的留下，不好用的扔了。"
+ tech_自然资源采集:0 "自然资源采集"
+ tech_自然资源采集_desc:0 "这就是神奇的大自然。"
  tech_metal_casting_process:0 "金属铸造工艺"
  tech_metal_casting_process_desc:0 "工程学不存在了。"
  tech_organic_extraction_process:0 "有机提炼工艺"

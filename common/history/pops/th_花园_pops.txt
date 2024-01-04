@@ -1,0 +1,28 @@
+﻿POPS = {
+	s:STATE_花园屋脊 = {
+		region_state:蔷薇 = {
+			create_pop = {
+				culture = 无心人形
+				size = 100000
+			}
+		}
+	}
+
+	s:STATE_花园庭院 = {
+		region_state:四方庭 = {
+			create_pop = {
+				culture = 无心人形
+				size = 100000
+			}
+		}
+	}
+
+	s:STATE_花园镜界线 = {
+		region_state:四方庭 = {
+			create_pop = {
+				culture = 无心人形
+				size = 1000
+			}
+		}
+	}
+}

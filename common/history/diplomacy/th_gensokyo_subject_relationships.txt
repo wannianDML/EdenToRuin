@@ -1,0 +1,68 @@
+﻿DIPLOMACY = {
+	c:yakumo = {
+		create_diplomatic_pact = {
+			country = c:hakurei_shrine
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:moriya_shrine
+			type = dominion
+		}	
+		create_diplomatic_pact = {
+			country = c:sangetsusei
+			type = dominion
+		}	
+		create_diplomatic_pact = {
+			country = c:human_village_new
+			type = dominion
+		}	
+		create_diplomatic_pact = {
+			country = c:human_village_old
+			type = dominion
+		}	
+		create_diplomatic_pact = {
+			country = c:koumakan
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:yakumo
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:eientei
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:mayoi_chikurin
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:kappa_settlement
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:tengu_village
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:garden_of_the_sun
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = gensokyo_freezone
+			type = customs_union
+		}
+	}
+	c:kyuuto = {
+		create_diplomatic_pact = {
+			country = c:former_hell
+			type = customs_union
+		}
+	}
+	c:hakugyokurou = {
+		create_diplomatic_pact = {
+			country = meikai
+			type = customs_union
+		}
+	}
+}

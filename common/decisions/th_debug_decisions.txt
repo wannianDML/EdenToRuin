@@ -167,12 +167,25 @@ decisions_debug_construction_remove = {
 decisions_debug_special_technology = {
 	is_shown = {
 		has_variable = is_debug_decisions_menu_open
-		not = { has_technology_researched = tech_other_interesting }
 	}
 	possible = {
 		is_player = yes
 	}
 	when_taken = {
 		effect_debug_country_technonlogy = yes
+	}
+}
+
+decision_debug_紧急部署人形 = {
+	is_shown = {
+		has_variable = is_debug_decisions_menu_open
+		modifier:country_每日dolls产能_add > 0
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		effect_月度dolls产能结算 = yes
+		effect_一键部署人形_首都 = yes
 	}
 }

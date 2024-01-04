@@ -1,6 +1,0 @@
-effect_debug_country_technonlogy = {
-	effect_starting_technology_magic_existence = yes
-	effect_starting_technology_spiritual_existence = yes
-	effect_starting_technology_youkai_existence = yes
-	effect_starting_technology_x_existence = yes
-}

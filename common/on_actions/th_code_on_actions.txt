@@ -1,0 +1,19 @@
+﻿on_monthly_pulse_country = {
+	events = {
+	}
+
+	effect = {
+		if = {
+			limit = { 
+				modifier:country_每日dolls产能_add > 0
+			}
+			effect_月度dolls产能结算 = yes
+		}
+	}
+}
+
+on_yearly_pulse_country = {
+	events = {
+		th_gift.1
+	}
+}

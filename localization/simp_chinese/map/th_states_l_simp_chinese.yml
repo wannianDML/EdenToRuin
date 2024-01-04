@@ -6,4 +6,9 @@
  STATE_GENSOKYO_BHAVAAGRA:0 "有顶天"
  STATE_GENSOKYO_MEIKAI:0 "冥界"
  
+ STATE_REMNANT镜界线:0 "树𣎴子镜界线"
  #STATE_HEAVEN:0 "天界"
+ 
+ STATE_花园镜界线:0 "花园镜界线"
+ STATE_花园屋脊:0 "屋脊"
+ STATE_花园庭院:0 "庭院"

@@ -1,0 +1,8 @@
+﻿DIPLOMACY = {
+	c:蔷薇 = {
+		create_diplomatic_pact = {
+			country = c:四方庭
+			type = personal_union
+		}
+	}
+}

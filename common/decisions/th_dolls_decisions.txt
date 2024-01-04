@@ -1,0 +1,36 @@
+﻿decisions_dolls_一键部署人形_首都 = {
+	is_shown = {
+		modifier:country_每日dolls产能_add > 0
+	}
+	when_taken = {
+		effect_一键部署人形_首都 = yes
+	}
+}
+
+decisions_dolls_人形部署菜单_打开 = {
+	is_shown = {
+		not = { has_variable = var_人形部署菜单_打开 }
+		has_variable = var_积累的dolls产能
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		set_variable = {
+			name = var_人形部署菜单_打开
+		}
+	}
+}
+
+decisions_dolls_人形部署菜单_关闭 = {
+	is_shown = {
+		has_variable = var_人形部署菜单_打开
+		has_variable = var_积累的dolls产能
+	}
+	possible = {
+		is_player = yes
+	}
+	when_taken = {
+		remove_variable = var_人形部署菜单_打开
+	}
+}

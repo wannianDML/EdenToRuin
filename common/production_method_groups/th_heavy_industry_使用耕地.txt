@@ -1,0 +1,20 @@
+﻿pmg_自然资源采集营地_自然资源采集 = {
+	texture = "gfx/interface/icons/generic_icons/pmg_自然资源采集营地_自然资源采集.dds"
+	production_methods = {
+		pm_自然资源采集营地_自然资源采集_原始方法
+		pm_自然资源采集营地_自然资源采集_人力工具
+		pm_自然资源采集营地_自然资源采集_自动工具
+		pm_自然资源采集营地_自然资源采集_机械化
+	}
+}
+
+pmg_自然资源采集营地_水资源采集 = {
+	texture = "gfx/interface/icons/generic_icons/pmg_自然资源采集营地_水资源采集.dds"
+	production_methods = {
+		pm_自然资源采集营地_水资源采集_不采集
+		pm_自然资源采集营地_水资源采集_原始方法
+		pm_自然资源采集营地_水资源采集_人力工具
+		pm_自然资源采集营地_水资源采集_自动工具
+		pm_自然资源采集营地_水资源采集_机械化
+	}
+}

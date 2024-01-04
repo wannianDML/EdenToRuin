@@ -15,16 +15,10 @@
 		女性人类_丁
 	}
 	noble_last_names = {
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}	
 	common_last_names={
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}
 	male_regal_first_names = {
 		男性人类王室_甲
@@ -37,6 +31,9 @@
 		女性人类王室_乙
 		女性人类王室_丙
 		女性人类王室_丁
+	}
+	regal_last_names = {
+		一 二 三 四 五 六 七 八 九 十
 	}
 
 	ethnicities = {
@@ -62,16 +59,10 @@ gensokyo_youkai_half = {
 		雌性半妖_丁
 	}
 	noble_last_names = {
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}	
 	common_last_names={
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}
 	male_regal_first_names = {
 		雄性半妖王室_甲
@@ -84,6 +75,9 @@ gensokyo_youkai_half = {
 		雌性半妖王室_乙
 		雌性半妖王室_丙
 		雌性半妖王室_丁
+	}
+	regal_last_names = {
+		一 二 三 四 五 六 七 八 九 十
 	}
 
 	ethnicities = {
@@ -109,16 +103,10 @@ gensokyo_youkai = {
 		雌性妖怪_丁
 	}
 	noble_last_names = {
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}	
 	common_last_names={
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}
 	male_regal_first_names = {
 		雄性妖怪王室_甲
@@ -131,6 +119,9 @@ gensokyo_youkai = {
 		雌性妖怪王室_乙
 		雌性妖怪王室_丙
 		雌性妖怪王室_丁
+	}
+	regal_last_names = {
+		一 二 三 四 五 六 七 八 九 十
 	}
 
 	ethnicities = {
@@ -156,16 +147,10 @@ gensokyo_hell_youkai = {
 		雌性妖怪_丁
 	}
 	noble_last_names = {
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}	
 	common_last_names={
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}
 	male_regal_first_names = {
 		雄性妖怪王室_甲
@@ -178,6 +163,9 @@ gensokyo_hell_youkai = {
 		雌性妖怪王室_乙
 		雌性妖怪王室_丙
 		雌性妖怪王室_丁
+	}
+	regal_last_names = {
+		一 二 三 四 五 六 七 八 九 十
 	}
 
 	ethnicities = {
@@ -203,16 +191,10 @@ gensokyo_moon_human = {
 		女性月之民_丁
 	}
 	noble_last_names = {
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}	
 	common_last_names={
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}
 	male_regal_first_names = {
 		男性月之民王室_甲
@@ -225,6 +207,9 @@ gensokyo_moon_human = {
 		女性月之民王室_乙
 		女性月之民王室_丙
 		女性月之民王室_丁
+	}
+	regal_last_names = {
+		一 二 三 四 五 六 七 八 九 十
 	}
 
 	ethnicities = {
@@ -250,16 +235,10 @@ gensokyo_moon_youkai = {
 		雌性月妖_丁
 	}
 	noble_last_names = {
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}	
 	common_last_names={
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}
 	male_regal_first_names = {
 		雄性月妖王室_甲
@@ -272,6 +251,9 @@ gensokyo_moon_youkai = {
 		雌性月妖王室_乙
 		雌性月妖王室_丙
 		雌性月妖王室_丁
+	}
+	regal_last_names = {
+		一 二 三 四 五 六 七 八 九 十
 	}
 
 	ethnicities = {
@@ -297,16 +279,10 @@ gensokyo_heaven_human = {
 		天女_丁
 	}
 	noble_last_names = {
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}	
 	common_last_names={
-		一
-		二
-		三
-		四
+		一 二 三 四 五 六 七 八 九 十
 	}
 	male_regal_first_names = {
 		天人王室_甲
@@ -319,6 +295,9 @@ gensokyo_heaven_human = {
 		天女王室_乙
 		天女王室_丙
 		天女王室_丁
+	}
+	regal_last_names = {
+		一 二 三 四 五 六 七 八 九 十
 	}
 
 	ethnicities = {

@@ -12,8 +12,8 @@
  
  #industrial
  wastes_water:0 "污染水" # 5 # 默认3/5的回收率
- wastes: "废弃物"  # 10 # 默认1/20的回收率 # 计算时是包括“净水”与污染水
- dolls: "人形"  # 1000
+ wastes:0 "废弃物"  # 10 # 默认1/20的回收率 # 计算时是包括“净水”与污染水
+ dolls:0 "人形"  # 1000
  standard_parts:0 "标准零件" # 12
  precision_parts:0 "精密零件" # 36
  electronic_component:0 "电子元件" # 12
@@ -25,8 +25,8 @@
  prefabricated_components:0 "预制构件" # 40
  
  #luxury
- security: "安保"  # 300
+ security:0 "安保"  # 300
   
- popneed_security: "安保服务"
- popneed_medical: "医疗服务"
+ popneed_security:0 "安保服务"
+ popneed_medical:0 "医疗服务"
  #popneed_water: "净水需求"

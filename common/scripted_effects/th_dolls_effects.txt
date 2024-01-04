@@ -1,0 +1,97 @@
+﻿effect_月度dolls产能结算 = {
+	if = {
+		limit = {
+			not = { has_variable = var_积累的dolls产能 }
+		}
+		set_variable = {
+			name = var_积累的dolls产能
+			value = 0
+		}
+	}
+
+	change_variable = {
+		name = var_积累的dolls产能
+		add = var_月度dolls产能
+	}
+
+	change_variable = {
+		name = var_积累的dolls产能
+		min = var_dolls产能存储上限
+	}
+}
+
+effect_一键部署人形_首都 = {
+	if = {
+		limit = {var:var_积累的dolls产能 > 100000}
+		random_scope_state = {
+			limit = { is_capital = yes }
+			create_pop = {
+				culture = 无心人形
+				pop_type = peasants
+				literacy_rate = 0.05
+				size = 100000
+				working_adult_ratio = 1
+			}
+		}
+		change_variable = {
+			name = var_积累的dolls产能
+			subtract = 100000
+		}
+	}
+	else_if = {
+		limit = {var:var_积累的dolls产能 > 10000}
+		random_scope_state = {
+			limit = { is_capital = yes }
+			create_pop = {
+				culture = 无心人形
+				pop_type = peasants
+				literacy_rate = 0.05
+				size = 10000
+				working_adult_ratio = 1
+			}
+		}
+		change_variable = {
+			name = var_积累的dolls产能
+			subtract = 10000
+		}
+	}
+	else_if = {
+		limit = {var:var_积累的dolls产能 > 1000}
+		random_scope_state = {
+			limit = { is_capital = yes }
+			create_pop = {
+				culture = 无心人形
+				pop_type = peasants
+				literacy_rate = 0.05
+				size = 1000
+				working_adult_ratio = 1
+			}
+		}
+		change_variable = {
+			name = var_积累的dolls产能
+			subtract = 1000
+		}
+	}
+	else_if = {
+		limit = {var:var_积累的dolls产能 > 100}
+		random_scope_state = {
+			limit = { is_capital = yes }
+			create_pop = {
+				culture = 无心人形
+				pop_type = peasants
+				literacy_rate = 0.05
+				size = 100
+				working_adult_ratio = 1
+			}
+		}
+		change_variable = {
+			name = var_积累的dolls产能
+			subtract = 100
+		}
+	}
+	else = {
+		custom_tooltip = {
+			text = "无效果，存储的产能太少了。"
+		}
+	}
+}

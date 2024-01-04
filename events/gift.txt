@@ -27,6 +27,8 @@ th_gift.1 = {
 			name = var_received_gift
 			years = 3
 		}
+		effect_d10 = yes
+		effect_d100 = yes
 	}
 
 	option = {
@@ -75,9 +77,12 @@ th_gift.110 = {
 	option = {
 		name = th_gift.110.a
 		default_option = yes
+		custom_tooltip = {
+			text = "一颗十面骰已投出。"
+		}
 		add_modifier = {
 			name = modifier_gift_stardust
-			years = 1
+			years = var_d10_secret
 		}
 	}
 }

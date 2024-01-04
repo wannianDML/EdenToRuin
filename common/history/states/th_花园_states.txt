@@ -1,0 +1,28 @@
+﻿STATES = {
+	s:STATE_花园屋脊 = {
+		create_state = {
+			country = c:蔷薇
+			owned_provinces = { "x5F0E45" "x71E609" "x72BD3B" "x748A18" "x7705E3" "x83470E" "x8E6F47" "x9DDE2F" "xB86ABF" }
+		}
+
+		add_homeland = cu:无心人形
+	}
+	
+	s:STATE_花园庭院 = {
+		create_state = {
+			country = c:四方庭
+			owned_provinces = { "x031D7B" "x086AE1" "x1AA1CC" "x28BE79" "x2A65AA" "x390C84" "x406D88" "x494CA4" "x539D7F" "x640594" "x6FE05E" "x7C365F" "x91938F" "xA16D04" "xA95AA0" "xBA6A5C" "xC7F7E3" "xC86F57" "xCF60B2" "xFDB83C" "xFDBFDF" }
+		}
+
+		add_homeland = cu:无心人形
+	}
+
+	s:STATE_花园镜界线 = {
+		create_state = {
+			country = c:四方庭
+			owned_provinces = { "x528630" "x722EB1" "x78C5C2" "x7B4775" "x9084BF" "xA419F6" "xBD6AB8" "xFFEC33" }
+		}
+
+		add_homeland = cu:无心人形
+	}
+}

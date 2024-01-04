@@ -1,0 +1,186 @@
+﻿STATE_蓬莱南北镜界线 = {
+    id = 10200
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 1
+    arable_resources = {}
+    capped_resources = {
+        bg_logging = 1
+    }
+}
+
+STATE_蓬莱东西镜界线 = {
+    id = 10201
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 1
+    arable_resources = {}
+    capped_resources = {
+        bg_logging = 1
+    }
+}
+
+STATE_蓬莱天柱 = {
+    id = 10202
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 45
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}
+
+STATE_蓬莱青原 = {
+    id = 10203
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 185
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
+    capped_resources = {
+        bg_logging = 45
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 25
+    }
+}
+
+STATE_蓬莱云州 = {
+    id = 10204
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 45
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}
+
+STATE_蓬莱芳州 = {
+    id = 10205
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 45
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}
+
+STATE_蓬莱南国 = {
+    id = 10206
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 1
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}
+
+STATE_蓬莱北境 = {
+    id = 10207
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 1
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}
+
+STATE_蓬莱冰封林 = {
+    id = 10208
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 1
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}
+
+STATE_蓬莱东洋 = {
+    id = 10209
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 1
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}
+
+STATE_蓬莱四国 = {
+    id = 10210
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 1
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}
+
+STATE_蓬莱宁海 = {
+    id = 10211
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 1
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}
+
+STATE_蓬莱枯海 = {
+    id = 10212
+    subsistence_building = "building_subsistence_farms"
+    provinces = {}
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 1
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}

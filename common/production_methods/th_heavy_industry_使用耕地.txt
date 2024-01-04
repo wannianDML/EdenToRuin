@@ -1,0 +1,151 @@
+﻿pm_自然资源采集营地_自然资源采集_原始方法 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_自然资源采集营地_自然资源采集_原始方法.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_raw_material_add = 8
+			goods_output_wastes_add = 0.4
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_自然资源采集营地_自然资源采集_人力工具 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_自然资源采集营地_自然资源采集_人力工具.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 3
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 8
+
+			goods_output_raw_material_add = 12
+			goods_output_wastes_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4250
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+pm_自然资源采集营地_自然资源采集_自动工具 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_自然资源采集营地_自然资源采集_自动工具.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 8
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 12
+			goods_input_engines_add = 5
+
+			goods_output_raw_material_add = 18
+			goods_output_wastes_add = 1.75
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 1000
+		}
+	}
+}
+pm_自然资源采集营地_自然资源采集_机械化 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_自然资源采集营地_自然资源采集_机械化.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 16
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_standard_machinery_add = 12
+
+			goods_output_raw_material_add = 24
+			goods_output_wastes_add = 1.8
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 500
+		}
+	}
+}               
+
+pm_自然资源采集营地_水资源采集_不采集 = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
+
+pm_自然资源采集营地_水资源采集_原始方法 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_自然资源采集营地_水资源采集_原始方法.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_raw_material_add = 2
+
+			goods_output_water_resources_add = 10
+			goods_output_wastes_add = 0.6
+		}
+	}
+}
+
+pm_自然资源采集营地_水资源采集_人力工具 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_自然资源采集营地_水资源采集_人力工具.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_raw_material_add = 2
+			goods_input_tools_add = 4
+
+			goods_output_water_resources_add = 30
+			goods_output_wastes_add = 1.8
+		}
+	}
+}
+
+pm_自然资源采集营地_水资源采集_自动工具 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_自然资源采集营地_水资源采集_自动工具.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 8
+			goods_input_engines_add = 4
+
+			goods_output_water_resources_add = 36
+			goods_output_wastes_add = 2.4
+		}
+	}
+}
+
+pm_自然资源采集营地_水资源采集_机械化 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_自然资源采集营地_水资源采集_机械化.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_standard_machinery_add = 8
+
+			goods_output_water_resources_add = 40
+			goods_output_wastes_add = 2.4
+		}
+	}
+}

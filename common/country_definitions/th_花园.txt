@@ -1,0 +1,60 @@
+﻿蔷薇 = {
+	color = { 211 178 180 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { 无心人形 }
+	religion = 戒律_蔷薇
+	capital = STATE_花园屋脊
+}
+
+四方庭 = {
+	color = { 211 178 197 }
+		
+	country_type = unrecognized
+
+	tier = city_state
+	
+	cultures = { 无心人形 }
+	religion = 戒律_蔷薇
+	capital = STATE_花园庭院
+}
+
+玫瑰 = {
+	color = { 255 0 127 }
+	
+	country_type = unrecognized
+
+	tier = city_state
+	
+	cultures = { 无心人形 }
+	religion = 戒律_玫瑰
+	capital = STATE_花园屋脊
+}
+
+月季 = {
+	color = { 206 87 119 }
+	
+	country_type = unrecognized
+
+	tier = city_state
+	
+	cultures = { 无心人形 }
+	religion = 戒律_月季
+	capital = STATE_花园屋脊
+}
+
+牡丹 = {	
+	color = { 184 2 51 }
+	
+	country_type = unrecognized
+
+	tier = city_state
+
+	cultures = { 无心人形 }
+	religion = 戒律_牡丹
+	capital = STATE_花园屋脊
+}
+

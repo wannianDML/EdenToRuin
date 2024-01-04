@@ -1,0 +1,40 @@
+﻿STATE_花园镜界线 = {
+    id = 10300
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x528630" "x722EB1" "x78C5C2" "x7B4775" "x9084BF" "xA419F6" "xBD6AB8" "xFFEC33" }
+    arable_land = 1
+    arable_resources = {}
+    capped_resources = {
+        bg_logging = 1
+    }
+}
+
+STATE_花园屋脊 = {
+    id = 10301
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x5F0E45" "x71E609" "x72BD3B" "x748A18" "x7705E3" "x83470E" "x8E6F47" "x9DDE2F" "xB86ABF" }
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 45
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}
+
+STATE_花园庭院 = {
+    id = 10302
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x031D7B" "x086AE1" "x1AA1CC" "x28BE79" "x2A65AA" "x390C84" "x406D88" "x494CA4" "x539D7F" "x640594" "x6FE05E" "x7C365F" "x91938F" "xA16D04" "xA95AA0" "xBA6A5C" "xC7F7E3" "xC86F57" "xCF60B2" "xFDB83C" "xFDBFDF" }
+    arable_land = 10
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 45
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 1
+    }
+}

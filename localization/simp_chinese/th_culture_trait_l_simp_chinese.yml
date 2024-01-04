@@ -6,10 +6,12 @@
  
  human:0 "人类"
  youkai:0 "妖怪"
+ 人形:0 "人形"
  
  group_gensokyo:0 "幻想乡文化圈"
  group_moon:0 "月都文化圈"
  group_heaven:0 "天界文化圈"
+ group_花园:0 "花园文化圈"
 
 
  

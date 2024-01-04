@@ -128,22 +128,40 @@ tech_traditional_breeding = {
 	}
 }
 
+tech_自然资源采集 = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/tech_自然资源采集.dds"
+	category = society
+}
+
 tech_metal_casting_process = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/tech_metal_casting_process.dds"
 	category = society
+
+	unlocking_technologies = {
+		tech_自然资源采集
+	}
 }
 
 tech_organic_extraction_process = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/tech_organic_extraction_process.dds"
 	category = society
+
+	unlocking_technologies = {
+		tech_自然资源采集
+	}
 }
 
 tech_chemical_synthesis_process = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/tech_chemical_synthesis_process.dds"
 	category = society
+
+	unlocking_technologies = {
+		tech_自然资源采集
+	}
 }
 
 tech_machine_work = {

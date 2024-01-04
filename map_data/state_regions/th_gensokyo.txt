@@ -1,5 +1,8 @@
 ﻿STATE_GENSOKYO = {
-    id = 10101
+    id = 10101 #1：0的前缀，无意义。01：编号01的世界。01：第一个STATE。
+
+
+
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1BBD1E" "x362BCE" "x4942AE" "x4C065D" "x4F9842" "x53591C" "x5ED255" "x60AF01" "x783F07" "x94BF9E" "x9D4D37" "xA2E3E6" "xA34948" "xA790B0" "xB4107B" "xB4C754" "xB8D2D7" "xC46715" "xD90797" "xE998DC" "xEC8C89" }
     arable_land = 8
@@ -18,7 +21,6 @@
     }
     naval_exit_id = 3059
 }
-
 
 STATE_GENSOKYO_MOON = {
     id = 10102

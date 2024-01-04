@@ -83,4 +83,19 @@ excess_innovation = {
 	country_tech_spread_add = 0.1	#来自创新力的科技传播比例
 }
 
+# Scales with pollution impact, reduced by state_pollution_reduction_health_mult
+# Effect = state_region_pollution_health * impact
+state_region_pollution_health = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	state_mortality_mult = 0.5
+	state_standard_of_living_add = -3
+}
+
+# Effect = state_region_pollution_health * impact
+state_region_pollution_general = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	state_migration_pull_mult = -0.1
+	goods_output_water_resources_mult = -1
+}
+
 

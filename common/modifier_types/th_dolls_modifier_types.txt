@@ -1,0 +1,11 @@
+﻿country_每日dolls产能_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+country_dolls产能累计上限_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}

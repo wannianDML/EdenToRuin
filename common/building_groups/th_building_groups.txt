@@ -84,6 +84,11 @@ bg_agriculture_factory = {
 	infrastructure_usage_per_level = 9
 }
 
+bg_heavy_industry_使用耕地 ={
+	parent_group = bg_heavy_industry
+	land_usage = rural
+}
+
 bg_special_monuments = {
 	parent_group = bg_monuments
 

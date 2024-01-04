@@ -1,0 +1,8 @@
+﻿var_月度dolls产能 = {
+	value = modifier:country_每日dolls产能_add
+	multiply = 30
+}
+
+var_dolls产能存储上限  = {
+	value = modifier:country_dolls产能累计上限_add
+}

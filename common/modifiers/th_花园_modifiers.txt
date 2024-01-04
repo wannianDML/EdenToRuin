@@ -1,0 +1,7 @@
+﻿modifier_人偶之国 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_人偶之国.dds
+	state_birth_rate_mult = -10
+	state_mortality_mult = -0.95
+	country_每日dolls产能_add = 5
+	country_dolls产能累计上限_add = 5000
+}

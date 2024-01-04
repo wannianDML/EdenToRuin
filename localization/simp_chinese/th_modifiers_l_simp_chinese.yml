@@ -65,3 +65,12 @@
  
  ##tech
  modifier_unknown_energy_discover:0 "发现未知能量"
+ 
+ ##花园
+ modifier_人偶之国:0 "人偶之国"
+ 
+ ##dolls
+ modifier_country_每日dolls产能_add:0 "每日DOLLS产能"
+ modifier_country_每日dolls产能_add_desc:0 "按月结算。"
+ modifier_country_dolls产能累计上限_add:0 "DOLLS产能累计上限"
+ modifier_country_dolls产能累计上限_add_desc:0 "在决定部署DOLLS之前能存储多少的产能。"

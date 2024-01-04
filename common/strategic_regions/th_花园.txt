@@ -1,0 +1,5 @@
+﻿region_花园 = {
+	capital_province = x031D7B
+	map_color = { 0 1 0.75 }
+	states = { STATE_花园屋脊 STATE_花园庭院 STATE_花园镜界线 }
+}

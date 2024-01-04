@@ -1,0 +1,9 @@
+﻿COUNTRIES = {
+	c:蔷薇 = {
+		effect_花园_common_country = yes
+	}
+
+	c:四方庭 = {
+		effect_花园_common_country = yes
+	}
+} 
